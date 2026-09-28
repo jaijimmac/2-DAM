@@ -1,4 +1,4 @@
-package Entity.inter;
+package Entity.inmpl;
 
 import java.util.Objects;
 
@@ -58,15 +58,10 @@ public class SMS implements INotificacion {
 		return Objects.equals(mensaje, other.mensaje) && Objects.equals(telefono, other.telefono);
 	}
 
-
-
-
 	@Override
 	public String toString() {
 		return "SMS [telefono=" + telefono + ", mensaje=" + mensaje + "]";
 	}
-
-
 
 
 	@Override

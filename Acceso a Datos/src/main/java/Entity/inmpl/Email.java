@@ -1,4 +1,4 @@
-package Entity.inter;
+package Entity.inmpl;
 
 import java.util.Objects;
 
@@ -6,19 +6,19 @@ import Entity.Cliente;
 import Entity.INotificacion;
 import Entity.Pedido;
 
-public class Email implements INotificacion{
+public class Email {
 
 	private Long id;
-	
+
 	private String asunto;
-	
+
 	private String cuerpo;
-	
+
 	private Pedido pedido;
 
-	
+
 	public Email() {
-		
+
 	}
 
 
@@ -31,8 +31,6 @@ public class Email implements INotificacion{
 		this.id = id;
 	}
 
-	
-	
 
 	public String getAsunto() {
 		return asunto;
@@ -70,17 +68,9 @@ public class Email implements INotificacion{
 	}
 
 
-
 	@Override
 	public String toString() {
 		return "Notificacion [id=" + id + ", pedido=" + pedido + "]";
-	}
-
-
-	@Override
-	public void notificar(Cliente cliente, String asunto, String mensaje) {
-		// TODO Auto-generated method stub
-		
 	}
 	
 }
