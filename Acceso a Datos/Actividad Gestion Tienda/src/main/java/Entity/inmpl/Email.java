@@ -21,6 +21,11 @@ public class Email {
 
 	}
 
+	public Email(String asunto, String cuerpo, Pedido pedido) {
+		this.asunto = asunto;
+		this.cuerpo = cuerpo;
+		this.pedido = pedido;
+	}
 
 	public Long getId() {
 		return id;

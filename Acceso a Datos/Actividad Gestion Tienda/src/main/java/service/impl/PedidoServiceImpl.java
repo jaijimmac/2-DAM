@@ -1,5 +1,6 @@
 package service.impl;
 
+import Entity.inmpl.Email;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -15,10 +16,12 @@ public class PedidoServiceImpl implements PedidoService{
 	private static final Logger logger = LogManager.getLogger(INotificacion.class);
 	
 	private final PedidoRepository pedidoRepo;
+	private final NotificacionServiceImpl notificacionService;
 
 	private Long contadorId = 1L;
 
     public PedidoServiceImpl() {
+        this.notificacionService = new NotificacionServiceImpl();
         this.pedidoRepo = new PedidoRepository();
     }
 
@@ -42,8 +45,18 @@ public class PedidoServiceImpl implements PedidoService{
 	@Override
 	public Pedido editarEstado(Long idPedido, Estado estado) {
 		Pedido pedido = pedidoRepo.obtenerPedido(idPedido);
-		return pedidoRepo.editarEstado(pedido, estado);
+
+		pedidoRepo.editarEstado(pedido, estado);
+
+		if (estado == Estado.CONFIRMADO) {
+			Email email = new Email("Pedido", "Pedido enviado", pedido);
+			notificacionService.agregarNotificacines(email);
+			notificacionService.enviarEmail(idPedido);
+		}
+
+		return pedido;
 	}
+
 
 	@Override
 	public void eliminarPedido(Long idPedido) {

@@ -1,7 +1,9 @@
+import ENUM.Estado;
 import Entity.Cliente;
 import Entity.Pedido;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import service.NotificacionService;
 import service.impl.ClienteServiceImpl;
 import service.impl.NotificacionServiceImpl;
 import service.impl.PedidoServiceImpl;
@@ -28,9 +30,9 @@ public class GestorPedidos {
 		Pedido newPedido2 = new Pedido(c1,33.0);
 		Pedido newPedido3 = new Pedido(c2,10.0);
 
-		pedidoService.crearPedido(newPedido1);
-		pedidoService.crearPedido(newPedido2);
-		pedidoService.crearPedido(newPedido3);
+		Pedido p1 = pedidoService.crearPedido(newPedido1);
+		Pedido p2 = pedidoService.crearPedido(newPedido2);
+		Pedido p3 = pedidoService.crearPedido(newPedido3);
 
 
 		Set<Cliente> listadoClientes = clienteService.obtenerClientes();
@@ -52,6 +54,15 @@ public class GestorPedidos {
 			logger.debug(pedido.toString());
 		}
 
+		pedidoService.editarEstado(p1.getId(),Estado.CONFIRMADO);
+		pedidoService.editarEstado(p2.getId(),Estado.CONFIRMADO);
+		pedidoService.editarEstado(p3.getId(),Estado.CANCELADO);
+
+		logger.debug("Listado de Pedidos Actualizados");
+		logger.debug("___________________");
+		for (Pedido pedido: listadoPedidos) {
+			logger.debug(pedido.toString());
+		}
 	}
 }
 

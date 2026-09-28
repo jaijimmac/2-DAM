@@ -16,31 +16,41 @@ public class NotificacionRepository {
 	private static final Logger logger = LogManager.getLogger(NotificacionRepository.class);
 
 	private Set<Email> listaNoti;
-	
+
+	private Long contadorId = 1L;
+
+
 	public NotificacionRepository() {
 		super();
 		this.listaNoti = new HashSet<Email>();
 	}
 
 	public Email obtenerEmail(Long id) {
-        if (id != null) {
-            return (Email) this.listaNoti.stream().filter(n-> Objects.equals(n.getId(), id));
-        }
+		if (id == null) return null;
 
-		return null;
+		return this.listaNoti.stream()
+				.filter(n -> Objects.equals(n.getId(), id))
+				.findFirst()
+				.orElse(null);
 	}
+
+
 
 	public void agregarNotificacion(Email n) {
 
 		Email newNotificacion = new Email();
-		
+
+		newNotificacion.setId(contadorId);
+		contadorId++;
+
 		newNotificacion.setAsunto(n.getAsunto());
 		newNotificacion.setCuerpo(n.getCuerpo());
 		newNotificacion.setPedido(n.getPedido());
 
 		this.listaNoti.add(newNotificacion);
 	}
-	
+
+
 	public void enviarEmail(Long idNoti) {
 
 		Email noti = obtenerEmail(idNoti);
