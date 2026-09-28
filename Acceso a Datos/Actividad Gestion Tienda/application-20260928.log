@@ -1,0 +1,22 @@
+2026-09-28 17:06:13.702 [main] DEBUG GestorPedidos - Listado de Clientes
+2026-09-28 17:06:13.705 [main] DEBUG GestorPedidos - ___________________
+2026-09-28 17:06:13.705 [main] DEBUG GestorPedidos - Cliente [email=prueba2@gmail.com, nombre=Pedro, telefono=5758493746]
+2026-09-28 17:06:13.707 [main] DEBUG GestorPedidos - Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345]
+2026-09-28 17:06:13.707 [main] DEBUG GestorPedidos - Listado de Pedidos
+2026-09-28 17:06:13.707 [main] DEBUG GestorPedidos - ___________________
+2026-09-28 17:06:13.707 [main] DEBUG GestorPedidos - Pedido [id=2, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=33.0, estado=PENDIENTE]
+2026-09-28 17:06:13.707 [main] DEBUG GestorPedidos - Pedido [id=1, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=24.5, estado=PENDIENTE]
+2026-09-28 17:06:13.707 [main] DEBUG GestorPedidos - Pedido [id=3, cliente=Cliente [email=prueba2@gmail.com, nombre=Pedro, telefono=5758493746], importe=10.0, estado=PENDIENTE]
+2026-09-28 17:06:55.104 [main] DEBUG GestorPedidos - 
+2026-09-28 17:06:55.107 [main] DEBUG GestorPedidos - Listado de Clientes
+2026-09-28 17:06:55.108 [main] DEBUG GestorPedidos - ___________________
+2026-09-28 17:06:55.108 [main] DEBUG GestorPedidos - Cliente [email=prueba2@gmail.com, nombre=Pedro, telefono=5758493746]
+2026-09-28 17:06:55.108 [main] DEBUG GestorPedidos - Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345]
+2026-09-28 17:06:55.108 [main] DEBUG GestorPedidos - 
+2026-09-28 17:06:55.109 [main] DEBUG GestorPedidos - 
+2026-09-28 17:06:55.109 [main] DEBUG GestorPedidos - 
+2026-09-28 17:06:55.109 [main] DEBUG GestorPedidos - Listado de Pedidos
+2026-09-28 17:06:55.109 [main] DEBUG GestorPedidos - ___________________
+2026-09-28 17:06:55.110 [main] DEBUG GestorPedidos - Pedido [id=2, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=33.0, estado=PENDIENTE]
+2026-09-28 17:06:55.110 [main] DEBUG GestorPedidos - Pedido [id=1, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=24.5, estado=PENDIENTE]
+2026-09-28 17:06:55.110 [main] DEBUG GestorPedidos - Pedido [id=3, cliente=Cliente [email=prueba2@gmail.com, nombre=Pedro, telefono=5758493746], importe=10.0, estado=PENDIENTE]

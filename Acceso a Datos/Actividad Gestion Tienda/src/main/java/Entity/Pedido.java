@@ -18,6 +18,11 @@ public class Pedido {
 		
 	}
 
+	public Pedido(Cliente cliente, double importe) {
+		this.cliente = cliente;
+		this.importe = importe;
+	}
+
 	public Long getId() {
 		return id;
 	}

@@ -12,7 +12,13 @@ public class Cliente {
 	public Cliente() {
 		
 	}
-	
+
+	public Cliente(String email, String nombre, String telefono) {
+		this.email = email;
+		this.nombre = nombre;
+		this.telefono = telefono;
+	}
+
 	public String getEmail() {
 		return this.email;
 	}

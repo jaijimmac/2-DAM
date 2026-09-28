@@ -2,6 +2,7 @@ package repository;
 
 import java.util.HashSet;
 import java.util.List;
+import java.util.Objects;
 import java.util.Set;
 import java.util.stream.Stream;
 
@@ -12,48 +13,37 @@ import service.PedidoService;
 
 public class PedidoRepository {
 	private Set<Pedido> listaPedidos;
+
 	
 	public PedidoRepository() {
 		super();
 		this.listaPedidos = new HashSet<Pedido>();
 	}
-	
-	public Pedido obtenerPedido(Long idPedido) {
-		if(idPedido == null) {
-			
-		}
-		
-		return (Pedido) this.listaPedidos.stream().filter(p -> p.getId() == idPedido);
-		
+
+	public Set<Pedido> obtenerPedidos() {
+		return this.listaPedidos;
 	}
+
+	public Pedido obtenerPedido(Long idPedido) {
+		return this.listaPedidos.stream()
+				.filter(p -> Objects.equals(p.getId(), idPedido))
+				.findFirst()
+				.orElse(null);
+	}
+
 
 	public Pedido crearPedido(Pedido pedido) {
-		
-		Pedido newPedido = new Pedido(); 
-		
-		newPedido.setCliente(pedido.getCliente());
-		newPedido.setEstado(Estado.PENDIENTE);
-		newPedido.setImporte(pedido.getImporte());
-		
-		this.listaPedidos.add(newPedido);
-		return newPedido;
-
+		this.listaPedidos.add(pedido);
+		return pedido;
 	}
 	
-	public Pedido editarEstado(Long idPedido, Estado estado) {
-		
-		Pedido updatePedido = obtenerPedido(idPedido);
-		
+	public Pedido editarEstado(Pedido updatePedido, Estado estado) {
 		updatePedido.setEstado(estado);
-			
 		return updatePedido;
 	}
 	
 	public void eliminarPedido(Long idPedido) {
-			
 		Pedido pedido = obtenerPedido(idPedido);
 		this.listaPedidos.remove(pedido);
-			
 		}
-	
 	}

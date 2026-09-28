@@ -7,7 +7,9 @@ import Entity.Pedido;
 
 public interface PedidoService {
 
-	public Pedido ocrearPedido(Pedido pedido);
+	public Set<Pedido> obtenerPedidos();
+
+	public Pedido crearPedido(Pedido pedido);
 	
 	public Pedido editarEstado(Long idPedido, Estado estado);
 	
