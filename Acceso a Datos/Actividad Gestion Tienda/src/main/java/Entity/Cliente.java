@@ -7,11 +7,8 @@ public class Cliente {
 	private String email;
 	private String nombre;
 	private String telefono;
-	
-	
-	public Cliente() {
-		
-	}
+
+	public Cliente() {}
 
 	public Cliente(String email, String nombre, String telefono) {
 		this.email = email;

@@ -4,17 +4,29 @@ import java.util.Objects;
 
 import Entity.Cliente;
 import Entity.INotificacion;
+import Entity.Pedido;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import repository.NotificacionRepository;
 
 public class SMS implements INotificacion {
 	
 	private String telefono;
 	
-	private String mensaje;
-	
+	private String cuerpo;
+
+	private Pedido pedido;
+
+	private static final Logger logger = LogManager.getLogger(SMS.class);
+
+
 	public SMS() {}
-	
-	
-	
+
+	public SMS(String telefono, String cuerpo, Pedido pedido) {
+		this.telefono = telefono;
+		this.cuerpo = cuerpo;
+		this.pedido = pedido;
+	}
 
 	public String getTelefono() {
 		return telefono;
@@ -26,24 +38,30 @@ public class SMS implements INotificacion {
 	}
 
 
-	public String getMensaje() {
-		return mensaje;
+	public String getCuerpo() {
+		return cuerpo;
 	}
 
 
-	public void setMensaje(String mensaje) {
-		this.mensaje = mensaje;
+	public void setCuerpo(String cuerpo) {
+		this.cuerpo = cuerpo;
 	}
-
-
 
 
 	@Override
-	public int hashCode() {
-		return Objects.hash(mensaje, telefono);
+	public Pedido getPedido() {
+		return pedido;
 	}
 
 
+	public void setPedido(Pedido pedido) {
+		this.pedido = pedido;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(cuerpo, telefono);
+	}
 
 
 	@Override
@@ -55,19 +73,20 @@ public class SMS implements INotificacion {
 		if (getClass() != obj.getClass())
 			return false;
 		SMS other = (SMS) obj;
-		return Objects.equals(mensaje, other.mensaje) && Objects.equals(telefono, other.telefono);
+		return Objects.equals(cuerpo, other.cuerpo) && Objects.equals(telefono, other.telefono);
 	}
 
 	@Override
 	public String toString() {
-		return "SMS [telefono=" + telefono + ", mensaje=" + mensaje + "]";
+		return "SMS [telefono=" + telefono + ", mensaje=" + cuerpo + "]";
 	}
+
 
 
 	@Override
-	public void notificar(Cliente cliente, String asunto, String mensaje) {
-		// TODO Auto-generated method stub
-		
+	public void enviarNotificacion() {
+		logger.debug("SMS enviado");
+		logger.debug("Nº Telefono " + this.getTelefono());
+		logger.debug("Mensaje " + this.getCuerpo());
 	}
-
 }

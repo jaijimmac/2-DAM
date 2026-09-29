@@ -4,6 +4,7 @@ import Entity.Cliente;
 import repository.ClienteRepository;
 import service.ClienteService;
 
+import java.util.List;
 import java.util.Set;
 
 public class ClienteServiceImpl implements ClienteService {
@@ -15,7 +16,7 @@ public class ClienteServiceImpl implements ClienteService {
 	}
 
 	@Override
-	public Set<Cliente> obtenerClientes() {
+	public List<Cliente> obtenerClientes() {
 		return clienteRepo.obtenerClientes();
 	}
 

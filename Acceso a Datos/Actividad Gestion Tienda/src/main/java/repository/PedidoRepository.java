@@ -1,9 +1,6 @@
 package repository;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Objects;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Stream;
 
 import ENUM.Estado;
@@ -12,15 +9,15 @@ import Entity.Pedido;
 import service.PedidoService;
 
 public class PedidoRepository {
-	private Set<Pedido> listaPedidos;
+	private List<Pedido> listaPedidos;
 
 	
 	public PedidoRepository() {
 		super();
-		this.listaPedidos = new HashSet<Pedido>();
+		this.listaPedidos = new ArrayList<>();
 	}
 
-	public Set<Pedido> obtenerPedidos() {
+	public List<Pedido> obtenerPedidos() {
 		return this.listaPedidos;
 	}
 

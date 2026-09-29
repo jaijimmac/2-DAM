@@ -1,5 +1,6 @@
 package service.impl;
 
+import ENUM.TipoMensaje;
 import Entity.inmpl.Email;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,6 +11,7 @@ import Entity.Pedido;
 import repository.PedidoRepository;
 import service.PedidoService;
 
+import java.util.List;
 import java.util.Set;
 
 public class PedidoServiceImpl implements PedidoService{
@@ -26,18 +28,25 @@ public class PedidoServiceImpl implements PedidoService{
     }
 
 	@Override
-	public Set<Pedido> obtenerPedidos() {
+	public List<Pedido> obtenerPedidos() {
 		return pedidoRepo.obtenerPedidos();
 	}
 
 	@Override
-	public Pedido crearPedido(Pedido pedido) {
+	public Pedido obtenerPedido(Long idPedido) {
+		return pedidoRepo.obtenerPedido(idPedido);
+	}
+
+	@Override
+	public Pedido crearPedido(Pedido pedido, TipoMensaje tipo) {
 		Pedido newPedido = new Pedido();
 		newPedido.setId(contadorId);
 		contadorId++;
 		newPedido.setCliente(pedido.getCliente());
 		newPedido.setEstado(Estado.PENDIENTE);
 		newPedido.setImporte(pedido.getImporte());
+
+		notificacionService.agregarNotificacines(pedido, tipo);
 
 		return pedidoRepo.crearPedido(newPedido);
 	}
@@ -47,13 +56,7 @@ public class PedidoServiceImpl implements PedidoService{
 		Pedido pedido = pedidoRepo.obtenerPedido(idPedido);
 
 		pedidoRepo.editarEstado(pedido, estado);
-
-		if (estado == Estado.CONFIRMADO) {
-			Email email = new Email("Pedido", "Pedido enviado", pedido);
-			notificacionService.agregarNotificacines(email);
-			notificacionService.enviarEmail(idPedido);
-		}
-
+		notificacionService.enviarNoti(idPedido, estado);
 		return pedido;
 	}
 

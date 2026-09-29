@@ -1,4 +1,5 @@
 import ENUM.Estado;
+import ENUM.TipoMensaje;
 import Entity.Cliente;
 import Entity.Pedido;
 import org.apache.logging.log4j.LogManager;
@@ -8,6 +9,7 @@ import service.impl.ClienteServiceImpl;
 import service.impl.NotificacionServiceImpl;
 import service.impl.PedidoServiceImpl;
 
+import java.util.List;
 import java.util.Set;
 
 public class GestorPedidos {
@@ -30,12 +32,13 @@ public class GestorPedidos {
 		Pedido newPedido2 = new Pedido(c1,33.0);
 		Pedido newPedido3 = new Pedido(c2,10.0);
 
-		Pedido p1 = pedidoService.crearPedido(newPedido1);
-		Pedido p2 = pedidoService.crearPedido(newPedido2);
-		Pedido p3 = pedidoService.crearPedido(newPedido3);
+		Pedido p1 = pedidoService.crearPedido(newPedido1,TipoMensaje.EMAIL);
+		Pedido p2 = pedidoService.crearPedido(newPedido2, TipoMensaje.EMAIL);
+		Pedido p3 = pedidoService.crearPedido(newPedido3,TipoMensaje.SMS);
 
 
-		Set<Cliente> listadoClientes = clienteService.obtenerClientes();
+		List<Cliente> listadoClientes = clienteService.obtenerClientes();
+
 		logger.debug("");
 		logger.debug("Listado de Clientes");
 		logger.debug("___________________");
@@ -46,9 +49,15 @@ public class GestorPedidos {
 		logger.debug("");
 		logger.debug("");
 
-		Set<Pedido> listadoPedidos = pedidoService.obtenerPedidos();
+		List<Pedido> listadoPedidos = pedidoService.obtenerPedidos();
 
 		logger.debug("Listado de Pedidos");
+		logger.debug("___________________");
+		for (Pedido pedido: listadoPedidos) {
+			logger.debug(pedido.toString());
+		}
+
+		logger.debug("Listado de Pedidos Actualizados");
 		logger.debug("___________________");
 		for (Pedido pedido: listadoPedidos) {
 			logger.debug(pedido.toString());
@@ -58,11 +67,7 @@ public class GestorPedidos {
 		pedidoService.editarEstado(p2.getId(),Estado.CONFIRMADO);
 		pedidoService.editarEstado(p3.getId(),Estado.CANCELADO);
 
-		logger.debug("Listado de Pedidos Actualizados");
-		logger.debug("___________________");
-		for (Pedido pedido: listadoPedidos) {
-			logger.debug(pedido.toString());
-		}
+
 	}
 }
 

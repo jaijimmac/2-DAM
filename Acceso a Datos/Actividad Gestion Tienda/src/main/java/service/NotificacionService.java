@@ -1,12 +1,17 @@
 package service;
 
+import ENUM.Estado;
+import ENUM.TipoMensaje;
+import Entity.INotificacion;
+import Entity.Pedido;
 import Entity.inmpl.Email;
+import Entity.inmpl.SMS;
 
 public interface NotificacionService {
 
-    public void agregarNotificacines(Email email);
+    public INotificacion obtenerNotificacion(Long id);
 
-    public void enviarEmail(Long idEmail);
+    public void agregarNotificacines(Pedido pedido, TipoMensaje tipo);
 
-    public void enviarSMS(Long idSMS);
+    public void enviarNoti(Long id, Estado estado);
 }

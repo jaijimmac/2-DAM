@@ -3,6 +3,8 @@ package Entity;
 
 public interface INotificacion {
 
-	public void notificar(Cliente cliente, String asunto, String mensaje);
+	public Pedido getPedido();
+	public void setCuerpo(String cuerpo);
 
+	public void enviarNotificacion();
 }

@@ -1,11 +1,13 @@
 package repository;
 
-import java.util.HashSet;
-import java.util.Objects;
-import java.util.Set;
+import java.util.*;
 
 import javax.management.Notification;
 
+import ENUM.Estado;
+import ENUM.TipoMensaje;
+import Entity.Pedido;
+import Entity.inmpl.SMS;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -15,62 +17,42 @@ public class NotificacionRepository {
 	
 	private static final Logger logger = LogManager.getLogger(NotificacionRepository.class);
 
-	private Set<Email> listaNoti;
+	private List<INotificacion> listaNoti;
 
-	private Long contadorId = 1L;
 
 
 	public NotificacionRepository() {
 		super();
-		this.listaNoti = new HashSet<Email>();
+		this.listaNoti = new ArrayList<>();
 	}
 
-	public Email obtenerEmail(Long id) {
-		if (id == null) return null;
-
-		return this.listaNoti.stream()
-				.filter(n -> Objects.equals(n.getId(), id))
+	public INotificacion obtenerNotificacion(Long idPedido){
+		return listaNoti
+				.stream()
+				.filter(n -> Objects.equals(n.getPedido().getId(), idPedido))
 				.findFirst()
 				.orElse(null);
 	}
 
+	public void agregarNotificacion(Pedido pedido, TipoMensaje tipo) {
 
+		INotificacion newNotificacion;
+		switch (tipo){
+			case EMAIL:
+				newNotificacion = new Email("PEDIDO", "PEDIDO "  + pedido.getEstado(), pedido);
 
-	public void agregarNotificacion(Email n) {
+			case SMS:
+				newNotificacion = new SMS(pedido.getCliente().getTelefono(), "PEDIDO "  + pedido.getEstado(), pedido);
+            default:
 
-		Email newNotificacion = new Email();
-
-		newNotificacion.setId(contadorId);
-		contadorId++;
-
-		newNotificacion.setAsunto(n.getAsunto());
-		newNotificacion.setCuerpo(n.getCuerpo());
-		newNotificacion.setPedido(n.getPedido());
+				newNotificacion = new Email("PEDIDO", "PEDIDO " + pedido.getEstado(), pedido);
+		}
 
 		this.listaNoti.add(newNotificacion);
 	}
 
-
-	public void enviarEmail(Long idNoti) {
-
-		Email noti = obtenerEmail(idNoti);
-
-		logger.debug("Email enviado");
-		logger.debug("Asunto " + noti.getAsunto());
-		logger.debug("Cuerpo " + noti.getCuerpo());
-		logger.debug("Nº pedido " + noti.getPedido().getId());
-		logger.debug("Nombre Cliente" + noti.getPedido().getCliente().getNombre());
-	}
-
-	
-	public void enviarSMS(Long idNoti) {
-
-		Email noti = obtenerEmail(idNoti);
-		
-		logger.debug("SMS enviado");
-		logger.debug("Asunto " + noti.getAsunto());
-		logger.debug("Cuerpo " + noti.getCuerpo());
-		logger.debug("Nº pedido " + noti.getPedido().getId());
-		logger.debug("Nombre Cliente" + noti.getPedido().getCliente().getNombre());
+	public void enviarNoti(Pedido pedido, Estado estado){
+		INotificacion notificacion = obtenerNotificacion(pedido.getId());
+		notificacion.setCuerpo("PEDIDO " + estado);
 	}
 }

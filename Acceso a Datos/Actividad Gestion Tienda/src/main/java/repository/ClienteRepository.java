@@ -1,21 +1,22 @@
 package repository;
 
-import java.awt.List;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import Entity.Cliente;
 
 public class ClienteRepository {
 	
-	private Set<Cliente> listaClientes;
+	private List<Cliente> listaClientes;
 	
 	public ClienteRepository() {
 		super();
-		this.listaClientes = new HashSet<Cliente>();
+		this.listaClientes = new ArrayList<>();
 	}
 
-	public Set<Cliente> obtenerClientes(){
+	public List<Cliente> obtenerClientes(){
 		return this.listaClientes;
 	}
 

@@ -1,0 +1,130 @@
+2026-09-29 08:10:15.584 [main] DEBUG GestorPedidos - 
+2026-09-29 08:10:15.586 [main] DEBUG GestorPedidos - Listado de Clientes
+2026-09-29 08:10:15.587 [main] DEBUG GestorPedidos - ___________________
+2026-09-29 08:10:15.587 [main] DEBUG GestorPedidos - Cliente [email=prueba2@gmail.com, nombre=Pedro, telefono=5758493746]
+2026-09-29 08:10:15.587 [main] DEBUG GestorPedidos - Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345]
+2026-09-29 08:10:15.587 [main] DEBUG GestorPedidos - 
+2026-09-29 08:10:15.587 [main] DEBUG GestorPedidos - 
+2026-09-29 08:10:15.587 [main] DEBUG GestorPedidos - 
+2026-09-29 08:10:15.587 [main] DEBUG GestorPedidos - Listado de Pedidos
+2026-09-29 08:10:15.587 [main] DEBUG GestorPedidos - ___________________
+2026-09-29 08:10:15.588 [main] DEBUG GestorPedidos - Pedido [id=1, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=24.5, estado=PENDIENTE]
+2026-09-29 08:10:15.588 [main] DEBUG GestorPedidos - Pedido [id=3, cliente=Cliente [email=prueba2@gmail.com, nombre=Pedro, telefono=5758493746], importe=10.0, estado=PENDIENTE]
+2026-09-29 08:10:15.588 [main] DEBUG GestorPedidos - Pedido [id=2, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=33.0, estado=PENDIENTE]
+2026-09-29 08:10:15.591 [main] DEBUG repository.NotificacionRepository - Email enviado
+2026-09-29 08:10:15.591 [main] DEBUG repository.NotificacionRepository - Asunto Pedido
+2026-09-29 08:10:15.591 [main] DEBUG repository.NotificacionRepository - Cuerpo Pedido enviado
+2026-09-29 08:10:15.591 [main] DEBUG repository.NotificacionRepository - Nº pedido 1
+2026-09-29 08:10:15.592 [main] DEBUG repository.NotificacionRepository - Nombre ClienteJaime
+2026-09-29 08:10:15.592 [main] DEBUG repository.NotificacionRepository - Email enviado
+2026-09-29 08:10:15.592 [main] DEBUG repository.NotificacionRepository - Asunto Pedido
+2026-09-29 08:10:15.592 [main] DEBUG repository.NotificacionRepository - Cuerpo Pedido enviado
+2026-09-29 08:10:15.592 [main] DEBUG repository.NotificacionRepository - Nº pedido 2
+2026-09-29 08:10:15.592 [main] DEBUG repository.NotificacionRepository - Nombre ClienteJaime
+2026-09-29 08:10:15.593 [main] DEBUG GestorPedidos - Listado de Pedidos Actualizados
+2026-09-29 08:10:15.593 [main] DEBUG GestorPedidos - ___________________
+2026-09-29 08:10:15.593 [main] DEBUG GestorPedidos - Pedido [id=1, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=24.5, estado=CONFIRMADO]
+2026-09-29 08:10:15.593 [main] DEBUG GestorPedidos - Pedido [id=3, cliente=Cliente [email=prueba2@gmail.com, nombre=Pedro, telefono=5758493746], importe=10.0, estado=CANCELADO]
+2026-09-29 08:10:15.593 [main] DEBUG GestorPedidos - Pedido [id=2, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=33.0, estado=CONFIRMADO]
+2026-09-29 08:12:38.766 [main] DEBUG GestorPedidos - 
+2026-09-29 08:12:38.769 [main] DEBUG GestorPedidos - Listado de Clientes
+2026-09-29 08:12:38.769 [main] DEBUG GestorPedidos - ___________________
+2026-09-29 08:12:38.769 [main] DEBUG GestorPedidos - Cliente [email=prueba2@gmail.com, nombre=Pedro, telefono=5758493746]
+2026-09-29 08:12:38.769 [main] DEBUG GestorPedidos - Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345]
+2026-09-29 08:12:38.769 [main] DEBUG GestorPedidos - 
+2026-09-29 08:12:38.769 [main] DEBUG GestorPedidos - 
+2026-09-29 08:12:38.769 [main] DEBUG GestorPedidos - 
+2026-09-29 08:12:38.770 [main] DEBUG GestorPedidos - Listado de Pedidos
+2026-09-29 08:12:38.770 [main] DEBUG GestorPedidos - ___________________
+2026-09-29 08:12:38.770 [main] DEBUG GestorPedidos - Pedido [id=1, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=24.5, estado=PENDIENTE]
+2026-09-29 08:12:38.770 [main] DEBUG GestorPedidos - Pedido [id=3, cliente=Cliente [email=prueba2@gmail.com, nombre=Pedro, telefono=5758493746], importe=10.0, estado=PENDIENTE]
+2026-09-29 08:12:38.770 [main] DEBUG GestorPedidos - Pedido [id=2, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=33.0, estado=PENDIENTE]
+2026-09-29 08:12:38.772 [main] DEBUG repository.NotificacionRepository - Email enviado
+2026-09-29 08:12:38.772 [main] DEBUG repository.NotificacionRepository - Asunto Pedido
+2026-09-29 08:12:38.772 [main] DEBUG repository.NotificacionRepository - Cuerpo Pedido enviado
+2026-09-29 08:12:38.772 [main] DEBUG repository.NotificacionRepository - Nº pedido 1
+2026-09-29 08:12:38.772 [main] DEBUG repository.NotificacionRepository - Nombre ClienteJaime
+2026-09-29 08:12:38.773 [main] DEBUG repository.NotificacionRepository - Email enviado
+2026-09-29 08:12:38.773 [main] DEBUG repository.NotificacionRepository - Asunto Pedido
+2026-09-29 08:12:38.773 [main] DEBUG repository.NotificacionRepository - Cuerpo Pedido enviado
+2026-09-29 08:12:38.773 [main] DEBUG repository.NotificacionRepository - Nº pedido 2
+2026-09-29 08:12:38.773 [main] DEBUG repository.NotificacionRepository - Nombre ClienteJaime
+2026-09-29 08:12:38.773 [main] DEBUG repository.NotificacionRepository - Email enviado
+2026-09-29 08:12:38.773 [main] DEBUG repository.NotificacionRepository - Asunto Pedido
+2026-09-29 08:12:38.773 [main] DEBUG repository.NotificacionRepository - Cuerpo Pedido cancelado
+2026-09-29 08:12:38.773 [main] DEBUG repository.NotificacionRepository - Nº pedido 3
+2026-09-29 08:12:38.773 [main] DEBUG repository.NotificacionRepository - Nombre ClientePedro
+2026-09-29 08:12:38.773 [main] DEBUG GestorPedidos - Listado de Pedidos Actualizados
+2026-09-29 08:12:38.774 [main] DEBUG GestorPedidos - ___________________
+2026-09-29 08:12:38.774 [main] DEBUG GestorPedidos - Pedido [id=1, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=24.5, estado=CONFIRMADO]
+2026-09-29 08:12:38.774 [main] DEBUG GestorPedidos - Pedido [id=3, cliente=Cliente [email=prueba2@gmail.com, nombre=Pedro, telefono=5758493746], importe=10.0, estado=CANCELADO]
+2026-09-29 08:12:38.774 [main] DEBUG GestorPedidos - Pedido [id=2, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=33.0, estado=CONFIRMADO]
+2026-09-29 08:13:15.102 [main] DEBUG GestorPedidos - 
+2026-09-29 08:13:15.104 [main] DEBUG GestorPedidos - Listado de Clientes
+2026-09-29 08:13:15.104 [main] DEBUG GestorPedidos - ___________________
+2026-09-29 08:13:15.104 [main] DEBUG GestorPedidos - Cliente [email=prueba2@gmail.com, nombre=Pedro, telefono=5758493746]
+2026-09-29 08:13:15.104 [main] DEBUG GestorPedidos - Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345]
+2026-09-29 08:13:15.105 [main] DEBUG GestorPedidos - 
+2026-09-29 08:13:15.105 [main] DEBUG GestorPedidos - 
+2026-09-29 08:13:15.105 [main] DEBUG GestorPedidos - 
+2026-09-29 08:13:15.105 [main] DEBUG GestorPedidos - Listado de Pedidos
+2026-09-29 08:13:15.105 [main] DEBUG GestorPedidos - ___________________
+2026-09-29 08:13:15.105 [main] DEBUG GestorPedidos - Pedido [id=1, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=24.5, estado=PENDIENTE]
+2026-09-29 08:13:15.105 [main] DEBUG GestorPedidos - Pedido [id=3, cliente=Cliente [email=prueba2@gmail.com, nombre=Pedro, telefono=5758493746], importe=10.0, estado=PENDIENTE]
+2026-09-29 08:13:15.105 [main] DEBUG GestorPedidos - Pedido [id=2, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=33.0, estado=PENDIENTE]
+2026-09-29 08:13:15.106 [main] DEBUG GestorPedidos - Listado de Pedidos Actualizados
+2026-09-29 08:13:15.106 [main] DEBUG GestorPedidos - ___________________
+2026-09-29 08:13:15.106 [main] DEBUG GestorPedidos - Pedido [id=1, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=24.5, estado=PENDIENTE]
+2026-09-29 08:13:15.106 [main] DEBUG GestorPedidos - Pedido [id=3, cliente=Cliente [email=prueba2@gmail.com, nombre=Pedro, telefono=5758493746], importe=10.0, estado=PENDIENTE]
+2026-09-29 08:13:15.106 [main] DEBUG GestorPedidos - Pedido [id=2, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=33.0, estado=PENDIENTE]
+2026-09-29 08:13:15.108 [main] DEBUG repository.NotificacionRepository - Email enviado
+2026-09-29 08:13:15.108 [main] DEBUG repository.NotificacionRepository - Asunto Pedido
+2026-09-29 08:13:15.108 [main] DEBUG repository.NotificacionRepository - Cuerpo Pedido enviado
+2026-09-29 08:13:15.109 [main] DEBUG repository.NotificacionRepository - Nº pedido 1
+2026-09-29 08:13:15.109 [main] DEBUG repository.NotificacionRepository - Nombre ClienteJaime
+2026-09-29 08:13:15.109 [main] DEBUG repository.NotificacionRepository - Email enviado
+2026-09-29 08:13:15.109 [main] DEBUG repository.NotificacionRepository - Asunto Pedido
+2026-09-29 08:13:15.109 [main] DEBUG repository.NotificacionRepository - Cuerpo Pedido enviado
+2026-09-29 08:13:15.109 [main] DEBUG repository.NotificacionRepository - Nº pedido 2
+2026-09-29 08:13:15.109 [main] DEBUG repository.NotificacionRepository - Nombre ClienteJaime
+2026-09-29 08:13:15.109 [main] DEBUG repository.NotificacionRepository - Email enviado
+2026-09-29 08:13:15.110 [main] DEBUG repository.NotificacionRepository - Asunto Pedido
+2026-09-29 08:13:15.110 [main] DEBUG repository.NotificacionRepository - Cuerpo Pedido cancelado
+2026-09-29 08:13:15.110 [main] DEBUG repository.NotificacionRepository - Nº pedido 3
+2026-09-29 08:13:15.110 [main] DEBUG repository.NotificacionRepository - Nombre ClientePedro
+2026-09-29 08:18:23.370 [main] DEBUG GestorPedidos - 
+2026-09-29 08:18:23.372 [main] DEBUG GestorPedidos - Listado de Clientes
+2026-09-29 08:18:23.373 [main] DEBUG GestorPedidos - ___________________
+2026-09-29 08:18:23.373 [main] DEBUG GestorPedidos - Cliente [email=prueba2@gmail.com, nombre=Pedro, telefono=5758493746]
+2026-09-29 08:18:23.373 [main] DEBUG GestorPedidos - Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345]
+2026-09-29 08:18:23.373 [main] DEBUG GestorPedidos - 
+2026-09-29 08:18:23.373 [main] DEBUG GestorPedidos - 
+2026-09-29 08:18:23.373 [main] DEBUG GestorPedidos - 
+2026-09-29 08:18:23.373 [main] DEBUG GestorPedidos - Listado de Pedidos
+2026-09-29 08:18:23.373 [main] DEBUG GestorPedidos - ___________________
+2026-09-29 08:18:23.374 [main] DEBUG GestorPedidos - Pedido [id=2, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=33.0, estado=PENDIENTE]
+2026-09-29 08:18:23.374 [main] DEBUG GestorPedidos - Pedido [id=1, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=24.5, estado=PENDIENTE]
+2026-09-29 08:18:23.374 [main] DEBUG GestorPedidos - Pedido [id=3, cliente=Cliente [email=prueba2@gmail.com, nombre=Pedro, telefono=5758493746], importe=10.0, estado=PENDIENTE]
+2026-09-29 08:18:23.374 [main] DEBUG GestorPedidos - Listado de Pedidos Actualizados
+2026-09-29 08:18:23.374 [main] DEBUG GestorPedidos - ___________________
+2026-09-29 08:18:23.374 [main] DEBUG GestorPedidos - Pedido [id=2, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=33.0, estado=PENDIENTE]
+2026-09-29 08:18:23.374 [main] DEBUG GestorPedidos - Pedido [id=1, cliente=Cliente [email=prueba@gmail.com, nombre=Jaime, telefono=604254345], importe=24.5, estado=PENDIENTE]
+2026-09-29 08:18:23.374 [main] DEBUG GestorPedidos - Pedido [id=3, cliente=Cliente [email=prueba2@gmail.com, nombre=Pedro, telefono=5758493746], importe=10.0, estado=PENDIENTE]
+2026-09-29 08:18:23.375 [main] DEBUG repository.NotificacionRepository - __________
+2026-09-29 08:18:23.376 [main] DEBUG repository.NotificacionRepository - Email enviado
+2026-09-29 08:18:23.376 [main] DEBUG repository.NotificacionRepository - Asunto PEDIDO
+2026-09-29 08:18:23.376 [main] DEBUG repository.NotificacionRepository - Cuerpo PEDIDO  null
+2026-09-29 08:18:23.376 [main] DEBUG repository.NotificacionRepository - Nº pedido null
+2026-09-29 08:18:23.376 [main] DEBUG repository.NotificacionRepository - Nombre ClienteJaime
+2026-09-29 08:18:23.376 [main] DEBUG repository.NotificacionRepository - __________
+2026-09-29 08:18:23.376 [main] DEBUG repository.NotificacionRepository - Email enviado
+2026-09-29 08:18:23.376 [main] DEBUG repository.NotificacionRepository - Asunto PEDIDO
+2026-09-29 08:18:23.376 [main] DEBUG repository.NotificacionRepository - Cuerpo PEDIDO  null
+2026-09-29 08:18:23.377 [main] DEBUG repository.NotificacionRepository - Nº pedido null
+2026-09-29 08:18:23.377 [main] DEBUG repository.NotificacionRepository - Nombre ClienteJaime
+2026-09-29 08:18:23.377 [main] DEBUG repository.NotificacionRepository - __________
+2026-09-29 08:18:23.377 [main] DEBUG repository.NotificacionRepository - Email enviado
+2026-09-29 08:18:23.377 [main] DEBUG repository.NotificacionRepository - Asunto PEDIDO
+2026-09-29 08:18:23.377 [main] DEBUG repository.NotificacionRepository - Cuerpo PEDIDO  null
+2026-09-29 08:18:23.377 [main] DEBUG repository.NotificacionRepository - Nº pedido null
+2026-09-29 08:18:23.378 [main] DEBUG repository.NotificacionRepository - Nombre ClientePedro
