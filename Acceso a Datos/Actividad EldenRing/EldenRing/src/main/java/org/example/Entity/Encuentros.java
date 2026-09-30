@@ -1,5 +1,6 @@
 package org.example.Entity;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 import java.util.Objects;
@@ -7,7 +8,7 @@ import java.util.Objects;
 public class Encuentros {
     private Long id;
     private String nombre;
-    private Date fechaEncuentro;
+    private LocalDate fechaEncuentro;
     private int dificultad;
     private List<String> nombreEnemigos;
 
@@ -15,8 +16,7 @@ public class Encuentros {
 
     }
 
-    public Encuentros(Long id, String nombre, Date fechaEncuentro, int dificultad, List<String> nombreEnemigos) {
-        this.id = id;
+    public Encuentros( String nombre, LocalDate fechaEncuentro, int dificultad, List<String> nombreEnemigos) {
         this.nombre = nombre;
         this.fechaEncuentro = fechaEncuentro;
         this.dificultad = dificultad;
@@ -39,11 +39,11 @@ public class Encuentros {
         this.nombre = nombre;
     }
 
-    public Date getFechaEncuentro() {
+    public LocalDate getFechaEncuentro() {
         return fechaEncuentro;
     }
 
-    public void setFechaEncuentro(Date fechaEncuentro) {
+    public void setFechaEncuentro(LocalDate fechaEncuentro) {
         this.fechaEncuentro = fechaEncuentro;
     }
 

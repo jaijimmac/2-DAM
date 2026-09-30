@@ -1,22 +1,20 @@
 package org.example.Entity;
 
+import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
 import java.util.Objects;
 
-public class SinLuz {
+public class SinLuz implements Comparable<SinLuz>{
     private Long id;
     private String nombre;
-    private List<Encuentros> encuentros;
+    private Collection<Encuentros> encuentros = new ArrayList<>();
 
     public SinLuz(){
 
     }
 
-    public SinLuz(Long id, String nombre, List<Encuentros> encuentros) {
-        this.id = id;
+    public SinLuz(String nombre) {
         this.nombre = nombre;
-        this.encuentros = encuentros;
     }
 
     public Long getId() {
@@ -35,11 +33,11 @@ public class SinLuz {
         this.nombre = nombre;
     }
 
-    public List<Encuentros> getEncuentros() {
+    public Collection<Encuentros> getEncuentros() {
         return encuentros;
     }
 
-    public void setEncuentros(List<Encuentros> encuentros) {
+    public void setEncuentros(Collection<Encuentros> encuentros) {
         this.encuentros = encuentros;
     }
 
@@ -62,5 +60,10 @@ public class SinLuz {
                 ", nombre='" + nombre + '\'' +
                 ", encuentros=" + encuentros +
                 '}';
+    }
+
+    @Override
+    public int compareTo(SinLuz o) {
+        return this.nombre.compareTo(o.nombre);
     }
 }

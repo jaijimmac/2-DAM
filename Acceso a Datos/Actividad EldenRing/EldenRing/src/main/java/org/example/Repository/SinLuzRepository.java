@@ -1,25 +1,33 @@
 package org.example.Repository;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.example.ELdenException;
 import org.example.Entity.Encuentros;
 import org.example.Entity.SinLuz;
+import org.example.GestorEldenRing;
+import org.example.Service.EncuentroService;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-import java.util.Optional;
+import java.util.*;
 
 public class SinLuzRepository {
 
-    private List<SinLuz> listadoSinLuz;
+    private static final Logger logger = LogManager.getLogger(SinLuzRepository.class);
+    private Collection<SinLuz> listadoSinLuz;
+
+    private EncuentroService encuentroService;
 
     public SinLuzRepository(){
         super();
         this.listadoSinLuz = new ArrayList<>();
     }
 
-    public List<SinLuz> getListaSinLuz() {
-        return this.listadoSinLuz;
+    public Collection<SinLuz> getListaSinLuz() {
+
+        return this.listadoSinLuz
+                .stream()
+                .sorted()
+                .toList();
     }
 
     public SinLuz obtenerSinLuz(Long id) {
@@ -27,30 +35,35 @@ public class SinLuzRepository {
                 .stream()
                 .filter(n -> Objects.equals(n.getId(), id))
                 .findFirst()
-                .orElseThrow(()-> new ELdenException(id));
+                .orElseThrow(() -> new ELdenException(id));
     }
 
     public SinLuz agregarSinLuz(SinLuz sinLuz){
+
         this.listadoSinLuz.add(sinLuz);
         return sinLuz;
     }
 
     public void agregarEncuentro(Long idSin, Encuentros encuentros) {
-        SinLuz sinLuz = obtenerSinLuz(idSin);
-        List<Encuentros> listaE = new ArrayList<>();
-        listaE = sinLuz.getEncuentros();
-        listaE.add(encuentros);
-        sinLuz.setEncuentros(listaE);
 
-        editarSinLuz(sinLuz);
+        try {
+            SinLuz sinLuz = obtenerSinLuz(idSin);
+            sinLuz.getEncuentros().add(encuentros);
+            editarSinLuz(sinLuz);
+
+        } catch (ELdenException e) {
+            logger.error("Error: {}", e.getMessage());
+        }
     }
 
     public SinLuz editarSinLuz(SinLuz sinLuz){
+
         this.listadoSinLuz.add(sinLuz);
         return sinLuz;
     }
 
     public void eliminarSinLuz(Long id){
+
         SinLuz sinLuz = obtenerSinLuz(id);
         this.listadoSinLuz.remove(sinLuz);
     }
