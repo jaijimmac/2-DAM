@@ -1,5 +1,6 @@
 # Autor: Jaime Jiménez Machuca.
-# Fecha: 29/09/2036.
+# Fecha: 29/09/202
+# 6.
 # Descripción: Ejercicio 1.
 
 texto1 = "Bienvenido al módulo de Sistemas de Gestión Empresarial"

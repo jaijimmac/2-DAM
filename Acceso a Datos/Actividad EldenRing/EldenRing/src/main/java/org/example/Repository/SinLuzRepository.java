@@ -19,15 +19,12 @@ public class SinLuzRepository {
 
     public SinLuzRepository(){
         super();
-        this.listadoSinLuz = new ArrayList<>();
+        this.listadoSinLuz = new TreeSet<>();
     }
 
     public Collection<SinLuz> getListaSinLuz() {
 
-        return this.listadoSinLuz
-                .stream()
-                .sorted()
-                .toList();
+        return this.listadoSinLuz;
     }
 
     public SinLuz obtenerSinLuz(Long id) {

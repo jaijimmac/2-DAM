@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="eNPAvURELT4iZ_YwovqL">
-    <mxGraphModel dx="1664" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,10 +8,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Y3fzNPfehaJIj2ZPjNhC-14" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SinLuz" vertex="1">
-          <mxGeometry height="80" width="160" x="80" y="40" as="geometry" />
+          <mxGeometry height="101" width="180" x="80" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="Y3fzNPfehaJIj2ZPjNhC-15" parent="Y3fzNPfehaJIj2ZPjNhC-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ id: Long&lt;div&gt;+ nombre: String&lt;/div&gt;&lt;div&gt;+ coleccionEncuentros: List&lt;/div&gt;" vertex="1">
-          <mxGeometry height="54" width="160" y="26" as="geometry" />
+        <mxCell id="Y3fzNPfehaJIj2ZPjNhC-15" parent="Y3fzNPfehaJIj2ZPjNhC-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ id: Long&lt;div&gt;+ nombre: String&lt;/div&gt;&lt;div&gt;+ coleccionEncuentros: Collection&amp;lt;Encuentro&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="180" y="26" as="geometry" />
         </mxCell>
         <mxCell id="Y3fzNPfehaJIj2ZPjNhC-46" edge="1" parent="1" source="Y3fzNPfehaJIj2ZPjNhC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Y3fzNPfehaJIj2ZPjNhC-42">
           <mxGeometry relative="1" as="geometry" />

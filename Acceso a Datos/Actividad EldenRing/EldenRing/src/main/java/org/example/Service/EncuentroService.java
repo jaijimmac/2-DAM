@@ -55,7 +55,6 @@ public class EncuentroService {
                 logger.error("Este encuentro ya pertenece a este SinLuz");
                 return null;
             }
-
             Encuentros newEncuentro = new Encuentros();
 
             newEncuentro.setId(contador);
