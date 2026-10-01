@@ -1,5 +1,5 @@
 # Autor: Jaime Jiménez Machuca.
-# Fecha: 29/09/202
+# Fecha: 29/09/2026.
 # 6.
 # Descripción: Ejercicio 1.
 

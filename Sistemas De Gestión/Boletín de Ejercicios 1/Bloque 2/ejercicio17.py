@@ -1,5 +1,5 @@
 # Autor: Jaime Jiménez Machuca.
-# Fecha: 29/09/2036.
+# Fecha: 29/09/2026.
 # Descripción: Ejercicio 17.
 
 producto = ("P002", "Ratón", 21)

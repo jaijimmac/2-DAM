@@ -1,5 +1,5 @@
 # Autor: Jaime Jiménez Machuca.
-# Fecha: 30/09/2036.
+# Fecha: 30/09/2026.
 # Descripción: Ejercicio 26.
 
 clientes_tienda_a = {"Ana", "Luis", "Marta", "Carlos"}
