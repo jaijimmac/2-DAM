@@ -1,11 +1,12 @@
-document.addEventListener('DOMContentLoaded', init)
+document.addEventListener("DOMContentLoaded", init);
 
 function init() {
-    var cadenaTexto = prompt('Ingrese la cadena de texto: ');
-    var numero = prompt('Ingrese el número: ')
+  var cadenaTexto = prompt("Ingrese la cadena de texto: ");
+  var numero = parseInt(prompt("Ingrese el número: "));
 
-    console.log(cadenaTexto)
-    console.log(numero)
+  var caracter = cadenaTexto.charAt(numero);
 
-    var h2 = document.getElementById("h2").textContent;
+  alert(
+    `En la posición ${numero} de la cadena ${cadenaTexto} se encuentra el carácter ${caracter}`,
+  );
 }
