@@ -1,0 +1,32 @@
+2026-10-04 21:56:18.423 [main] DEBUG org.example.GestorEldenRing - +----------------------+
+2026-10-04 21:56:18.425 [main] DEBUG org.example.GestorEldenRing - |      SIN LUZ         |
+2026-10-04 21:56:18.426 [main] DEBUG org.example.GestorEldenRing - +----------------------+
+2026-10-04 21:56:18.428 [main] DEBUG org.example.GestorEldenRing - | SinLuz{id=1, nombre='SinLuz3', encuentros=[]} |
+2026-10-04 21:56:18.429 [main] DEBUG org.example.GestorEldenRing - | SinLuz{id=2, nombre='SinLuz2', encuentros=[]} |
+2026-10-04 21:56:18.429 [main] DEBUG org.example.GestorEldenRing - | SinLuz{id=3, nombre='SinLuz1', encuentros=[]} |
+2026-10-04 21:56:18.429 [main] DEBUG org.example.GestorEldenRing - +----------------------+
+2026-10-04 21:56:18.429 [main] DEBUG org.example.GestorEldenRing - +----------------------+
+2026-10-04 21:56:18.437 [main] DEBUG org.example.GestorEldenRing - +----------------------+
+2026-10-04 21:56:18.437 [main] DEBUG org.example.GestorEldenRing - |      ENCUENTROS        |
+2026-10-04 21:56:18.437 [main] DEBUG org.example.GestorEldenRing - +----------------------+
+2026-10-04 21:56:18.442 [main] DEBUG org.example.GestorEldenRing - | Encuentros{nombre='Encuentro 2', fechaEncuentro=2026-10-04, dificultad=1, nombreEnemigos=[Pepe, Salma, Lucas]} |
+2026-10-04 21:56:18.442 [main] DEBUG org.example.GestorEldenRing - | Encuentros{nombre='Encuentro 3', fechaEncuentro=2026-10-04, dificultad=10, nombreEnemigos=[Sandra, Paula, Claudia]} |
+2026-10-04 21:56:18.443 [main] DEBUG org.example.GestorEldenRing - | Encuentros{nombre='Encuentro 4', fechaEncuentro=2026-10-04, dificultad=7, nombreEnemigos=[Alberto, Laura, Diego]} |
+2026-10-04 21:56:18.443 [main] DEBUG org.example.GestorEldenRing - | Encuentros{nombre='Encuentro 5', fechaEncuentro=2026-10-04, dificultad=3, nombreEnemigos=[Carlos, Elena, Mario]} |
+2026-10-04 21:56:18.443 [main] DEBUG org.example.GestorEldenRing - | Encuentros{nombre='Encuentro 6', fechaEncuentro=2026-10-04, dificultad=8, nombreEnemigos=[Daniel, Lucia, Javier]} |
+2026-10-04 21:56:18.443 [main] DEBUG org.example.GestorEldenRing - +----------------------+
+2026-10-04 21:56:18.443 [main] DEBUG org.example.GestorEldenRing - +----------------------+
+2026-10-04 21:56:18.443 [main] DEBUG org.example.GestorEldenRing - +----------------------+
+2026-10-04 21:56:18.443 [main] DEBUG org.example.GestorEldenRing - |      SIN LUZ         |
+2026-10-04 21:56:18.443 [main] DEBUG org.example.GestorEldenRing - +----------------------+
+2026-10-04 21:56:18.443 [main] DEBUG org.example.GestorEldenRing - | SinLuz{id=1, nombre='SinLuz3', encuentros=[Encuentros{nombre='Encuentro 2', fechaEncuentro=2026-10-04, dificultad=1, nombreEnemigos=[Pepe, Salma, Lucas]}]} |
+2026-10-04 21:56:18.443 [main] DEBUG org.example.GestorEldenRing - | SinLuz{id=2, nombre='SinLuz2', encuentros=[Encuentros{nombre='Encuentro 3', fechaEncuentro=2026-10-04, dificultad=10, nombreEnemigos=[Sandra, Paula, Claudia]}, Encuentros{nombre='Encuentro 4', fechaEncuentro=2026-10-04, dificultad=7, nombreEnemigos=[Alberto, Laura, Diego]}]} |
+2026-10-04 21:56:18.443 [main] DEBUG org.example.GestorEldenRing - | SinLuz{id=3, nombre='SinLuz1', encuentros=[Encuentros{nombre='Encuentro 5', fechaEncuentro=2026-10-04, dificultad=3, nombreEnemigos=[Carlos, Elena, Mario]}, Encuentros{nombre='Encuentro 6', fechaEncuentro=2026-10-04, dificultad=8, nombreEnemigos=[Daniel, Lucia, Javier]}]} |
+2026-10-04 21:56:18.444 [main] DEBUG org.example.GestorEldenRing - +----------------------+
+2026-10-04 21:56:18.444 [main] DEBUG org.example.GestorEldenRing - +----------------------+
+2026-10-04 21:56:18.444 [main] ERROR org.example.Service.EncuentroService - Este encuentro ya pertenece a este SinLuz
+2026-10-04 21:56:18.444 [main] ERROR org.example.Service.EncuentroService - Este encuentro ya pertenece a este SinLuz
+2026-10-04 21:56:18.444 [main] ERROR org.example.Service.EncuentroService - Este encuentro ya pertenece a este SinLuz
+2026-10-04 21:56:18.444 [main] ERROR org.example.Service.EncuentroService - Este encuentro ya pertenece a este SinLuz
+2026-10-04 21:56:18.444 [main] ERROR org.example.Service.EncuentroService - Este encuentro ya pertenece a este SinLuz
+2026-10-04 21:56:18.444 [main] ERROR org.example.Service.EncuentroService - Este encuentro ya pertenece a este SinLuz

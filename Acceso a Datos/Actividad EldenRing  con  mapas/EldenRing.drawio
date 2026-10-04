@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="eNPAvURELT4iZ_YwovqL">
+    <mxGraphModel dx="1414" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y3fzNPfehaJIj2ZPjNhC-41" edge="1" parent="1" source="Y3fzNPfehaJIj2ZPjNhC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Y3fzNPfehaJIj2ZPjNhC-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3fzNPfehaJIj2ZPjNhC-14" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SinLuz" vertex="1">
+          <mxGeometry height="101" width="180" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3fzNPfehaJIj2ZPjNhC-15" parent="Y3fzNPfehaJIj2ZPjNhC-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ id: Long&lt;div&gt;+ nombre: String&lt;/div&gt;&lt;div&gt;+ coleccionEncuentros: Collection&amp;lt;Encuentro&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3fzNPfehaJIj2ZPjNhC-46" edge="1" parent="1" source="Y3fzNPfehaJIj2ZPjNhC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Y3fzNPfehaJIj2ZPjNhC-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3fzNPfehaJIj2ZPjNhC-18" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Encuentro" vertex="1">
+          <mxGeometry height="101" width="160" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3fzNPfehaJIj2ZPjNhC-19" parent="Y3fzNPfehaJIj2ZPjNhC-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ nombre: String&lt;/div&gt;&lt;div&gt;+ fecha: Date&lt;/div&gt;&lt;div&gt;+ dificultad: int&lt;/div&gt;&lt;div&gt;+ listaNombre: List&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3fzNPfehaJIj2ZPjNhC-22" edge="1" parent="1" source="Y3fzNPfehaJIj2ZPjNhC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.096;entryDx=0;entryDy=0;entryPerimeter=0;" target="Y3fzNPfehaJIj2ZPjNhC-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="owFzS4YT-L2UlPFXcbQZ-5" edge="1" parent="1" source="Y3fzNPfehaJIj2ZPjNhC-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="owFzS4YT-L2UlPFXcbQZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3fzNPfehaJIj2ZPjNhC-37" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SinLuzRepo" vertex="1">
+          <mxGeometry height="135" width="160" x="80" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3fzNPfehaJIj2ZPjNhC-38" parent="Y3fzNPfehaJIj2ZPjNhC-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ listaSinLuz: List" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3fzNPfehaJIj2ZPjNhC-39" parent="Y3fzNPfehaJIj2ZPjNhC-37" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3fzNPfehaJIj2ZPjNhC-40" parent="Y3fzNPfehaJIj2ZPjNhC-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ agregarSinLuz: SinLuz&lt;div&gt;+ editarSinLuz: SinLuz&lt;/div&gt;&lt;div&gt;+ eliminarSinLuz: void&lt;/div&gt;&lt;div&gt;+ listaSinLuz: List&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="owFzS4YT-L2UlPFXcbQZ-12" edge="1" parent="1" source="Y3fzNPfehaJIj2ZPjNhC-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="owFzS4YT-L2UlPFXcbQZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3fzNPfehaJIj2ZPjNhC-42" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="EncuentroRepo" vertex="1">
+          <mxGeometry height="135" width="190" x="305" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3fzNPfehaJIj2ZPjNhC-43" parent="Y3fzNPfehaJIj2ZPjNhC-42" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ listaSinLuz: List" vertex="1">
+          <mxGeometry height="26" width="190" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3fzNPfehaJIj2ZPjNhC-44" parent="Y3fzNPfehaJIj2ZPjNhC-42" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="190" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Y3fzNPfehaJIj2ZPjNhC-45" parent="Y3fzNPfehaJIj2ZPjNhC-42" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ agregaEncuentro: Encuentro&lt;div&gt;+ editarEncuentroz:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Encuentro&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ eliminar&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Encuentro&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ lista&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Encuentro&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: List&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="190" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="owFzS4YT-L2UlPFXcbQZ-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SinLuzService" vertex="1">
+          <mxGeometry height="135" width="160" x="80" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="owFzS4YT-L2UlPFXcbQZ-2" parent="owFzS4YT-L2UlPFXcbQZ-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ listaSinLuz: List" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="owFzS4YT-L2UlPFXcbQZ-3" parent="owFzS4YT-L2UlPFXcbQZ-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="owFzS4YT-L2UlPFXcbQZ-4" parent="owFzS4YT-L2UlPFXcbQZ-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ agregarSinLuz: SinLuz&lt;div&gt;+ editarSinLuz: SinLuz&lt;/div&gt;&lt;div&gt;+ eliminarSinLuz: void&lt;/div&gt;&lt;div&gt;+ listaSinLuz: List&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="owFzS4YT-L2UlPFXcbQZ-7" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="EncuentroService" vertex="1">
+          <mxGeometry height="135" width="190" x="305" y="374" as="geometry" />
+        </mxCell>
+        <mxCell id="owFzS4YT-L2UlPFXcbQZ-8" parent="owFzS4YT-L2UlPFXcbQZ-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ listaSinLuz: List" vertex="1">
+          <mxGeometry height="26" width="190" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="owFzS4YT-L2UlPFXcbQZ-9" parent="owFzS4YT-L2UlPFXcbQZ-7" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="190" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="owFzS4YT-L2UlPFXcbQZ-10" parent="owFzS4YT-L2UlPFXcbQZ-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ agregaEncuentro: Encuentro&lt;div&gt;+ editarEncuentroz:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Encuentro&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ eliminar&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Encuentro&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ lista&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Encuentro&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: List&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="190" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="owFzS4YT-L2UlPFXcbQZ-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="GestorEncuentros" vertex="1">
+          <mxGeometry height="52" width="190" x="190" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="owFzS4YT-L2UlPFXcbQZ-14" parent="owFzS4YT-L2UlPFXcbQZ-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="main" vertex="1">
+          <mxGeometry height="26" width="190" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="owFzS4YT-L2UlPFXcbQZ-17" edge="1" parent="1" source="owFzS4YT-L2UlPFXcbQZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.457;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;" target="owFzS4YT-L2UlPFXcbQZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="owFzS4YT-L2UlPFXcbQZ-18" edge="1" parent="1" source="owFzS4YT-L2UlPFXcbQZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.579;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="owFzS4YT-L2UlPFXcbQZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
