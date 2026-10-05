@@ -26,6 +26,12 @@ public class Main3 {
             a1.setReadOnly();
             a2.renameTo(new File(ruta + "renombrado.txt"));
 
+            a1.setWritable(true);
+            a1.delete();
+
+            for (File i : dir.listFiles()){
+                logger.debug(i.getName());
+            }
 
         }
 

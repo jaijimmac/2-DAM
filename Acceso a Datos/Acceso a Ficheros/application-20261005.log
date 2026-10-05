@@ -817,3 +817,144 @@
 2026-10-05 12:15:58.590 [main] DEBUG org.example.Main - Oculto: false
 2026-10-05 12:15:58.591 [main] DEBUG org.example.Main - Tamaño: 479034601472
 2026-10-05 12:15:58.591 [main] DEBUG org.example.Main - Fecha Ult.Modificación: 1791189779594
+2026-10-05 17:25:09.419 [main] DEBUG org.example.Main4 - Ingrese la ruta del directorio
+2026-10-05 17:25:18.718 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.719 [main] DEBUG org.example.Main4 - Directorio padre: .idea
+2026-10-05 17:25:18.719 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.719 [main] DEBUG org.example.Main4 - Archivo: .gitignore
+2026-10-05 17:25:18.719 [main] DEBUG org.example.Main4 - Archivo: Acceso a Ficheros.iml
+2026-10-05 17:25:18.719 [main] DEBUG org.example.Main4 - Archivo: compiler.xml
+2026-10-05 17:25:18.719 [main] DEBUG org.example.Main4 - Archivo: encodings.xml
+2026-10-05 17:25:18.720 [main] DEBUG org.example.Main4 - Archivo: jarRepositories.xml
+2026-10-05 17:25:18.720 [main] DEBUG org.example.Main4 - Archivo: misc.xml
+2026-10-05 17:25:18.720 [main] DEBUG org.example.Main4 - Archivo: modules.xml
+2026-10-05 17:25:18.720 [main] DEBUG org.example.Main4 - Archivo: vcs.xml
+2026-10-05 17:25:18.720 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.720 [main] DEBUG org.example.Main4 - Directorio padre: accesoAFicheros_1
+2026-10-05 17:25:18.720 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.720 [main] DEBUG org.example.Main4 - Archivo: .gitignore
+2026-10-05 17:25:18.720 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.720 [main] DEBUG org.example.Main4 - Directorio padre: .idea
+2026-10-05 17:25:18.720 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.721 [main] DEBUG org.example.Main4 - Archivo: .gitignore
+2026-10-05 17:25:18.721 [main] DEBUG org.example.Main4 - Archivo: encodings.xml
+2026-10-05 17:25:18.721 [main] DEBUG org.example.Main4 - Archivo: misc.xml
+2026-10-05 17:25:18.721 [main] DEBUG org.example.Main4 - Archivo: vcs.xml
+2026-10-05 17:25:18.721 [main] DEBUG org.example.Main4 - Archivo: application-20261001.log
+2026-10-05 17:25:18.721 [main] DEBUG org.example.Main4 - Archivo: fichero.txt
+2026-10-05 17:25:18.721 [main] DEBUG org.example.Main4 - Archivo: pom.xml
+2026-10-05 17:25:18.721 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.722 [main] DEBUG org.example.Main4 - Directorio padre: src
+2026-10-05 17:25:18.722 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.722 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.722 [main] DEBUG org.example.Main4 - Directorio padre: main
+2026-10-05 17:25:18.722 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.722 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.722 [main] DEBUG org.example.Main4 - Directorio padre: java
+2026-10-05 17:25:18.722 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.722 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.723 [main] DEBUG org.example.Main4 - Directorio padre: org
+2026-10-05 17:25:18.723 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.723 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.723 [main] DEBUG org.example.Main4 - Directorio padre: example
+2026-10-05 17:25:18.723 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.723 [main] DEBUG org.example.Main4 - Archivo: Main.java
+2026-10-05 17:25:18.723 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.723 [main] DEBUG org.example.Main4 - Directorio padre: resources
+2026-10-05 17:25:18.723 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.724 [main] DEBUG org.example.Main4 - Archivo: log4j2.xml
+2026-10-05 17:25:18.724 [main] DEBUG org.example.Main4 - Archivo: application-20261005.log
+2026-10-05 17:25:18.724 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.724 [main] DEBUG org.example.Main4 - Directorio padre: UD1-BOLETIN1
+2026-10-05 17:25:18.724 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.724 [main] DEBUG org.example.Main4 - Archivo: .gitignore
+2026-10-05 17:25:18.724 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.724 [main] DEBUG org.example.Main4 - Directorio padre: .idea
+2026-10-05 17:25:18.725 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.725 [main] DEBUG org.example.Main4 - Archivo: .gitignore
+2026-10-05 17:25:18.725 [main] DEBUG org.example.Main4 - Archivo: encodings.xml
+2026-10-05 17:25:18.725 [main] DEBUG org.example.Main4 - Archivo: misc.xml
+2026-10-05 17:25:18.725 [main] DEBUG org.example.Main4 - Archivo: vcs.xml
+2026-10-05 17:25:18.725 [main] DEBUG org.example.Main4 - Archivo: pom.xml
+2026-10-05 17:25:18.725 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.725 [main] DEBUG org.example.Main4 - Directorio padre: src
+2026-10-05 17:25:18.725 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.726 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.726 [main] DEBUG org.example.Main4 - Directorio padre: main
+2026-10-05 17:25:18.726 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.726 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.726 [main] DEBUG org.example.Main4 - Directorio padre: java
+2026-10-05 17:25:18.726 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.726 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.726 [main] DEBUG org.example.Main4 - Directorio padre: org
+2026-10-05 17:25:18.726 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.726 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.726 [main] DEBUG org.example.Main4 - Directorio padre: example
+2026-10-05 17:25:18.726 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.726 [main] DEBUG org.example.Main4 - Archivo: Exception.java
+2026-10-05 17:25:18.726 [main] DEBUG org.example.Main4 - Archivo: Main.java
+2026-10-05 17:25:18.726 [main] DEBUG org.example.Main4 - Archivo: Main2.java
+2026-10-05 17:25:18.726 [main] DEBUG org.example.Main4 - Archivo: Main3.java
+2026-10-05 17:25:18.728 [main] DEBUG org.example.Main4 - Archivo: Main4.java
+2026-10-05 17:25:18.728 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.728 [main] DEBUG org.example.Main4 - Directorio padre: resources
+2026-10-05 17:25:18.728 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.728 [main] DEBUG org.example.Main4 - Archivo: log4j2.xml
+2026-10-05 17:25:18.728 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.728 [main] DEBUG org.example.Main4 - Directorio padre: target
+2026-10-05 17:25:18.728 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.728 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.729 [main] DEBUG org.example.Main4 - Directorio padre: classes
+2026-10-05 17:25:18.729 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.729 [main] DEBUG org.example.Main4 - Archivo: log4j2.xml
+2026-10-05 17:25:18.729 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.729 [main] DEBUG org.example.Main4 - Directorio padre: org
+2026-10-05 17:25:18.729 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.729 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.729 [main] DEBUG org.example.Main4 - Directorio padre: example
+2026-10-05 17:25:18.729 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.729 [main] DEBUG org.example.Main4 - Archivo: Exception.class
+2026-10-05 17:25:18.730 [main] DEBUG org.example.Main4 - Archivo: Main.class
+2026-10-05 17:25:18.730 [main] DEBUG org.example.Main4 - Archivo: Main2.class
+2026-10-05 17:25:18.730 [main] DEBUG org.example.Main4 - Archivo: Main3.class
+2026-10-05 17:25:18.730 [main] DEBUG org.example.Main4 - Archivo: Main4.class
+2026-10-05 17:25:18.730 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.730 [main] DEBUG org.example.Main4 - Directorio padre: generated-sources
+2026-10-05 17:25:18.730 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.730 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:18.730 [main] DEBUG org.example.Main4 - Directorio padre: annotations
+2026-10-05 17:25:18.730 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 17:25:07.607 [main] DEBUG org.example.Main4 - Ingrese la ruta del directorio
+2026-10-05 17:27:50.203 [main] DEBUG org.example.Main3 - normal.txt
+2026-10-05 17:33:33.593 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-05 17:34:23.998 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-05 17:34:26.378 [main] DEBUG org.example.Main5 - Tamaño completo: 9.208266190848E12
+2026-10-05 17:34:44.234 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-05 17:34:45.615 [main] DEBUG org.example.Main5 - Tamaño completo: 4.092562751488E12
+2026-10-05 17:34:43.432 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-05 17:34:54.588 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-05 17:34:57.219 [main] DEBUG org.example.Main5 - Tamaño completo: 4.092562751488E12
+2026-10-05 17:35:48.307 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-05 17:35:54.271 [main] DEBUG org.example.Main5 - Tamaño completo (BYTES): 4.092562751488E12
+2026-10-05 17:35:54.273 [main] DEBUG org.example.Main5 - Tamaño completo (MEGABYTES): 3902971.984375
+2026-10-05 17:36:22.778 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-05 17:36:25.296 [main] DEBUG org.example.Main5 - Tamaño completo (BYTES): 4.092562751488E12
+2026-10-05 17:36:25.296 [main] DEBUG org.example.Main5 - Tamaño completo (MEGABYTES): 3902971.984375
+2026-10-05 17:36:25.296 [main] DEBUG org.example.Main5 - Tamaño completo (GIGABYTES): 3811.496078491211
+2026-10-05 17:36:49.027 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-05 17:36:52.913 [main] DEBUG org.example.Main5 - Tamaño completo (BYTES): 4.092562751488E12
+2026-10-05 17:36:52.913 [main] DEBUG org.example.Main5 - Tamaño completo (MEGABYTES): 3902971.984375
+2026-10-05 17:36:52.913 [main] DEBUG org.example.Main5 - Tamaño completo (GIGABYTES): 3811.496078491211
+2026-10-05 17:37:03.835 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-05 17:37:05.427 [main] DEBUG org.example.Main5 - Tamaño completo (BYTES): 6.9405704192E10
+2026-10-05 17:37:05.427 [main] DEBUG org.example.Main5 - Tamaño completo (MEGABYTES): 66190.4375
+2026-10-05 17:37:05.427 [main] DEBUG org.example.Main5 - Tamaño completo (GIGABYTES): 64.63909912109375
+2026-10-05 17:39:37.754 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-05 17:39:40.217 [main] DEBUG org.example.Main5 - Tamaño completo (BYTES): 6558.0
+2026-10-05 17:39:40.217 [main] DEBUG org.example.Main5 - Tamaño completo (MEGABYTES): 0.0062541961669921875
+2026-10-05 17:39:40.218 [main] DEBUG org.example.Main5 - Tamaño completo (GIGABYTES): 6.107613444328308E-6
+2026-10-05 17:40:18.718 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-05 17:40:31.582 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-05 17:40:33.379 [main] DEBUG org.example.Main5 - Tamaño completo (BYTES): 6.5812905E7
+2026-10-05 17:40:33.379 [main] DEBUG org.example.Main5 - Tamaño completo (MEGABYTES): 62.76407718658447
+2026-10-05 17:40:43.139 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
