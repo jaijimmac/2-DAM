@@ -1,0 +1,819 @@
+2026-10-05 10:42:59.633 [main] DEBUG org.example.Main - Ingrese la ruta del directorio
+2026-10-05 10:43:18.824 [main] DEBUG org.example.Main - [D] .git
+2026-10-05 10:43:18.825 [main] DEBUG org.example.Main - [D] Acceso a Datos
+2026-10-05 10:43:18.825 [main] DEBUG org.example.Main - [D] Desarrollo de Interfaces
+2026-10-05 10:43:18.825 [main] DEBUG org.example.Main - [D] Optativa
+2026-10-05 10:43:18.825 [main] DEBUG org.example.Main - [D] Sistemas De Gestión
+2026-10-05 10:43:44.458 [main] DEBUG org.example.Main - Ingrese la ruta del directorio
+2026-10-05 10:43:48.743 [main] DEBUG org.example.Main - [D] .idea
+2026-10-05 10:43:48.744 [main] DEBUG org.example.Main - [D] accesoAFicheros_1
+2026-10-05 10:43:48.744 [main] DEBUG org.example.Main - [D] UD1-BOLETIN1
+2026-10-05 10:44:11.541 [main] DEBUG org.example.Main - Ingrese la ruta del directorio
+2026-10-05 10:44:18.871 [main] DEBUG org.example.Main - [D] .idea
+2026-10-05 10:44:18.871 [main] DEBUG org.example.Main - [D] accesoAFicheros_1
+2026-10-05 10:44:18.871 [main] DEBUG org.example.Main - [F] application-20261005.log
+2026-10-05 10:44:18.872 [main] DEBUG org.example.Main - [D] UD1-BOLETIN1
+2026-10-05 11:45:08.990 [main] DEBUG org.example.Main4 - Ingrese la ruta del directorio
+2026-10-05 11:45:38.310 [main] DEBUG org.example.Main4 - Ingrese la ruta del directorio
+2026-10-05 11:47:33.724 [main] DEBUG org.example.Main4 - Ingrese la ruta del directorio
+2026-10-05 11:47:45.115 [main] DEBUG org.example.Main4 - Ingrese la ruta del directorio
+2026-10-05 11:48:15.092 [main] DEBUG org.example.Main4 - Ingrese la ruta del directorio
+2026-10-05 11:51:25.733 [main] DEBUG org.example.Main4 - Ingrese la ruta del directorio
+2026-10-05 11:55:18.721 [main] DEBUG org.example.Main4 - Ingrese la ruta del directorio
+2026-10-05 11:55:23.876 [main] DEBUG org.example.Main4 - Archivo: COMMIT_EDITMSG
+2026-10-05 11:55:23.876 [main] DEBUG org.example.Main4 - Archivo: config
+2026-10-05 11:55:23.876 [main] DEBUG org.example.Main4 - Archivo: description
+2026-10-05 11:55:23.877 [main] DEBUG org.example.Main4 - Archivo: FETCH_HEAD
+2026-10-05 11:55:23.877 [main] DEBUG org.example.Main4 - Archivo: HEAD
+2026-10-05 11:55:23.877 [main] DEBUG org.example.Main4 - Archivo: applypatch-msg.sample
+2026-10-05 11:55:23.877 [main] DEBUG org.example.Main4 - Archivo: commit-msg.sample
+2026-10-05 11:55:23.877 [main] DEBUG org.example.Main4 - Archivo: fsmonitor-watchman.sample
+2026-10-05 11:55:23.878 [main] DEBUG org.example.Main4 - Archivo: post-update.sample
+2026-10-05 11:55:23.878 [main] DEBUG org.example.Main4 - Archivo: pre-applypatch.sample
+2026-10-05 11:55:23.878 [main] DEBUG org.example.Main4 - Archivo: pre-commit.sample
+2026-10-05 11:55:23.879 [main] DEBUG org.example.Main4 - Archivo: pre-merge-commit.sample
+2026-10-05 11:55:23.879 [main] DEBUG org.example.Main4 - Archivo: pre-push.sample
+2026-10-05 11:55:23.879 [main] DEBUG org.example.Main4 - Archivo: pre-rebase.sample
+2026-10-05 11:55:23.879 [main] DEBUG org.example.Main4 - Archivo: pre-receive.sample
+2026-10-05 11:55:23.879 [main] DEBUG org.example.Main4 - Archivo: prepare-commit-msg.sample
+2026-10-05 11:55:23.880 [main] DEBUG org.example.Main4 - Archivo: push-to-checkout.sample
+2026-10-05 11:55:23.880 [main] DEBUG org.example.Main4 - Archivo: sendemail-validate.sample
+2026-10-05 11:55:23.880 [main] DEBUG org.example.Main4 - Archivo: update.sample
+2026-10-05 11:55:23.880 [main] DEBUG org.example.Main4 - Archivo: index
+2026-10-05 11:55:23.880 [main] DEBUG org.example.Main4 - Archivo: exclude
+2026-10-05 11:55:23.882 [main] DEBUG org.example.Main4 - Archivo: HEAD
+2026-10-05 11:55:23.882 [main] DEBUG org.example.Main4 - Archivo: main
+2026-10-05 11:55:23.882 [main] DEBUG org.example.Main4 - Archivo: HEAD
+2026-10-05 11:55:23.882 [main] DEBUG org.example.Main4 - Archivo: main
+2026-10-05 11:55:23.883 [main] DEBUG org.example.Main4 - Archivo: 6fe4c944560ccd0e27096a59618b44b6f10478
+2026-10-05 11:55:23.883 [main] DEBUG org.example.Main4 - Archivo: 919eb01fa21555c03bdc1294079c3536b3329a
+2026-10-05 11:55:23.883 [main] DEBUG org.example.Main4 - Archivo: a207ade07940502cfc3931f455b5ea52d93097
+2026-10-05 11:55:23.883 [main] DEBUG org.example.Main4 - Archivo: d06d0464648c8c7ba4abb389ddaf986846eaa8
+2026-10-05 11:55:23.883 [main] DEBUG org.example.Main4 - Archivo: 2df170534447e165510207c2025363978261ba
+2026-10-05 11:55:23.884 [main] DEBUG org.example.Main4 - Archivo: f43c44a5baa2d9276d4aba87e432c58f10b39e
+2026-10-05 11:55:23.884 [main] DEBUG org.example.Main4 - Archivo: fbe5d0781e937f2e97ee74290250ae37f7b0ed
+2026-10-05 11:55:23.885 [main] DEBUG org.example.Main4 - Archivo: 169a0d671eae4c9938ab15dd44317c4141a557
+2026-10-05 11:55:23.885 [main] DEBUG org.example.Main4 - Archivo: 18d02ad4224bdd367d9d1c82ec66b6cdf32d05
+2026-10-05 11:55:23.885 [main] DEBUG org.example.Main4 - Archivo: d08e369431aace34d020f837b94d45ae003062
+2026-10-05 11:55:23.885 [main] DEBUG org.example.Main4 - Archivo: f5631a5a0dea8d974859f63592a2185ae475f1
+2026-10-05 11:55:23.886 [main] DEBUG org.example.Main4 - Archivo: 890ac1c5d5eb875dd83b72eda4ae04ba9dfad4
+2026-10-05 11:55:23.886 [main] DEBUG org.example.Main4 - Archivo: 9f46fa66d389805421ecab0380afe8940465df
+2026-10-05 11:55:23.886 [main] DEBUG org.example.Main4 - Archivo: 4a5ace2997dd1f04dbb486c108222ecde97294
+2026-10-05 11:55:23.886 [main] DEBUG org.example.Main4 - Archivo: ad6ff23440f68a6d1a1191ad49858b3ac4a1fe
+2026-10-05 11:55:23.886 [main] DEBUG org.example.Main4 - Archivo: 04b5230f8e751ae7438437e661da452ca4ea5c
+2026-10-05 11:55:23.886 [main] DEBUG org.example.Main4 - Archivo: 23bbf6b6681509ff4d550afabeffac39065fb7
+2026-10-05 11:55:23.887 [main] DEBUG org.example.Main4 - Archivo: d2a933d42415663d9398265b4f44607072e75d
+2026-10-05 11:55:23.887 [main] DEBUG org.example.Main4 - Archivo: 02e088b3836cea75d18e67dfdb670a6e780412
+2026-10-05 11:55:23.887 [main] DEBUG org.example.Main4 - Archivo: 918b63465db85e61d9b8aeb5ef6f22b4ef48c1
+2026-10-05 11:55:23.887 [main] DEBUG org.example.Main4 - Archivo: e71bcb1467b2253f5208b18301a91d0a6b384c
+2026-10-05 11:55:23.888 [main] DEBUG org.example.Main4 - Archivo: 32770fac4b93d6ebcf6adcd862bb449cae67a7
+2026-10-05 11:55:23.888 [main] DEBUG org.example.Main4 - Archivo: b9d0e43a15532e814f88bad33b7e2c411c63fd
+2026-10-05 11:55:23.888 [main] DEBUG org.example.Main4 - Archivo: bbaaff377ddf1d192bffaca03cc07b450034f6
+2026-10-05 11:55:23.888 [main] DEBUG org.example.Main4 - Archivo: fb0598d291bb267819c9dfc902330f8c6da031
+2026-10-05 11:55:23.888 [main] DEBUG org.example.Main4 - Archivo: 8b88b5058ad028550a84d6c3b968c3cc03dd04
+2026-10-05 11:55:23.889 [main] DEBUG org.example.Main4 - Archivo: 9127022b00bb90aab93556f63aba1fe9651669
+2026-10-05 11:55:23.889 [main] DEBUG org.example.Main4 - Archivo: b7b53b86121163e2791f3f265d0835485f20ba
+2026-10-05 11:55:23.889 [main] DEBUG org.example.Main4 - Archivo: 6925b94a97b38c5e11f3b201142614bdbe7a56
+2026-10-05 11:55:23.889 [main] DEBUG org.example.Main4 - Archivo: 11136ae103816a1c5c9cfad76455ab27b943a9
+2026-10-05 11:55:23.889 [main] DEBUG org.example.Main4 - Archivo: 424639c7edc578150654db9e1541f65a5e45b1
+2026-10-05 11:55:23.890 [main] DEBUG org.example.Main4 - Archivo: 2ac6de0eceb7dc0415dc47ee5227b37a331b14
+2026-10-05 11:55:23.890 [main] DEBUG org.example.Main4 - Archivo: 8cdad95aecfaccd1192556aa5f82cad376402b
+2026-10-05 11:55:23.890 [main] DEBUG org.example.Main4 - Archivo: 94e7d980a7a80da13da831802203a42f3da931
+2026-10-05 11:55:23.890 [main] DEBUG org.example.Main4 - Archivo: c88102cce923579ced5107c13497f12eca1245
+2026-10-05 11:55:23.891 [main] DEBUG org.example.Main4 - Archivo: bb3a677253776590d6eced41c3edc926655bfd
+2026-10-05 11:55:23.891 [main] DEBUG org.example.Main4 - Archivo: 6ebcaf48c6e98c610df992747f0d496a2bddfc
+2026-10-05 11:55:23.891 [main] DEBUG org.example.Main4 - Archivo: b4bf089a8e15ef4a2f968df7ec9771b5c7ba7e
+2026-10-05 11:55:23.891 [main] DEBUG org.example.Main4 - Archivo: de4d2c6ca46abd5ac819a86553eb2793aead32
+2026-10-05 11:55:23.893 [main] DEBUG org.example.Main4 - Archivo: b93b35045ddd8461ac7c99e0bff7161f71cc1b
+2026-10-05 11:55:23.893 [main] DEBUG org.example.Main4 - Archivo: cd61abbbdfd9c5b9d2a792c99ae1105fb86e93
+2026-10-05 11:55:23.893 [main] DEBUG org.example.Main4 - Archivo: 49a5086cb4901521d3ac03c82dbc3cff66ee78
+2026-10-05 11:55:23.893 [main] DEBUG org.example.Main4 - Archivo: d1e0e2c133e79f6d08e6e4a044d1f1f2ccc211
+2026-10-05 11:55:23.893 [main] DEBUG org.example.Main4 - Archivo: 60f23415a3078ced320ee34492ac23a82721c7
+2026-10-05 11:55:23.894 [main] DEBUG org.example.Main4 - Archivo: ed8c90c9ae913b4458924ab1f944609af00bee
+2026-10-05 11:55:23.895 [main] DEBUG org.example.Main4 - Archivo: 550ff31442a866eb5a7afab8af81fba4138849
+2026-10-05 11:55:23.895 [main] DEBUG org.example.Main4 - Archivo: f75cc9b9520c47e7245d86ddee855afed5945a
+2026-10-05 11:55:23.895 [main] DEBUG org.example.Main4 - Archivo: 932aa048d332fb5936a3913154b22fbe2a007d
+2026-10-05 11:55:23.895 [main] DEBUG org.example.Main4 - Archivo: 5189a66b04d149f750d71e7627a486b2088e32
+2026-10-05 11:55:23.895 [main] DEBUG org.example.Main4 - Archivo: 4250a868313ebc24871daac01fd8e9a0b24cd9
+2026-10-05 11:55:23.896 [main] DEBUG org.example.Main4 - Archivo: f6a1902993f2923663d9dcfc7b9dae50b647e6
+2026-10-05 11:55:23.896 [main] DEBUG org.example.Main4 - Archivo: 3fa0961100a95d9cdee085771c4fe251fcb5d0
+2026-10-05 11:55:23.896 [main] DEBUG org.example.Main4 - Archivo: cd902d5a52a92adab5fd1bacd49a2e2804ab47
+2026-10-05 11:55:23.896 [main] DEBUG org.example.Main4 - Archivo: 1894b321d23560acfd761473e6b4bd1b963e2a
+2026-10-05 11:55:23.896 [main] DEBUG org.example.Main4 - Archivo: b77c5108712e81ec85314f52cd2f26bf0bc17b
+2026-10-05 11:55:23.897 [main] DEBUG org.example.Main4 - Archivo: fb8a3e5a24dbf3379c3ece65d20f7f656543d6
+2026-10-05 11:55:23.897 [main] DEBUG org.example.Main4 - Archivo: 58863bc8de8d4df9ba0179664d461552741916
+2026-10-05 11:55:23.897 [main] DEBUG org.example.Main4 - Archivo: a4b853deb186472c505d4cd551af8f84940fc1
+2026-10-05 11:55:23.897 [main] DEBUG org.example.Main4 - Archivo: 01b719e077d6c77ad22a45aa5bf8e2cc60996b
+2026-10-05 11:55:23.898 [main] DEBUG org.example.Main4 - Archivo: 6ce49a268bc42ec34aa0b34ce1ea61ebfc4a4b
+2026-10-05 11:55:23.898 [main] DEBUG org.example.Main4 - Archivo: b7e3fe96b4367a17a958078b1cc77ab43a2c2e
+2026-10-05 11:55:23.898 [main] DEBUG org.example.Main4 - Archivo: 4462dd064aa4591f52570c933c2750c8d1058a
+2026-10-05 11:55:23.898 [main] DEBUG org.example.Main4 - Archivo: 15356bb4197f12d59c1ec39a0eacc0a83146d0
+2026-10-05 11:55:23.898 [main] DEBUG org.example.Main4 - Archivo: 3a5662b0eae41593148db493530b3b5be60cf3
+2026-10-05 11:55:23.898 [main] DEBUG org.example.Main4 - Archivo: 41a06cf3e1d7032280721340e90f4ac023d43b
+2026-10-05 11:55:23.899 [main] DEBUG org.example.Main4 - Archivo: ba6bd749c420cc815c1b86de10fe915d37473a
+2026-10-05 11:55:23.899 [main] DEBUG org.example.Main4 - Archivo: 0d692f493ffbc7ba33ef284790a01f10816b0f
+2026-10-05 11:55:23.899 [main] DEBUG org.example.Main4 - Archivo: 8cbf40bca1c8582a8e7bfd38bd86837ceb6169
+2026-10-05 11:55:23.899 [main] DEBUG org.example.Main4 - Archivo: b5776694ba973eadc2a6ac6f7cbddbeebc03dc
+2026-10-05 11:55:23.900 [main] DEBUG org.example.Main4 - Archivo: 189a4769304f13683c925f5deb1739f4427078
+2026-10-05 11:55:23.900 [main] DEBUG org.example.Main4 - Archivo: 69255aaf26e496cd1568a4bf17e2b65e046bf1
+2026-10-05 11:55:23.900 [main] DEBUG org.example.Main4 - Archivo: fe2946b8a7454284f086f941e42a44c2391bc0
+2026-10-05 11:55:23.900 [main] DEBUG org.example.Main4 - Archivo: ffbdd2b37d8e1b3ec9b111c058043a6d74a8b7
+2026-10-05 11:55:23.900 [main] DEBUG org.example.Main4 - Archivo: aab9cc6dad0d6f991a4def7145bbacc8a31207
+2026-10-05 11:55:23.900 [main] DEBUG org.example.Main4 - Archivo: cf57ed7cba5157ad5f7c05ede08adde945ada6
+2026-10-05 11:55:23.901 [main] DEBUG org.example.Main4 - Archivo: eb93ecea4a5fc5d3d827bab9773b9cea788ddd
+2026-10-05 11:55:23.901 [main] DEBUG org.example.Main4 - Archivo: a14df47b0ed05af16c76f3254a73293f7b7c64
+2026-10-05 11:55:23.901 [main] DEBUG org.example.Main4 - Archivo: b9274de3e09824e5f894380c6e79c72b693b22
+2026-10-05 11:55:23.901 [main] DEBUG org.example.Main4 - Archivo: e08e2a59140a1c4316957e887d23f843ecad43
+2026-10-05 11:55:23.901 [main] DEBUG org.example.Main4 - Archivo: 36cbfa49fba2e058aa6d96ccd4fbd24e4c0e43
+2026-10-05 11:55:23.902 [main] DEBUG org.example.Main4 - Archivo: ca1f60c65dd1e15f2b4762604e7141ca7c4661
+2026-10-05 11:55:23.902 [main] DEBUG org.example.Main4 - Archivo: fc09c1dc24eb0d79b94ca38c40dc26198728b9
+2026-10-05 11:55:23.902 [main] DEBUG org.example.Main4 - Archivo: 019c6fd7f95bf4d99c57adb8b43f8cc8a5493b
+2026-10-05 11:55:23.902 [main] DEBUG org.example.Main4 - Archivo: 9b80bd4351a5f2319d4037040f3cbc0f8caaa7
+2026-10-05 11:55:23.902 [main] DEBUG org.example.Main4 - Archivo: b711d1c400a2692888914e980100a44f88a890
+2026-10-05 11:55:23.904 [main] DEBUG org.example.Main4 - Archivo: 52c43eb37003df3c24d1025b6dc0247a58b2ea
+2026-10-05 11:55:23.904 [main] DEBUG org.example.Main4 - Archivo: b10b1e811ba320d5db454470c558300d911e9b
+2026-10-05 11:55:23.904 [main] DEBUG org.example.Main4 - Archivo: 54bbcf4e4b8d216bde07c3542622eedb133851
+2026-10-05 11:55:23.904 [main] DEBUG org.example.Main4 - Archivo: c37812773b9f740c9874426f0308709347202d
+2026-10-05 11:55:23.904 [main] DEBUG org.example.Main4 - Archivo: 5bcaff2530537c80ff3b1df4eb80c4fc54a121
+2026-10-05 11:55:23.905 [main] DEBUG org.example.Main4 - Archivo: 88c840583215f5b397e7f1640c8aa3879d8c8d
+2026-10-05 11:55:23.905 [main] DEBUG org.example.Main4 - Archivo: 41f5737521b481a3ecbe349f521320d432aef7
+2026-10-05 11:55:23.905 [main] DEBUG org.example.Main4 - Archivo: 9f24ce17cfb5fca33647c3ae83dbc85f63783c
+2026-10-05 11:55:23.905 [main] DEBUG org.example.Main4 - Archivo: 89ce715063cd1bd5e280b90735b915fb42c811
+2026-10-05 11:55:23.905 [main] DEBUG org.example.Main4 - Archivo: abbcf5f1913a21e05ad65412a56ead7a0b8e9b
+2026-10-05 11:55:23.905 [main] DEBUG org.example.Main4 - Archivo: d1332b693fe35764b7d1f3a46dd361f8c28efe
+2026-10-05 11:55:23.906 [main] DEBUG org.example.Main4 - Archivo: 7d9fbcc858a2ea12aad8e4ad294ff0ddd29a7f
+2026-10-05 11:55:23.906 [main] DEBUG org.example.Main4 - Archivo: d236a71567c9077fc38fb6cfad7b42a4b39816
+2026-10-05 11:55:23.906 [main] DEBUG org.example.Main4 - Archivo: df2d1282bce17f1139e2ee524e1367ef2468ad
+2026-10-05 11:55:23.906 [main] DEBUG org.example.Main4 - Archivo: 64bb50c529b5586402964fac5caef7953b45df
+2026-10-05 11:55:23.906 [main] DEBUG org.example.Main4 - Archivo: ae3a52750cadea30852aa47017aa9d14be74ef
+2026-10-05 11:55:23.907 [main] DEBUG org.example.Main4 - Archivo: dd8d7d35ad223d3ccec29fdbe3aecd6ab76e9b
+2026-10-05 11:55:23.907 [main] DEBUG org.example.Main4 - Archivo: 0d3b651761f4dccb8e63a23aa470b8f525888a
+2026-10-05 11:55:23.907 [main] DEBUG org.example.Main4 - Archivo: 393022e6202cc100e1e865e38bdadd7aacd014
+2026-10-05 11:55:23.907 [main] DEBUG org.example.Main4 - Archivo: 645f989240682f0b10e09758d5777d194e536e
+2026-10-05 11:55:23.907 [main] DEBUG org.example.Main4 - Archivo: 8c38946315415debfba1bff71be596182d8547
+2026-10-05 11:55:23.907 [main] DEBUG org.example.Main4 - Archivo: 5cb24333424ce34e0cd6b1d059f82f0699bac4
+2026-10-05 11:55:23.907 [main] DEBUG org.example.Main4 - Archivo: bda7838d5451cce23500033a29677af13bd53c
+2026-10-05 11:55:23.909 [main] DEBUG org.example.Main4 - Archivo: feed9649e4081ff24a3e898882ad360d5ec477
+2026-10-05 11:55:23.909 [main] DEBUG org.example.Main4 - Archivo: 0bdf524dd80e25ac77d9cdffdb815b807bdd51
+2026-10-05 11:55:23.909 [main] DEBUG org.example.Main4 - Archivo: 2dfbd0c6cf84a35fef392d38240cd0a56b5a03
+2026-10-05 11:55:23.909 [main] DEBUG org.example.Main4 - Archivo: 86cc431c1f1a3c87c49c822767769e98c59b20
+2026-10-05 11:55:23.909 [main] DEBUG org.example.Main4 - Archivo: 677059a7ec10c581f34a3e80417f0d0c926fb3
+2026-10-05 11:55:23.909 [main] DEBUG org.example.Main4 - Archivo: d9ea384881eb331360fa0677af5fd92edee210
+2026-10-05 11:55:23.910 [main] DEBUG org.example.Main4 - Archivo: df34155ceb2c86cb3e45361a015b5c28f0919c
+2026-10-05 11:55:23.910 [main] DEBUG org.example.Main4 - Archivo: 53f46ce5835a8785bfa27452969546a656ec40
+2026-10-05 11:55:23.910 [main] DEBUG org.example.Main4 - Archivo: 825dc642cb6eb9a060e54bf8d69288fbee4904
+2026-10-05 11:55:23.910 [main] DEBUG org.example.Main4 - Archivo: b78defa1a320764819efe39f614cef141545a4
+2026-10-05 11:55:23.911 [main] DEBUG org.example.Main4 - Archivo: b66f0b9d8a21f16541ac0a6fd620da5bc9ac36
+2026-10-05 11:55:23.911 [main] DEBUG org.example.Main4 - Archivo: a873d5f67f613ea2fc2b29700692f8fc19720c
+2026-10-05 11:55:23.911 [main] DEBUG org.example.Main4 - Archivo: ee43ba74f26ad5bf50c9658d7073529cebc70f
+2026-10-05 11:55:23.911 [main] DEBUG org.example.Main4 - Archivo: 561cae75cee3eb6ef7e9c3bcafbf88a7a2d0ef
+2026-10-05 11:55:23.911 [main] DEBUG org.example.Main4 - Archivo: 43f9bf7b44f2b633481e8108ec11da833b5aa8
+2026-10-05 11:55:23.912 [main] DEBUG org.example.Main4 - Archivo: 78f485051ead5ddff790f32eb3a66b6a2c0cca
+2026-10-05 11:55:23.912 [main] DEBUG org.example.Main4 - Archivo: 2589c992c221129d7c37d22bcdfdebc7db726f
+2026-10-05 11:55:23.912 [main] DEBUG org.example.Main4 - Archivo: 340dedf5b656f133bb8c19297cf965b508c75a
+2026-10-05 11:55:23.912 [main] DEBUG org.example.Main4 - Archivo: b2783a80eb33eeac074162578e05946543ae65
+2026-10-05 11:55:23.913 [main] DEBUG org.example.Main4 - Archivo: 62e6c93afa29fa8beacb800df73087e19cd225
+2026-10-05 11:55:23.913 [main] DEBUG org.example.Main4 - Archivo: c08018dc4614a2d073fde9e45aa7c92f269d78
+2026-10-05 11:55:23.913 [main] DEBUG org.example.Main4 - Archivo: 61635f4f67907d4884cc505cd7271a933926e3
+2026-10-05 11:55:23.913 [main] DEBUG org.example.Main4 - Archivo: ab403d7669bfaa82ee86f964f220c47e4a1535
+2026-10-05 11:55:23.913 [main] DEBUG org.example.Main4 - Archivo: d2a469bbbd7e361092b50203a830f890b45029
+2026-10-05 11:55:23.913 [main] DEBUG org.example.Main4 - Archivo: 5b0b28a1534fba0eca5dc684dfca3bc1e267d1
+2026-10-05 11:55:23.913 [main] DEBUG org.example.Main4 - Archivo: 8e78247a74ffa4e435dc2370141e5c08d3107e
+2026-10-05 11:55:23.914 [main] DEBUG org.example.Main4 - Archivo: df14a1bafed14b7fdb1cdc4ab76be344fcb137
+2026-10-05 11:55:23.914 [main] DEBUG org.example.Main4 - Archivo: 072053bd9e1fbb18cd2f158dab999462a47563
+2026-10-05 11:55:23.914 [main] DEBUG org.example.Main4 - Archivo: 623d24ee1cc948692eb90a5988adb36191b573
+2026-10-05 11:55:23.914 [main] DEBUG org.example.Main4 - Archivo: baa46065071657fee721013aafa6ee7e020ed8
+2026-10-05 11:55:23.914 [main] DEBUG org.example.Main4 - Archivo: 536cb1b74bbed5723dc0ead4f659efceee9be5
+2026-10-05 11:55:23.915 [main] DEBUG org.example.Main4 - Archivo: 23bd64dcb45ace970af9a0aee251f664735ad7
+2026-10-05 11:55:23.915 [main] DEBUG org.example.Main4 - Archivo: cee6cc12c66ffa1d0d057de3496da0e5dc2fbc
+2026-10-05 11:55:23.915 [main] DEBUG org.example.Main4 - Archivo: d98eb75de17b73f6bcecbf70ee9e596cba013b
+2026-10-05 11:55:23.915 [main] DEBUG org.example.Main4 - Archivo: 2c13773cb8efe2fe23f52dd5278ed67c58bf14
+2026-10-05 11:55:23.915 [main] DEBUG org.example.Main4 - Archivo: 1166ed683c889ed98e5ff110677d1633a57d9d
+2026-10-05 11:55:23.915 [main] DEBUG org.example.Main4 - Archivo: c55f41e0a2c8285ab5537e7d457763c778ae5b
+2026-10-05 11:55:23.916 [main] DEBUG org.example.Main4 - Archivo: 4ce8605be26dd30019d35c6f6d7022cccf043c
+2026-10-05 11:55:23.916 [main] DEBUG org.example.Main4 - Archivo: 1848957362b41e8308a02e969b4338c009b004
+2026-10-05 11:55:23.916 [main] DEBUG org.example.Main4 - Archivo: ed933b7c168721fdf41ef11ad737a5bec3caf4
+2026-10-05 11:55:23.916 [main] DEBUG org.example.Main4 - Archivo: 43bb843dd8a77b73fa433d812192b36e7e52ca
+2026-10-05 11:55:23.917 [main] DEBUG org.example.Main4 - Archivo: d0a8888c2e960be705d230bd9ed1ad81b777ad
+2026-10-05 11:55:23.917 [main] DEBUG org.example.Main4 - Archivo: ddaed6359f63badb0cc6b06a8010add900fe67
+2026-10-05 11:55:23.917 [main] DEBUG org.example.Main4 - Archivo: ee8037e7272c1134d1a153f8b2bb0909485e34
+2026-10-05 11:55:23.917 [main] DEBUG org.example.Main4 - Archivo: 12fdfa451d7dc454cf4e8af09c2494bbdc1f74
+2026-10-05 11:55:23.917 [main] DEBUG org.example.Main4 - Archivo: 54740c9126491bb25dc06918275497b8277f28
+2026-10-05 11:55:23.917 [main] DEBUG org.example.Main4 - Archivo: f1f2cda7a835dc2c482c00384a960f09c28e4f
+2026-10-05 11:55:23.917 [main] DEBUG org.example.Main4 - Archivo: 713b81f3557f6879e5fe4965dcc1348e60fb9c
+2026-10-05 11:55:23.918 [main] DEBUG org.example.Main4 - Archivo: a95e6f1eb9dea65e855b2c82c0251dc84552f9
+2026-10-05 11:55:23.918 [main] DEBUG org.example.Main4 - Archivo: e989977f55816533c22d24541d7c4a5f67ce44
+2026-10-05 11:55:23.918 [main] DEBUG org.example.Main4 - Archivo: 1fdd2aec1e3f3f836e21447883094414612575
+2026-10-05 11:55:23.918 [main] DEBUG org.example.Main4 - Archivo: 1d4ebc7caf5383630022ac1fba0f05bed32207
+2026-10-05 11:55:23.918 [main] DEBUG org.example.Main4 - Archivo: 7f452b1afe5c843c27cf9d39455de8e26124e9
+2026-10-05 11:55:23.918 [main] DEBUG org.example.Main4 - Archivo: e68ba92014173eb65968e36bb80488fbc8a759
+2026-10-05 11:55:23.919 [main] DEBUG org.example.Main4 - Archivo: 10301ffc636b58dab2802dbda45a1db58661f8
+2026-10-05 11:55:23.919 [main] DEBUG org.example.Main4 - Archivo: 3dd2db7ea57d40a0b714bf98072eba2500c0d4
+2026-10-05 11:55:23.919 [main] DEBUG org.example.Main4 - Archivo: 93a89c92efc2d1b4d69427de68b56183a9ea4c
+2026-10-05 11:55:23.919 [main] DEBUG org.example.Main4 - Archivo: 8467e7310f231aa67db421c809d7a070406452
+2026-10-05 11:55:23.919 [main] DEBUG org.example.Main4 - Archivo: c89d204233daf38e05792a9080df2b4bb76da3
+2026-10-05 11:55:23.920 [main] DEBUG org.example.Main4 - Archivo: 4ae6e9ddaf83b88cfdb3c2b3c36ceec6a5f24e
+2026-10-05 11:55:23.920 [main] DEBUG org.example.Main4 - Archivo: 52a237bb26c7dd23fae914ac80fd6c683676e4
+2026-10-05 11:55:23.920 [main] DEBUG org.example.Main4 - Archivo: 8754158ef4c139ac63517a90ce7182d44251b1
+2026-10-05 11:55:23.920 [main] DEBUG org.example.Main4 - Archivo: aa9bb36512820611fde862f8afa192479f46e0
+2026-10-05 11:55:23.920 [main] DEBUG org.example.Main4 - Archivo: 0b8635858dc7ad44b93df54b762707ce49eefc
+2026-10-05 11:55:23.920 [main] DEBUG org.example.Main4 - Archivo: 5faf0a3131539836aa5e7cfe985043d31048a0
+2026-10-05 11:55:23.921 [main] DEBUG org.example.Main4 - Archivo: 1158e49aa19e10c9edbbd9b95760417a569e54
+2026-10-05 11:55:23.921 [main] DEBUG org.example.Main4 - Archivo: 990bb14dcb7eaeba18ced73467fd23c073a2e2
+2026-10-05 11:55:23.921 [main] DEBUG org.example.Main4 - Archivo: 2ab9d985c20018a0c97b93d2148ac1ffe588a5
+2026-10-05 11:55:23.921 [main] DEBUG org.example.Main4 - Archivo: c71a2f6521efa0f70960e1c9754c0311061ea8
+2026-10-05 11:55:23.921 [main] DEBUG org.example.Main4 - Archivo: 2a1b6ab5b3b2369912e5598d8add338faac9a8
+2026-10-05 11:55:23.921 [main] DEBUG org.example.Main4 - Archivo: cf009088c519afd6c8a0915cfb5bee5d2d3a2e
+2026-10-05 11:55:23.922 [main] DEBUG org.example.Main4 - Archivo: e581d105a88079d6d5cfc9382e90f036f0578f
+2026-10-05 11:55:23.922 [main] DEBUG org.example.Main4 - Archivo: 18e7573f3955016d5e4747301be7767a51f62f
+2026-10-05 11:55:23.922 [main] DEBUG org.example.Main4 - Archivo: b34dfb03a12aebb13594ab109b025c011058a2
+2026-10-05 11:55:23.922 [main] DEBUG org.example.Main4 - Archivo: e9077113aece15da1099ad86d415bcf70c199e
+2026-10-05 11:55:23.922 [main] DEBUG org.example.Main4 - Archivo: 18229e28ca8576db4975504c9c3f1874614eea
+2026-10-05 11:55:23.923 [main] DEBUG org.example.Main4 - Archivo: cb6facc94ac082e5b6a371b3b6753e75951711
+2026-10-05 11:55:23.923 [main] DEBUG org.example.Main4 - Archivo: 1273315cfb61b7b01ccbd7697c01fe1779df4f
+2026-10-05 11:55:23.923 [main] DEBUG org.example.Main4 - Archivo: 3d35755723cbc8c0290a4793948d3e1b9de5f4
+2026-10-05 11:55:23.923 [main] DEBUG org.example.Main4 - Archivo: 1639ad176f6191025db1b068dc211e52b32f6f
+2026-10-05 11:55:23.923 [main] DEBUG org.example.Main4 - Archivo: ca219e2f756955d297dab5bb6f8b2955734439
+2026-10-05 11:55:23.924 [main] DEBUG org.example.Main4 - Archivo: 516c8061183ac43e752d0e037b513dc09db096
+2026-10-05 11:55:23.924 [main] DEBUG org.example.Main4 - Archivo: 806604920a97fd1d0916480350587d5890bbca
+2026-10-05 11:55:23.924 [main] DEBUG org.example.Main4 - Archivo: a162ed7f530223e395e910bc31ddd6af4d2719
+2026-10-05 11:55:23.924 [main] DEBUG org.example.Main4 - Archivo: bf7167043f42aea2eea7481dbb7ca434ef56cb
+2026-10-05 11:55:23.924 [main] DEBUG org.example.Main4 - Archivo: 556bf51784b7d600e8826ea062ae71d8bc6116
+2026-10-05 11:55:23.924 [main] DEBUG org.example.Main4 - Archivo: 87b877b1b1ce44e635f2369d1b9c48fdef347e
+2026-10-05 11:55:23.924 [main] DEBUG org.example.Main4 - Archivo: 144695a44628fc308844c6d8b43b37683389e5
+2026-10-05 11:55:23.925 [main] DEBUG org.example.Main4 - Archivo: 1d218697534a6fba2c309823a67d4994b45a89
+2026-10-05 11:55:23.925 [main] DEBUG org.example.Main4 - Archivo: 76bf2c2f957e975317686d73f63d9b2617ac07
+2026-10-05 11:55:23.925 [main] DEBUG org.example.Main4 - Archivo: 77a519cecf7020ab4b1e43697a0fc42a309af6
+2026-10-05 11:55:23.925 [main] DEBUG org.example.Main4 - Archivo: d06574d9e428ce794e0c336f601f7b26440c8d
+2026-10-05 11:55:23.925 [main] DEBUG org.example.Main4 - Archivo: fb66ee7dbc18edf3f1a6cb5af1a3536615cbc9
+2026-10-05 11:55:23.925 [main] DEBUG org.example.Main4 - Archivo: 00effe48a1a2126f26056378e2dbe83017a7e0
+2026-10-05 11:55:23.925 [main] DEBUG org.example.Main4 - Archivo: 194facb351169c7cd2ea9df4547fe07a67701d
+2026-10-05 11:55:23.926 [main] DEBUG org.example.Main4 - Archivo: 10d8a37bd9cea74be6bc3539df3e93f97d5367
+2026-10-05 11:55:23.926 [main] DEBUG org.example.Main4 - Archivo: 76c5ff709ca98b1352ff67f6baa465311c16e8
+2026-10-05 11:55:23.926 [main] DEBUG org.example.Main4 - Archivo: f6b63e5bd2f0a3ba36462a2443ef960d9507ca
+2026-10-05 11:55:23.926 [main] DEBUG org.example.Main4 - Archivo: 2079f499e0783705ad6b462f24dc4427b70b25
+2026-10-05 11:55:23.926 [main] DEBUG org.example.Main4 - Archivo: 7749734ade5ab1d4b8cbb654a25d67e131b0f1
+2026-10-05 11:55:23.927 [main] DEBUG org.example.Main4 - Archivo: 71d954da7dd865b5f3c754694d689ce4125d94
+2026-10-05 11:55:23.927 [main] DEBUG org.example.Main4 - Archivo: 739e794e8edec8d6c3f7185b0904f0c3bbe28f
+2026-10-05 11:55:23.927 [main] DEBUG org.example.Main4 - Archivo: d5ab0f8db3afc9839eddfa563aea5593b14381
+2026-10-05 11:55:23.927 [main] DEBUG org.example.Main4 - Archivo: 3fe1171b18e0cf403274ef726c2e276e76055d
+2026-10-05 11:55:23.927 [main] DEBUG org.example.Main4 - Archivo: 7fdd45d36f28f570fd39fec38bf29dfbeba855
+2026-10-05 11:55:23.928 [main] DEBUG org.example.Main4 - Archivo: 688dc864d9d65a4ab2ce8c7587ef2f3e788743
+2026-10-05 11:55:23.928 [main] DEBUG org.example.Main4 - Archivo: aee9039107af03dbae10836c319ddab9a2b77e
+2026-10-05 11:55:23.928 [main] DEBUG org.example.Main4 - Archivo: e4301a43c9ffa58d0a21b26af292875b7aaa68
+2026-10-05 11:55:23.928 [main] DEBUG org.example.Main4 - Archivo: 0a4e3a428e3794b25eac551d4febd48db20789
+2026-10-05 11:55:23.928 [main] DEBUG org.example.Main4 - Archivo: a3a4220e6a27ce884ed0936cd26ea2271e9e35
+2026-10-05 11:55:23.929 [main] DEBUG org.example.Main4 - Archivo: 04cda890bcec55af40c7e5f3359a128cf65136
+2026-10-05 11:55:23.929 [main] DEBUG org.example.Main4 - Archivo: a767838b0d88577aa48184854830369fd72e80
+2026-10-05 11:55:23.929 [main] DEBUG org.example.Main4 - Archivo: ac678fd328f70d328dde803e25fb59edc9d764
+2026-10-05 11:55:23.929 [main] DEBUG org.example.Main4 - Archivo: be5b5c7527f1ec99a472fddb008d71d208226c
+2026-10-05 11:55:23.929 [main] DEBUG org.example.Main4 - Archivo: 02dc69a90b1df402d1baedb783dacfeac11eab
+2026-10-05 11:55:23.929 [main] DEBUG org.example.Main4 - Archivo: 75eff4247ed44d4b749d5a2aad7a257637f9ef
+2026-10-05 11:55:23.930 [main] DEBUG org.example.Main4 - Archivo: dd1a85567aaed845a4dca7b9463aa25c6b724b
+2026-10-05 11:55:23.930 [main] DEBUG org.example.Main4 - Archivo: 536be3ad241c289e86a938999d913ebe11ee39
+2026-10-05 11:55:23.930 [main] DEBUG org.example.Main4 - Archivo: fac9d29349e5956f06166d0514b923361335fb
+2026-10-05 11:55:23.930 [main] DEBUG org.example.Main4 - Archivo: cd8260abd7111f579f3c9544bfc7c4d6a71ef8
+2026-10-05 11:55:23.930 [main] DEBUG org.example.Main4 - Archivo: 3f8fa27125e2402300a8f7c7af4791c82658d8
+2026-10-05 11:55:23.930 [main] DEBUG org.example.Main4 - Archivo: bcdc721627ed27c288c20045e392d32814d468
+2026-10-05 11:55:23.931 [main] DEBUG org.example.Main4 - Archivo: 0473812736f2d2c6366cfd69afdd19a18f69a1
+2026-10-05 11:55:23.931 [main] DEBUG org.example.Main4 - Archivo: 27972eb69070ecfc629415852fc2e809dcdc4a
+2026-10-05 11:55:23.931 [main] DEBUG org.example.Main4 - Archivo: 7b9ecb8b32dcff450003682373e36a3fbd655e
+2026-10-05 11:55:23.931 [main] DEBUG org.example.Main4 - Archivo: 03f8d76e390654c76dbf3fda8de08cfa82d32d
+2026-10-05 11:55:23.931 [main] DEBUG org.example.Main4 - Archivo: 05812be084430e40e863ca65de41ae0c019650
+2026-10-05 11:55:23.932 [main] DEBUG org.example.Main4 - Archivo: 3675a20945525fb160fbe1e05e3dba48bd138d
+2026-10-05 11:55:23.932 [main] DEBUG org.example.Main4 - Archivo: 8f6ac3f7e397800faadeebb520af163a077a7e
+2026-10-05 11:55:23.932 [main] DEBUG org.example.Main4 - Archivo: 9e4a0af91b64292f5f13ada594db190e96bd8a
+2026-10-05 11:55:23.932 [main] DEBUG org.example.Main4 - Archivo: 4248116ab4ded5f85c1b2fcff6027b3cd8923a
+2026-10-05 11:55:23.932 [main] DEBUG org.example.Main4 - Archivo: b81b6c4384ad8833ab331d046fcf39cf0c0140
+2026-10-05 11:55:23.932 [main] DEBUG org.example.Main4 - Archivo: 271e390a5b6ef9c6ef516d18b6853e52d3e730
+2026-10-05 11:55:23.933 [main] DEBUG org.example.Main4 - Archivo: 36445c0bc3c3187538b3473524a2923a3abbf4
+2026-10-05 11:55:23.933 [main] DEBUG org.example.Main4 - Archivo: 812031d28f58b143bb3aec84a4185462b2306e
+2026-10-05 11:55:23.933 [main] DEBUG org.example.Main4 - Archivo: af807ee966ca69ce6ff62bff351faaab5c22a9
+2026-10-05 11:55:23.933 [main] DEBUG org.example.Main4 - Archivo: b53da2aa90f14b36fd333b625ef2d0a8c08490
+2026-10-05 11:55:23.933 [main] DEBUG org.example.Main4 - Archivo: 808c7223761b973210b0a8c1aa0e26ee4a50bb
+2026-10-05 11:55:23.933 [main] DEBUG org.example.Main4 - Archivo: 4d3b5021c7fb3ec61462a68aea5ceceff1cf41
+2026-10-05 11:55:23.934 [main] DEBUG org.example.Main4 - Archivo: 985be7c7fa52140da26b4666a585e7cacdf31d
+2026-10-05 11:55:23.934 [main] DEBUG org.example.Main4 - Archivo: 7e5f2dbc140d6a5aa5bab80cabc5f0aba30518
+2026-10-05 11:55:23.934 [main] DEBUG org.example.Main4 - Archivo: 89d43c913e22badc1ab4f4b9d5dde3cc4e46bf
+2026-10-05 11:55:23.934 [main] DEBUG org.example.Main4 - Archivo: b1a10eabeec14286075adec01a970c2094134d
+2026-10-05 11:55:23.934 [main] DEBUG org.example.Main4 - Archivo: d75e322c88d815ebae49beb937afa2fb007609
+2026-10-05 11:55:23.934 [main] DEBUG org.example.Main4 - Archivo: 51832d1d101fdfe68e37ff7d7238d77f831aa3
+2026-10-05 11:55:23.936 [main] DEBUG org.example.Main4 - Archivo: f9b581707624b7ae8f37b3d6c8ea53b926e24a
+2026-10-05 11:55:23.936 [main] DEBUG org.example.Main4 - Archivo: 0023d8406bdeeff9c4db306d8c5885092cecd9
+2026-10-05 11:55:23.936 [main] DEBUG org.example.Main4 - Archivo: 00ffab7828f4818589659c804ec2cfd99baed3
+2026-10-05 11:55:23.936 [main] DEBUG org.example.Main4 - Archivo: e229032be28c817c91af50ef184e8eafbe0b52
+2026-10-05 11:55:23.936 [main] DEBUG org.example.Main4 - Archivo: 482c89db97896486462acec5c390cdd858c73a
+2026-10-05 11:55:23.936 [main] DEBUG org.example.Main4 - Archivo: 53c02a20042b4811a38046603cb7cc73b80679
+2026-10-05 11:55:23.936 [main] DEBUG org.example.Main4 - Archivo: 602100a92884d719925a09d42ea761edc48e15
+2026-10-05 11:55:23.936 [main] DEBUG org.example.Main4 - Archivo: 8fd22404c670ce3bd74e35d1ae4679c05ca297
+2026-10-05 11:55:23.937 [main] DEBUG org.example.Main4 - Archivo: 354adecd75c95e22f2147ca95502a06995bb30
+2026-10-05 11:55:23.937 [main] DEBUG org.example.Main4 - Archivo: 05bab6792ec718134c8687c736b5b62b7e8bed
+2026-10-05 11:55:23.937 [main] DEBUG org.example.Main4 - Archivo: f2723f223a995a225851170f20fad7a5464972
+2026-10-05 11:55:23.937 [main] DEBUG org.example.Main4 - Archivo: 2327cff757925f395b2e8d4eda2f5028007ad9
+2026-10-05 11:55:23.937 [main] DEBUG org.example.Main4 - Archivo: df1b40d479e9a3488c7e4e7c865fc26d1e835d
+2026-10-05 11:55:23.937 [main] DEBUG org.example.Main4 - Archivo: 004e4d4abbec3f2a0b88cbf3e75685558beba3
+2026-10-05 11:55:23.938 [main] DEBUG org.example.Main4 - Archivo: 03cd1576d2fb2b1a25bb77f09bbd683a9d0e60
+2026-10-05 11:55:23.938 [main] DEBUG org.example.Main4 - Archivo: 81ec072fbf22325fe6e24ae05b4bbb4eddbdde
+2026-10-05 11:55:23.938 [main] DEBUG org.example.Main4 - Archivo: 43140e75e7c8412afb704fcad57b8e51d14329
+2026-10-05 11:55:23.938 [main] DEBUG org.example.Main4 - Archivo: 210b76d5b2f2f5b8e68a7e605eb621f52aec19
+2026-10-05 11:55:23.938 [main] DEBUG org.example.Main4 - Archivo: 8a1e79af26bae48d2eab7bbe543130c4748e32
+2026-10-05 11:55:23.938 [main] DEBUG org.example.Main4 - Archivo: bdec2d71b6a5ce4ae49efc37516809c50e4d5e
+2026-10-05 11:55:23.939 [main] DEBUG org.example.Main4 - Archivo: 34825d043f6718dfd73e26d67ed2fb5a0a0c70
+2026-10-05 11:55:23.939 [main] DEBUG org.example.Main4 - Archivo: 603fd3825c89ad6650e672cb13327578725288
+2026-10-05 11:55:23.939 [main] DEBUG org.example.Main4 - Archivo: e2917cdcfabafe6b37b709f6bec02a428ee232
+2026-10-05 11:55:23.939 [main] DEBUG org.example.Main4 - Archivo: 3fb71031350ac3fe33bbc186ded4bfaa7bc2fb
+2026-10-05 11:55:23.939 [main] DEBUG org.example.Main4 - Archivo: 40a0ed3e41ba507ac15388f56921d52fe4974b
+2026-10-05 11:55:23.940 [main] DEBUG org.example.Main4 - Archivo: 8b603fea78041071d125a30db58d79b3d49217
+2026-10-05 11:55:23.940 [main] DEBUG org.example.Main4 - Archivo: e444cf556de3f1f42ffbd147bc7277a142e3a7
+2026-10-05 11:55:23.940 [main] DEBUG org.example.Main4 - Archivo: 56a8956e35e5fdf37170038b8dc264544858aa
+2026-10-05 11:55:23.940 [main] DEBUG org.example.Main4 - Archivo: 3d22266ac8aa2f8df2edef68082c789727841d
+2026-10-05 11:55:23.940 [main] DEBUG org.example.Main4 - Archivo: 3df562328546f2c7befe937a2e12a55522b6e7
+2026-10-05 11:55:23.941 [main] DEBUG org.example.Main4 - Archivo: cc190c0cb88f1fd8e31937d315beb1253b2a89
+2026-10-05 11:55:23.941 [main] DEBUG org.example.Main4 - Archivo: d6c164743e030a5aa152f90b133317d6d77e56
+2026-10-05 11:55:23.941 [main] DEBUG org.example.Main4 - Archivo: 875a6906cfacd6b6ecccb5684510e73895dd43
+2026-10-05 11:55:23.941 [main] DEBUG org.example.Main4 - Archivo: c9f614d219e8f57d9a3bb1cee35d5d0a034fa6
+2026-10-05 11:55:23.941 [main] DEBUG org.example.Main4 - Archivo: 8b3a9f7166b7379dd5c0e62931a5cee3659bdd
+2026-10-05 11:55:23.943 [main] DEBUG org.example.Main4 - Archivo: 2de26e939a27e4ca3c5ab1b28ef0dac39366bb
+2026-10-05 11:55:23.943 [main] DEBUG org.example.Main4 - Archivo: 17406989fc9aca75d348cea5ffba9adff0368e
+2026-10-05 11:55:23.943 [main] DEBUG org.example.Main4 - Archivo: 365ab11f9ba6b763735c8fd976420234bb3521
+2026-10-05 11:55:23.943 [main] DEBUG org.example.Main4 - Archivo: 8a224a783a49b314e75ce1c3c16f345596ad1e
+2026-10-05 11:55:23.943 [main] DEBUG org.example.Main4 - Archivo: 049bafb65d8d79f5e6923ff33b3a0d97967081
+2026-10-05 11:55:23.943 [main] DEBUG org.example.Main4 - Archivo: 8b2e64637d780e0151fd3dcd43b9089a48dced
+2026-10-05 11:55:23.944 [main] DEBUG org.example.Main4 - Archivo: 99c891a8b4a846188a9086c7909dc9f50ff6aa
+2026-10-05 11:55:23.944 [main] DEBUG org.example.Main4 - Archivo: fa8ae206a265839275b9483b9abc57021f6eb2
+2026-10-05 11:55:23.944 [main] DEBUG org.example.Main4 - Archivo: ac6e82434ef192fd097666a60989d4e118264a
+2026-10-05 11:55:23.944 [main] DEBUG org.example.Main4 - Archivo: 1704ac13dba4b9551d4634cf713885d27082aa
+2026-10-05 11:55:23.945 [main] DEBUG org.example.Main4 - Archivo: 9a120a0a02661b514383335d0a3ab9405ab707
+2026-10-05 11:55:23.945 [main] DEBUG org.example.Main4 - Archivo: 79af926e76ce509594327d2a6a15c0b31665a5
+2026-10-05 11:55:23.945 [main] DEBUG org.example.Main4 - Archivo: de751516ea2a98c44ca1e1b366812801e2ba9c
+2026-10-05 11:55:23.945 [main] DEBUG org.example.Main4 - Archivo: 66263993a4e07a3ed12ff023005439559673c6
+2026-10-05 11:55:23.945 [main] DEBUG org.example.Main4 - Archivo: 9c3cdcf9929aafb52f3375bce643f0cd224a11
+2026-10-05 11:55:23.945 [main] DEBUG org.example.Main4 - Archivo: e838d1137db3d630f6135f0cbca13448d40764
+2026-10-05 11:55:23.946 [main] DEBUG org.example.Main4 - Archivo: b15a49650ec07ce694f834e506047abbab317d
+2026-10-05 11:55:23.946 [main] DEBUG org.example.Main4 - Archivo: 564368ae93e9f63e6ec115ef90b93c6c1cdaa2
+2026-10-05 11:55:23.946 [main] DEBUG org.example.Main4 - Archivo: f9a13fe9f9e505e0f4a9a9ed04530208f53dff
+2026-10-05 11:55:23.946 [main] DEBUG org.example.Main4 - Archivo: ccbfe534932615dc58b6cefcc0533ffb195ba3
+2026-10-05 11:55:23.946 [main] DEBUG org.example.Main4 - Archivo: 95582f67a88cb2ecba89fcaf00a0f2e00d69e1
+2026-10-05 11:55:23.947 [main] DEBUG org.example.Main4 - Archivo: 0a9cebca9e69b1ee2b1e5d55f0f69ff3061826
+2026-10-05 11:55:23.947 [main] DEBUG org.example.Main4 - Archivo: 0963dce397cf2876b22265e949e81dc295d3a8
+2026-10-05 11:55:23.947 [main] DEBUG org.example.Main4 - Archivo: ca46741386aabe1035489900eb549ecce98d56
+2026-10-05 11:55:23.947 [main] DEBUG org.example.Main4 - Archivo: e1af9eea5bba72ec49fd9f7a4a9bfaf2564ba9
+2026-10-05 11:55:23.947 [main] DEBUG org.example.Main4 - Archivo: 352ff0a6a621fc284cebd0cce7a19b28c0721d
+2026-10-05 11:55:23.947 [main] DEBUG org.example.Main4 - Archivo: 67cfa81d5f20d220ebfe4a7ffb69aa30422c20
+2026-10-05 11:55:23.948 [main] DEBUG org.example.Main4 - Archivo: 543974951b7f523f9d5f180115944dd210965d
+2026-10-05 11:55:23.948 [main] DEBUG org.example.Main4 - Archivo: 985702c4564211d173d734946e935fd3e9061f
+2026-10-05 11:55:23.948 [main] DEBUG org.example.Main4 - Archivo: e159f07f22be4ad77b30dd60d2091debe8c14e
+2026-10-05 11:55:23.948 [main] DEBUG org.example.Main4 - Archivo: ebd4805981b8400db3e3291c74a743fef9a824
+2026-10-05 11:55:23.948 [main] DEBUG org.example.Main4 - Archivo: 6d58fa023afc972988863b90a203bb8cf9669c
+2026-10-05 11:55:23.948 [main] DEBUG org.example.Main4 - Archivo: dce339f16ecd35741691588c9e334f526b263b
+2026-10-05 11:55:23.948 [main] DEBUG org.example.Main4 - Archivo: 10f2cf1ee17203a4075f5d060fc3c1e08c59b6
+2026-10-05 11:55:23.948 [main] DEBUG org.example.Main4 - Archivo: 2ca5f3f947a9b2fd13f89aa93235788e8fac88
+2026-10-05 11:55:23.949 [main] DEBUG org.example.Main4 - Archivo: 53bde736f38487c6eb7b75c383063ad5f194eb
+2026-10-05 11:55:23.949 [main] DEBUG org.example.Main4 - Archivo: 1ff688e9afc7df9f66ee0342020f99821f321d
+2026-10-05 11:55:23.949 [main] DEBUG org.example.Main4 - Archivo: 8106af44720b6ca83ad53d542dca8ce0ae4f2f
+2026-10-05 11:55:23.949 [main] DEBUG org.example.Main4 - Archivo: b500a2e588098e90d6c3ecd9079d002c801e31
+2026-10-05 11:55:23.949 [main] DEBUG org.example.Main4 - Archivo: fe824f8211c2af62cbe083c1b7ddc526893424
+2026-10-05 11:55:23.950 [main] DEBUG org.example.Main4 - Archivo: 214b555836b57fd368cf2b5a5ef63106fd09bd
+2026-10-05 11:55:23.950 [main] DEBUG org.example.Main4 - Archivo: 91c6f9aa205832c1dd74e1ece8b8c6ec1238a2
+2026-10-05 11:55:23.950 [main] DEBUG org.example.Main4 - Archivo: e12a8ecc32a096b6e276f0f756b1b1abb3d79d
+2026-10-05 11:55:23.950 [main] DEBUG org.example.Main4 - Archivo: 68780b271ad8b031de8cefa8b2d71898ee2d02
+2026-10-05 11:55:23.950 [main] DEBUG org.example.Main4 - Archivo: 25bfb24f4ef85c6f97041943aec973fb4bc3ce
+2026-10-05 11:55:23.950 [main] DEBUG org.example.Main4 - Archivo: 3c4ae5c95a8357219092422121d7d53d6f9f3a
+2026-10-05 11:55:23.951 [main] DEBUG org.example.Main4 - Archivo: 4e778ec15ebb9b31b77944e2e49a3e5c60679e
+2026-10-05 11:55:23.951 [main] DEBUG org.example.Main4 - Archivo: 9a5193a52fc377f2dc8384068c3b94438f9a66
+2026-10-05 11:55:23.951 [main] DEBUG org.example.Main4 - Archivo: 18034a96cb6664b53b2a170f7d5725be6fbadc
+2026-10-05 11:55:23.952 [main] DEBUG org.example.Main4 - Archivo: 533bc0be74f88c504ee2465eb925b5b4444d09
+2026-10-05 11:55:23.952 [main] DEBUG org.example.Main4 - Archivo: 875f3ef7f6211c6bdbdab67fbd83a20a7accb0
+2026-10-05 11:55:23.952 [main] DEBUG org.example.Main4 - Archivo: b736bd7324e269fa7fc43448344b89841ec716
+2026-10-05 11:55:23.952 [main] DEBUG org.example.Main4 - Archivo: 147a0403c394fa1c44a4b202bf7941c62d9aff
+2026-10-05 11:55:23.952 [main] DEBUG org.example.Main4 - Archivo: 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+2026-10-05 11:55:23.952 [main] DEBUG org.example.Main4 - Archivo: dd2ee6aa5c18e4d99984123fea8aa754322c98
+2026-10-05 11:55:23.953 [main] DEBUG org.example.Main4 - Archivo: e7e0a5cdb10fe83b7b46c72fa9aa9321aa137f
+2026-10-05 11:55:23.953 [main] DEBUG org.example.Main4 - Archivo: 07b638243da4a921cf50d56f2247b6a7be1b63
+2026-10-05 11:55:23.953 [main] DEBUG org.example.Main4 - Archivo: 33d8e6686e86a57408ee884fd6c8cacba6235f
+2026-10-05 11:55:23.953 [main] DEBUG org.example.Main4 - Archivo: 71dd49c9a26c808d3b64cc92ac13ecfcbde04e
+2026-10-05 11:55:23.953 [main] DEBUG org.example.Main4 - Archivo: 97bb31967eabc3d3f1434daa03cb48d8f2913f
+2026-10-05 11:55:23.953 [main] DEBUG org.example.Main4 - Archivo: fad6fd391c6b5b0da0fb592f31e6fe7416f6d6
+2026-10-05 11:55:23.954 [main] DEBUG org.example.Main4 - Archivo: a6e1f2a516887bf9d684e94eb7f7e7da23e78b
+2026-10-05 11:55:23.954 [main] DEBUG org.example.Main4 - Archivo: addbec85fdfda7eef7cf435ec8bc12689b759c
+2026-10-05 11:55:23.954 [main] DEBUG org.example.Main4 - Archivo: 66838d2dfddadf6c12198e8f6f33380b8d0f5b
+2026-10-05 11:55:23.954 [main] DEBUG org.example.Main4 - Archivo: 0f0539e430646a79aa98ae9f357d6461aea7c2
+2026-10-05 11:55:23.954 [main] DEBUG org.example.Main4 - Archivo: 22d4d691e8d1fc06c39e68888c1364890216de
+2026-10-05 11:55:23.954 [main] DEBUG org.example.Main4 - Archivo: 4337a13305bba9860b7cc3c88e48420464c49b
+2026-10-05 11:55:23.955 [main] DEBUG org.example.Main4 - Archivo: 6b7524a6ba0d57a078dc2adc3ec60703aaa19c
+2026-10-05 11:55:23.955 [main] DEBUG org.example.Main4 - Archivo: 4e0f0a09ab13605c7d1f9faaee52690f4d42ef
+2026-10-05 11:55:23.955 [main] DEBUG org.example.Main4 - Archivo: 96c1a47d8707afd06e7e6783b3e657807f1a5b
+2026-10-05 11:55:23.955 [main] DEBUG org.example.Main4 - Archivo: a0bb0d13662ec37f9e313e578af6a6dfe230a7
+2026-10-05 11:55:23.955 [main] DEBUG org.example.Main4 - Archivo: 31d6f3af74968fed88af7096b26a38b632339b
+2026-10-05 11:55:23.956 [main] DEBUG org.example.Main4 - Archivo: 1064be264d6d4ab30a191bd77d309c37ae2dde
+2026-10-05 11:55:23.956 [main] DEBUG org.example.Main4 - Archivo: c4bf85028599cd2b41a5d1a739fe04ce016378
+2026-10-05 11:55:23.956 [main] DEBUG org.example.Main4 - Archivo: 1444b18ce174cdbc8930cc097d8f82b1cc833d
+2026-10-05 11:55:23.956 [main] DEBUG org.example.Main4 - Archivo: 71af2e77d2340a391ea03941798befa17287c4
+2026-10-05 11:55:23.956 [main] DEBUG org.example.Main4 - Archivo: d3e3f7682117f6d7b53dee0bb1098fdccd9d80
+2026-10-05 11:55:23.956 [main] DEBUG org.example.Main4 - Archivo: e4a1dd50effb44b0d03d6b4363973a6b4c9b14
+2026-10-05 11:55:23.956 [main] DEBUG org.example.Main4 - Archivo: ff07bba53f7e1f00d171b9e06913cdae15107f
+2026-10-05 11:55:23.957 [main] DEBUG org.example.Main4 - Archivo: 97a7f1cb2389f85fe6381425d29f0a9866fb65
+2026-10-05 11:55:23.957 [main] DEBUG org.example.Main4 - Archivo: d3cc5d71046b8263fd05a4d8b5e86254c7ab20
+2026-10-05 11:55:23.957 [main] DEBUG org.example.Main4 - Archivo: 4fc8ff1f47a5301e57ae104d81cae06f277a40
+2026-10-05 11:55:23.957 [main] DEBUG org.example.Main4 - Archivo: 6df9da33b9975da62b58c8a4b45d64fc01a44a
+2026-10-05 11:55:23.957 [main] DEBUG org.example.Main4 - Archivo: 77844f36bde1c908d9713fcade485ae69ededd
+2026-10-05 11:55:23.957 [main] DEBUG org.example.Main4 - Archivo: 85d44b18ab7d3893f42c6011494b7bf4edf5c3
+2026-10-05 11:55:23.957 [main] DEBUG org.example.Main4 - Archivo: 23154be42a068e1e7c7f7f92b58723343abd48
+2026-10-05 11:55:23.958 [main] DEBUG org.example.Main4 - Archivo: 4574df725cfe18ad87682045d5de91dd0d3d8f
+2026-10-05 11:55:23.958 [main] DEBUG org.example.Main4 - Archivo: b9ba9e63053520429ba5dbf3eed68d30d529fd
+2026-10-05 11:55:23.958 [main] DEBUG org.example.Main4 - Archivo: fbb0bcd02755099757b7a06d0c2ffcc1333837
+2026-10-05 11:55:23.958 [main] DEBUG org.example.Main4 - Archivo: 8d5881987944a9f87d456bbc323296ca3f4039
+2026-10-05 11:55:23.958 [main] DEBUG org.example.Main4 - Archivo: a5035adffa8b885089faa77e538e550f8f7c80
+2026-10-05 11:55:23.958 [main] DEBUG org.example.Main4 - Archivo: 497626303d3ebf8ab453d3caef13c3b083f68d
+2026-10-05 11:55:23.958 [main] DEBUG org.example.Main4 - Archivo: 93a546eef1ba29eabcf69985169908f0fe514e
+2026-10-05 11:55:23.959 [main] DEBUG org.example.Main4 - Archivo: a8e33d3802fe00d5e5a95fc537a2b39a56910d
+2026-10-05 11:55:23.959 [main] DEBUG org.example.Main4 - Archivo: ORIG_HEAD
+2026-10-05 11:55:23.959 [main] DEBUG org.example.Main4 - Archivo: main
+2026-10-05 11:55:23.960 [main] DEBUG org.example.Main4 - Archivo: HEAD
+2026-10-05 11:55:23.960 [main] DEBUG org.example.Main4 - Archivo: main
+2026-10-05 11:55:23.960 [main] DEBUG org.example.Main4 - Archivo: .gitignore
+2026-10-05 11:55:23.960 [main] DEBUG org.example.Main4 - Archivo: Acceso a Ficheros.iml
+2026-10-05 11:55:23.960 [main] DEBUG org.example.Main4 - Archivo: compiler.xml
+2026-10-05 11:55:23.960 [main] DEBUG org.example.Main4 - Archivo: encodings.xml
+2026-10-05 11:55:23.960 [main] DEBUG org.example.Main4 - Archivo: jarRepositories.xml
+2026-10-05 11:55:23.960 [main] DEBUG org.example.Main4 - Archivo: misc.xml
+2026-10-05 11:55:23.961 [main] DEBUG org.example.Main4 - Archivo: modules.xml
+2026-10-05 11:55:23.961 [main] DEBUG org.example.Main4 - Archivo: vcs.xml
+2026-10-05 11:55:23.961 [main] DEBUG org.example.Main4 - Archivo: workspace.xml
+2026-10-05 11:55:23.961 [main] DEBUG org.example.Main4 - Archivo: .gitignore
+2026-10-05 11:55:23.961 [main] DEBUG org.example.Main4 - Archivo: .gitignore
+2026-10-05 11:55:23.961 [main] DEBUG org.example.Main4 - Archivo: compiler.xml
+2026-10-05 11:55:23.961 [main] DEBUG org.example.Main4 - Archivo: encodings.xml
+2026-10-05 11:55:23.961 [main] DEBUG org.example.Main4 - Archivo: jarRepositories.xml
+2026-10-05 11:55:23.961 [main] DEBUG org.example.Main4 - Archivo: misc.xml
+2026-10-05 11:55:23.961 [main] DEBUG org.example.Main4 - Archivo: vcs.xml
+2026-10-05 11:55:23.962 [main] DEBUG org.example.Main4 - Archivo: workspace.xml
+2026-10-05 11:55:23.962 [main] DEBUG org.example.Main4 - Archivo: application-20261001.log
+2026-10-05 11:55:23.962 [main] DEBUG org.example.Main4 - Archivo: fichero.txt
+2026-10-05 11:55:23.962 [main] DEBUG org.example.Main4 - Archivo: pom.xml
+2026-10-05 11:55:23.963 [main] DEBUG org.example.Main4 - Archivo: Main.java
+2026-10-05 11:55:23.963 [main] DEBUG org.example.Main4 - Archivo: log4j2.xml
+2026-10-05 11:55:23.963 [main] DEBUG org.example.Main4 - Archivo: log4j2.xml
+2026-10-05 11:55:23.964 [main] DEBUG org.example.Main4 - Archivo: Main.class
+2026-10-05 11:55:23.964 [main] DEBUG org.example.Main4 - Archivo: application-20261005.log
+2026-10-05 11:55:23.964 [main] DEBUG org.example.Main4 - Archivo: .gitignore
+2026-10-05 11:55:23.964 [main] DEBUG org.example.Main4 - Archivo: .gitignore
+2026-10-05 11:55:23.964 [main] DEBUG org.example.Main4 - Archivo: compiler.xml
+2026-10-05 11:55:23.964 [main] DEBUG org.example.Main4 - Archivo: encodings.xml
+2026-10-05 11:55:23.964 [main] DEBUG org.example.Main4 - Archivo: jarRepositories.xml
+2026-10-05 11:55:23.965 [main] DEBUG org.example.Main4 - Archivo: misc.xml
+2026-10-05 11:55:23.965 [main] DEBUG org.example.Main4 - Archivo: vcs.xml
+2026-10-05 11:55:23.965 [main] DEBUG org.example.Main4 - Archivo: workspace.xml
+2026-10-05 11:55:23.965 [main] DEBUG org.example.Main4 - Archivo: pom.xml
+2026-10-05 11:55:23.965 [main] DEBUG org.example.Main4 - Archivo: Exception.java
+2026-10-05 11:55:23.965 [main] DEBUG org.example.Main4 - Archivo: Main.java
+2026-10-05 11:55:23.966 [main] DEBUG org.example.Main4 - Archivo: Main2.java
+2026-10-05 11:55:23.966 [main] DEBUG org.example.Main4 - Archivo: Main4.java
+2026-10-05 11:55:23.966 [main] DEBUG org.example.Main4 - Archivo: log4j2.xml
+2026-10-05 11:55:23.966 [main] DEBUG org.example.Main4 - Archivo: log4j2.xml
+2026-10-05 11:55:23.967 [main] DEBUG org.example.Main4 - Archivo: Exception.class
+2026-10-05 11:55:23.967 [main] DEBUG org.example.Main4 - Archivo: Main.class
+2026-10-05 11:55:23.967 [main] DEBUG org.example.Main4 - Archivo: Main2.class
+2026-10-05 11:55:23.967 [main] DEBUG org.example.Main4 - Archivo: Main4.class
+2026-10-05 11:55:23.967 [main] DEBUG org.example.Main4 - Archivo: .gitignore
+2026-10-05 11:55:23.967 [main] DEBUG org.example.Main4 - Archivo: Actividad EldenRing.iml
+2026-10-05 11:55:23.968 [main] DEBUG org.example.Main4 - Archivo: compiler.xml
+2026-10-05 11:55:23.968 [main] DEBUG org.example.Main4 - Archivo: encodings.xml
+2026-10-05 11:55:23.968 [main] DEBUG org.example.Main4 - Archivo: jarRepositories.xml
+2026-10-05 11:55:23.968 [main] DEBUG org.example.Main4 - Archivo: misc.xml
+2026-10-05 11:55:23.968 [main] DEBUG org.example.Main4 - Archivo: modules.xml
+2026-10-05 11:55:23.968 [main] DEBUG org.example.Main4 - Archivo: vcs.xml
+2026-10-05 11:55:23.968 [main] DEBUG org.example.Main4 - Archivo: workspace.xml
+2026-10-05 11:55:23.968 [main] DEBUG org.example.Main4 - Archivo: .gitignore
+2026-10-05 11:55:23.968 [main] DEBUG org.example.Main4 - Archivo: .gitignore
+2026-10-05 11:55:23.968 [main] DEBUG org.example.Main4 - Archivo: encodings.xml
+2026-10-05 11:55:23.968 [main] DEBUG org.example.Main4 - Archivo: misc.xml
+2026-10-05 11:55:23.970 [main] DEBUG org.example.Main4 - Archivo: vcs.xml
+2026-10-05 11:55:23.970 [main] DEBUG org.example.Main4 - Archivo: pom.xml
+2026-10-05 11:55:23.970 [main] DEBUG org.example.Main4 - Archivo: ELdenException.java
+2026-10-05 11:55:23.970 [main] DEBUG org.example.Main4 - Archivo: Encuentros.java
+2026-10-05 11:55:23.971 [main] DEBUG org.example.Main4 - Archivo: SinLuz.java
+2026-10-05 11:55:23.971 [main] DEBUG org.example.Main4 - Archivo: GestorEldenRing.java
+2026-10-05 11:55:23.971 [main] DEBUG org.example.Main4 - Archivo: EncuentroRepository.java
+2026-10-05 11:55:23.971 [main] DEBUG org.example.Main4 - Archivo: SinLuzRepository.java
+2026-10-05 11:55:23.971 [main] DEBUG org.example.Main4 - Archivo: EncuentroService.java
+2026-10-05 11:55:23.971 [main] DEBUG org.example.Main4 - Archivo: SinLuzService.java
+2026-10-05 11:55:23.972 [main] DEBUG org.example.Main4 - Archivo: log4j2.xml
+2026-10-05 11:55:23.972 [main] DEBUG org.example.Main4 - Archivo: log4j2.xml
+2026-10-05 11:55:23.972 [main] DEBUG org.example.Main4 - Archivo: ELdenException.class
+2026-10-05 11:55:23.973 [main] DEBUG org.example.Main4 - Archivo: Encuentros.class
+2026-10-05 11:55:23.973 [main] DEBUG org.example.Main4 - Archivo: SinLuz.class
+2026-10-05 11:55:23.973 [main] DEBUG org.example.Main4 - Archivo: GestorEldenRing.class
+2026-10-05 11:55:23.973 [main] DEBUG org.example.Main4 - Archivo: EncuentroRepository.class
+2026-10-05 11:55:23.973 [main] DEBUG org.example.Main4 - Archivo: SinLuzRepository.class
+2026-10-05 11:55:23.973 [main] DEBUG org.example.Main4 - Archivo: EncuentroService.class
+2026-10-05 11:55:23.973 [main] DEBUG org.example.Main4 - Archivo: SinLuzService.class
+2026-10-05 11:55:23.974 [main] DEBUG org.example.Main4 - Archivo: EldenRing.drawio
+2026-10-05 11:55:23.974 [main] DEBUG org.example.Main4 - Archivo: .gitignore
+2026-10-05 11:55:23.974 [main] DEBUG org.example.Main4 - Archivo: Actividad EldenRing.iml
+2026-10-05 11:55:23.974 [main] DEBUG org.example.Main4 - Archivo: compiler.xml
+2026-10-05 11:55:23.974 [main] DEBUG org.example.Main4 - Archivo: encodings.xml
+2026-10-05 11:55:23.974 [main] DEBUG org.example.Main4 - Archivo: jarRepositories.xml
+2026-10-05 11:55:23.974 [main] DEBUG org.example.Main4 - Archivo: misc.xml
+2026-10-05 11:55:23.974 [main] DEBUG org.example.Main4 - Archivo: modules.xml
+2026-10-05 11:55:23.974 [main] DEBUG org.example.Main4 - Archivo: vcs.xml
+2026-10-05 11:55:23.974 [main] DEBUG org.example.Main4 - Archivo: workspace.xml
+2026-10-05 11:55:23.975 [main] DEBUG org.example.Main4 - Archivo: application-20261004.log
+2026-10-05 11:55:23.975 [main] DEBUG org.example.Main4 - Archivo: .gitignore
+2026-10-05 11:55:23.975 [main] DEBUG org.example.Main4 - Archivo: .gitignore
+2026-10-05 11:55:23.975 [main] DEBUG org.example.Main4 - Archivo: encodings.xml
+2026-10-05 11:55:23.975 [main] DEBUG org.example.Main4 - Archivo: misc.xml
+2026-10-05 11:55:23.975 [main] DEBUG org.example.Main4 - Archivo: vcs.xml
+2026-10-05 11:55:23.975 [main] DEBUG org.example.Main4 - Archivo: pom.xml
+2026-10-05 11:55:23.976 [main] DEBUG org.example.Main4 - Archivo: ELdenException.java
+2026-10-05 11:55:23.976 [main] DEBUG org.example.Main4 - Archivo: Encuentros.java
+2026-10-05 11:55:23.976 [main] DEBUG org.example.Main4 - Archivo: SinLuz.java
+2026-10-05 11:55:23.976 [main] DEBUG org.example.Main4 - Archivo: GestorEldenRing.java
+2026-10-05 11:55:23.976 [main] DEBUG org.example.Main4 - Archivo: EncuentroRepository.java
+2026-10-05 11:55:23.976 [main] DEBUG org.example.Main4 - Archivo: SinLuzRepository.java
+2026-10-05 11:55:23.977 [main] DEBUG org.example.Main4 - Archivo: EncuentroService.java
+2026-10-05 11:55:23.977 [main] DEBUG org.example.Main4 - Archivo: SinLuzService.java
+2026-10-05 11:55:23.977 [main] DEBUG org.example.Main4 - Archivo: log4j2.xml
+2026-10-05 11:55:23.977 [main] DEBUG org.example.Main4 - Archivo: EldenRing.drawio
+2026-10-05 11:55:23.977 [main] DEBUG org.example.Main4 - Archivo: .classpath
+2026-10-05 11:55:23.977 [main] DEBUG org.example.Main4 - Archivo: .gitignore
+2026-10-05 11:55:23.978 [main] DEBUG org.example.Main4 - Archivo: .gitignore
+2026-10-05 11:55:23.978 [main] DEBUG org.example.Main4 - Archivo: Actividad Gestion Tienda.iml
+2026-10-05 11:55:23.978 [main] DEBUG org.example.Main4 - Archivo: compiler.xml
+2026-10-05 11:55:23.978 [main] DEBUG org.example.Main4 - Archivo: jarRepositories.xml
+2026-10-05 11:55:23.978 [main] DEBUG org.example.Main4 - Archivo: misc.xml
+2026-10-05 11:55:23.978 [main] DEBUG org.example.Main4 - Archivo: vcs.xml
+2026-10-05 11:55:23.979 [main] DEBUG org.example.Main4 - Archivo: workspace.xml
+2026-10-05 11:55:23.979 [main] DEBUG org.example.Main4 - Archivo: .project
+2026-10-05 11:55:23.980 [main] DEBUG org.example.Main4 - Archivo: org.eclipse.jdt.core.prefs
+2026-10-05 11:55:23.980 [main] DEBUG org.example.Main4 - Archivo: org.eclipse.m2e.core.prefs
+2026-10-05 11:55:23.980 [main] DEBUG org.example.Main4 - Archivo: application-20260928.log
+2026-10-05 11:55:23.980 [main] DEBUG org.example.Main4 - Archivo: application-20260929.log
+2026-10-05 11:55:23.980 [main] DEBUG org.example.Main4 - Archivo: pom.xml
+2026-10-05 11:55:23.982 [main] DEBUG org.example.Main4 - Archivo: Cliente.java
+2026-10-05 11:55:23.982 [main] DEBUG org.example.Main4 - Archivo: Email.java
+2026-10-05 11:55:23.982 [main] DEBUG org.example.Main4 - Archivo: SMS.java
+2026-10-05 11:55:23.982 [main] DEBUG org.example.Main4 - Archivo: INotificacion.java
+2026-10-05 11:55:23.983 [main] DEBUG org.example.Main4 - Archivo: Pedido.java
+2026-10-05 11:55:23.983 [main] DEBUG org.example.Main4 - Archivo: Estado.java
+2026-10-05 11:55:23.983 [main] DEBUG org.example.Main4 - Archivo: TipoMensaje.java
+2026-10-05 11:55:23.983 [main] DEBUG org.example.Main4 - Archivo: GestorPedidos.java
+2026-10-05 11:55:23.983 [main] DEBUG org.example.Main4 - Archivo: ClienteRepository.java
+2026-10-05 11:55:23.984 [main] DEBUG org.example.Main4 - Archivo: NotificacionRepository.java
+2026-10-05 11:55:23.984 [main] DEBUG org.example.Main4 - Archivo: PedidoRepository.java
+2026-10-05 11:55:23.984 [main] DEBUG org.example.Main4 - Archivo: ClienteService.java
+2026-10-05 11:55:23.984 [main] DEBUG org.example.Main4 - Archivo: ClienteServiceImpl.java
+2026-10-05 11:55:23.984 [main] DEBUG org.example.Main4 - Archivo: NotificacionServiceImpl.java
+2026-10-05 11:55:23.984 [main] DEBUG org.example.Main4 - Archivo: PedidoServiceImpl.java
+2026-10-05 11:55:23.984 [main] DEBUG org.example.Main4 - Archivo: NotificacionService.java
+2026-10-05 11:55:23.985 [main] DEBUG org.example.Main4 - Archivo: PedidoService.java
+2026-10-05 11:55:23.985 [main] DEBUG org.example.Main4 - Archivo: log4j2.xml
+2026-10-05 11:55:23.986 [main] DEBUG org.example.Main4 - Archivo: Cliente.class
+2026-10-05 11:55:23.986 [main] DEBUG org.example.Main4 - Archivo: Email.class
+2026-10-05 11:55:23.986 [main] DEBUG org.example.Main4 - Archivo: SMS.class
+2026-10-05 11:55:23.986 [main] DEBUG org.example.Main4 - Archivo: INotificacion.class
+2026-10-05 11:55:23.986 [main] DEBUG org.example.Main4 - Archivo: Pedido.class
+2026-10-05 11:55:23.987 [main] DEBUG org.example.Main4 - Archivo: Estado.class
+2026-10-05 11:55:23.987 [main] DEBUG org.example.Main4 - Archivo: TipoMensaje.class
+2026-10-05 11:55:23.987 [main] DEBUG org.example.Main4 - Archivo: GestorPedidos.class
+2026-10-05 11:55:23.987 [main] DEBUG org.example.Main4 - Archivo: log4j2.xml
+2026-10-05 11:55:23.987 [main] DEBUG org.example.Main4 - Archivo: ClienteRepository.class
+2026-10-05 11:55:23.988 [main] DEBUG org.example.Main4 - Archivo: NotificacionRepository$1.class
+2026-10-05 11:55:23.988 [main] DEBUG org.example.Main4 - Archivo: NotificacionRepository.class
+2026-10-05 11:55:23.988 [main] DEBUG org.example.Main4 - Archivo: PedidoRepository.class
+2026-10-05 11:55:23.988 [main] DEBUG org.example.Main4 - Archivo: ClienteService.class
+2026-10-05 11:55:23.989 [main] DEBUG org.example.Main4 - Archivo: ClienteServiceImpl.class
+2026-10-05 11:55:23.989 [main] DEBUG org.example.Main4 - Archivo: NotificacionServiceImpl.class
+2026-10-05 11:55:23.989 [main] DEBUG org.example.Main4 - Archivo: PedidoServiceImpl.class
+2026-10-05 11:55:23.991 [main] DEBUG org.example.Main4 - Archivo: NotificacionService.class
+2026-10-05 11:55:23.991 [main] DEBUG org.example.Main4 - Archivo: PedidoService.class
+2026-10-05 11:55:23.991 [main] DEBUG org.example.Main4 - Archivo: UML.drawio
+2026-10-05 11:55:23.991 [main] DEBUG org.example.Main4 - Archivo: ejercicio1.js
+2026-10-05 11:55:23.992 [main] DEBUG org.example.Main4 - Archivo: ejercicio2.js
+2026-10-05 11:55:23.992 [main] DEBUG org.example.Main4 - Archivo: ejercicio3.js
+2026-10-05 11:55:23.992 [main] DEBUG org.example.Main4 - Archivo: ejercicio4.js
+2026-10-05 11:55:23.992 [main] DEBUG org.example.Main4 - Archivo: pruebas.html
+2026-10-05 11:55:23.992 [main] DEBUG org.example.Main4 - Archivo: ejercicio1.html
+2026-10-05 11:55:23.993 [main] DEBUG org.example.Main4 - Archivo: ejercicio1.js
+2026-10-05 11:55:23.993 [main] DEBUG org.example.Main4 - Archivo: ejercicio10.html
+2026-10-05 11:55:23.993 [main] DEBUG org.example.Main4 - Archivo: ejercicio10.js
+2026-10-05 11:55:23.993 [main] DEBUG org.example.Main4 - Archivo: ejercicio2.html
+2026-10-05 11:55:23.993 [main] DEBUG org.example.Main4 - Archivo: ejercicio2.js
+2026-10-05 11:55:23.993 [main] DEBUG org.example.Main4 - Archivo: ejercicio3.html
+2026-10-05 11:55:23.993 [main] DEBUG org.example.Main4 - Archivo: ejercicio3.js
+2026-10-05 11:55:23.993 [main] DEBUG org.example.Main4 - Archivo: ejercicio4.html
+2026-10-05 11:55:23.993 [main] DEBUG org.example.Main4 - Archivo: ejercicio4.js
+2026-10-05 11:55:23.994 [main] DEBUG org.example.Main4 - Archivo: ejercicio5.html
+2026-10-05 11:55:23.994 [main] DEBUG org.example.Main4 - Archivo: ejercicio5.js
+2026-10-05 11:55:23.994 [main] DEBUG org.example.Main4 - Archivo: ejercicio6.html
+2026-10-05 11:55:23.994 [main] DEBUG org.example.Main4 - Archivo: ejercicio6.js
+2026-10-05 11:55:23.994 [main] DEBUG org.example.Main4 - Archivo: ejercicio7.html
+2026-10-05 11:55:23.994 [main] DEBUG org.example.Main4 - Archivo: ejercicio7.js
+2026-10-05 11:55:23.994 [main] DEBUG org.example.Main4 - Archivo: ejercicio8.html
+2026-10-05 11:55:23.994 [main] DEBUG org.example.Main4 - Archivo: ejercicio8.js
+2026-10-05 11:55:23.995 [main] DEBUG org.example.Main4 - Archivo: ejercicio9.html
+2026-10-05 11:55:23.995 [main] DEBUG org.example.Main4 - Archivo: ejercicio9.js
+2026-10-05 11:55:23.995 [main] DEBUG org.example.Main4 - Archivo: ejercicio1.py
+2026-10-05 11:55:23.995 [main] DEBUG org.example.Main4 - Archivo: ejercicio10.py
+2026-10-05 11:55:23.995 [main] DEBUG org.example.Main4 - Archivo: ejercicio11.py
+2026-10-05 11:55:23.995 [main] DEBUG org.example.Main4 - Archivo: ejercicio2.py
+2026-10-05 11:55:23.995 [main] DEBUG org.example.Main4 - Archivo: ejercicio3.py
+2026-10-05 11:55:23.996 [main] DEBUG org.example.Main4 - Archivo: ejercicio4.py
+2026-10-05 11:55:23.996 [main] DEBUG org.example.Main4 - Archivo: ejercicio5.py
+2026-10-05 11:55:23.996 [main] DEBUG org.example.Main4 - Archivo: ejercicio6.py
+2026-10-05 11:55:23.996 [main] DEBUG org.example.Main4 - Archivo: ejercicio7.py
+2026-10-05 11:55:23.996 [main] DEBUG org.example.Main4 - Archivo: ejercicio8.py
+2026-10-05 11:55:23.996 [main] DEBUG org.example.Main4 - Archivo: ejercicio9.py
+2026-10-05 11:55:23.996 [main] DEBUG org.example.Main4 - Archivo: ejercicio12.py
+2026-10-05 11:55:23.996 [main] DEBUG org.example.Main4 - Archivo: ejercicio13.py
+2026-10-05 11:55:23.996 [main] DEBUG org.example.Main4 - Archivo: ejercicio14.py
+2026-10-05 11:55:23.998 [main] DEBUG org.example.Main4 - Archivo: ejercicio15.py
+2026-10-05 11:55:23.998 [main] DEBUG org.example.Main4 - Archivo: ejercicio16.py
+2026-10-05 11:55:23.998 [main] DEBUG org.example.Main4 - Archivo: ejercicio17.py
+2026-10-05 11:55:23.998 [main] DEBUG org.example.Main4 - Archivo: ejercicio18.py
+2026-10-05 11:55:23.998 [main] DEBUG org.example.Main4 - Archivo: ejercicio19.py
+2026-10-05 11:55:23.998 [main] DEBUG org.example.Main4 - Archivo: ejercicio20.py
+2026-10-05 11:55:23.998 [main] DEBUG org.example.Main4 - Archivo: ejercicio21.py
+2026-10-05 11:55:23.998 [main] DEBUG org.example.Main4 - Archivo: ejercicio22.py
+2026-10-05 11:55:23.998 [main] DEBUG org.example.Main4 - Archivo: ejercicio23.py
+2026-10-05 11:55:23.998 [main] DEBUG org.example.Main4 - Archivo: ejercicio24.py
+2026-10-05 11:55:23.998 [main] DEBUG org.example.Main4 - Archivo: ejercicio25.py
+2026-10-05 11:55:23.998 [main] DEBUG org.example.Main4 - Archivo: ejercicio26.py
+2026-10-05 11:55:23.999 [main] DEBUG org.example.Main4 - Archivo: ejercicio27.py
+2026-10-05 11:55:23.999 [main] DEBUG org.example.Main4 - Archivo: ejercicio28.py
+2026-10-05 11:55:23.999 [main] DEBUG org.example.Main4 - Archivo: ejercicio29.py
+2026-10-05 11:55:23.999 [main] DEBUG org.example.Main4 - Archivo: ejercicio30.py
+2026-10-05 11:55:23.999 [main] DEBUG org.example.Main4 - Archivo: ejercicio31.py
+2026-10-05 11:55:23.999 [main] DEBUG org.example.Main4 - Archivo: ejercicio32.py
+2026-10-05 11:55:23.999 [main] DEBUG org.example.Main4 - Archivo: ejercicio33.py
+2026-10-05 11:55:23.999 [main] DEBUG org.example.Main4 - Archivo: ejercicio34.py
+2026-10-05 11:55:23.999 [main] DEBUG org.example.Main4 - Archivo: ejercicio35.py
+2026-10-05 11:55:23.999 [main] DEBUG org.example.Main4 - Archivo: ejercicio36.py
+2026-10-05 11:55:23.999 [main] DEBUG org.example.Main4 - Archivo: ejercicio37.py
+2026-10-05 11:55:47.026 [main] DEBUG org.example.Main4 - Ingrese la ruta del directorio
+2026-10-05 11:55:49.258 [main] DEBUG org.example.Main4 - Archivo: ejercicio1.js
+2026-10-05 11:55:49.259 [main] DEBUG org.example.Main4 - Archivo: ejercicio2.js
+2026-10-05 11:55:49.259 [main] DEBUG org.example.Main4 - Archivo: ejercicio3.js
+2026-10-05 11:55:49.259 [main] DEBUG org.example.Main4 - Archivo: ejercicio4.js
+2026-10-05 11:55:49.259 [main] DEBUG org.example.Main4 - Archivo: pruebas.html
+2026-10-05 11:55:49.259 [main] DEBUG org.example.Main4 - Archivo: ejercicio1.html
+2026-10-05 11:55:49.260 [main] DEBUG org.example.Main4 - Archivo: ejercicio1.js
+2026-10-05 11:55:49.260 [main] DEBUG org.example.Main4 - Archivo: ejercicio10.html
+2026-10-05 11:55:49.260 [main] DEBUG org.example.Main4 - Archivo: ejercicio10.js
+2026-10-05 11:55:49.260 [main] DEBUG org.example.Main4 - Archivo: ejercicio2.html
+2026-10-05 11:55:49.260 [main] DEBUG org.example.Main4 - Archivo: ejercicio2.js
+2026-10-05 11:55:49.261 [main] DEBUG org.example.Main4 - Archivo: ejercicio3.html
+2026-10-05 11:55:49.261 [main] DEBUG org.example.Main4 - Archivo: ejercicio3.js
+2026-10-05 11:55:49.261 [main] DEBUG org.example.Main4 - Archivo: ejercicio4.html
+2026-10-05 11:55:49.261 [main] DEBUG org.example.Main4 - Archivo: ejercicio4.js
+2026-10-05 11:55:49.262 [main] DEBUG org.example.Main4 - Archivo: ejercicio5.html
+2026-10-05 11:55:49.262 [main] DEBUG org.example.Main4 - Archivo: ejercicio5.js
+2026-10-05 11:55:49.262 [main] DEBUG org.example.Main4 - Archivo: ejercicio6.html
+2026-10-05 11:55:49.262 [main] DEBUG org.example.Main4 - Archivo: ejercicio6.js
+2026-10-05 11:55:49.262 [main] DEBUG org.example.Main4 - Archivo: ejercicio7.html
+2026-10-05 11:55:49.262 [main] DEBUG org.example.Main4 - Archivo: ejercicio7.js
+2026-10-05 11:55:49.263 [main] DEBUG org.example.Main4 - Archivo: ejercicio8.html
+2026-10-05 11:55:49.263 [main] DEBUG org.example.Main4 - Archivo: ejercicio8.js
+2026-10-05 11:55:49.263 [main] DEBUG org.example.Main4 - Archivo: ejercicio9.html
+2026-10-05 11:55:49.263 [main] DEBUG org.example.Main4 - Archivo: ejercicio9.js
+2026-10-05 11:57:03.774 [main] DEBUG org.example.Main4 - Ingrese la ruta del directorio
+2026-10-05 11:57:07.899 [main] DEBUG org.example.Main4 - Directorio padre: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Optativa\Ejercicios_No_Entregables
+2026-10-05 11:57:07.900 [main] DEBUG org.example.Main4 - Archivo: ejercicio1.js
+2026-10-05 11:57:07.900 [main] DEBUG org.example.Main4 - Archivo: ejercicio2.js
+2026-10-05 11:57:07.900 [main] DEBUG org.example.Main4 - Archivo: ejercicio3.js
+2026-10-05 11:57:07.901 [main] DEBUG org.example.Main4 - Archivo: ejercicio4.js
+2026-10-05 11:57:07.901 [main] DEBUG org.example.Main4 - Archivo: pruebas.html
+2026-10-05 11:57:07.901 [main] DEBUG org.example.Main4 - Directorio padre: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Optativa\Introduccón JS_Ejercicio
+2026-10-05 11:57:07.901 [main] DEBUG org.example.Main4 - Directorio padre: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Optativa\Introduccón JS_Ejercicio\eje1
+2026-10-05 11:57:07.902 [main] DEBUG org.example.Main4 - Archivo: ejercicio1.html
+2026-10-05 11:57:07.902 [main] DEBUG org.example.Main4 - Archivo: ejercicio1.js
+2026-10-05 11:57:07.902 [main] DEBUG org.example.Main4 - Directorio padre: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Optativa\Introduccón JS_Ejercicio\eje10
+2026-10-05 11:57:07.902 [main] DEBUG org.example.Main4 - Archivo: ejercicio10.html
+2026-10-05 11:57:07.903 [main] DEBUG org.example.Main4 - Archivo: ejercicio10.js
+2026-10-05 11:57:07.903 [main] DEBUG org.example.Main4 - Directorio padre: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Optativa\Introduccón JS_Ejercicio\eje2
+2026-10-05 11:57:07.903 [main] DEBUG org.example.Main4 - Archivo: ejercicio2.html
+2026-10-05 11:57:07.903 [main] DEBUG org.example.Main4 - Archivo: ejercicio2.js
+2026-10-05 11:57:07.904 [main] DEBUG org.example.Main4 - Directorio padre: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Optativa\Introduccón JS_Ejercicio\eje3
+2026-10-05 11:57:07.904 [main] DEBUG org.example.Main4 - Archivo: ejercicio3.html
+2026-10-05 11:57:07.904 [main] DEBUG org.example.Main4 - Archivo: ejercicio3.js
+2026-10-05 11:57:07.904 [main] DEBUG org.example.Main4 - Directorio padre: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Optativa\Introduccón JS_Ejercicio\eje4
+2026-10-05 11:57:07.904 [main] DEBUG org.example.Main4 - Archivo: ejercicio4.html
+2026-10-05 11:57:07.905 [main] DEBUG org.example.Main4 - Archivo: ejercicio4.js
+2026-10-05 11:57:07.905 [main] DEBUG org.example.Main4 - Directorio padre: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Optativa\Introduccón JS_Ejercicio\eje5
+2026-10-05 11:57:07.905 [main] DEBUG org.example.Main4 - Archivo: ejercicio5.html
+2026-10-05 11:57:07.905 [main] DEBUG org.example.Main4 - Archivo: ejercicio5.js
+2026-10-05 11:57:07.905 [main] DEBUG org.example.Main4 - Directorio padre: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Optativa\Introduccón JS_Ejercicio\eje6
+2026-10-05 11:57:07.906 [main] DEBUG org.example.Main4 - Archivo: ejercicio6.html
+2026-10-05 11:57:07.906 [main] DEBUG org.example.Main4 - Archivo: ejercicio6.js
+2026-10-05 11:57:07.906 [main] DEBUG org.example.Main4 - Directorio padre: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Optativa\Introduccón JS_Ejercicio\eje7
+2026-10-05 11:57:07.906 [main] DEBUG org.example.Main4 - Archivo: ejercicio7.html
+2026-10-05 11:57:07.906 [main] DEBUG org.example.Main4 - Archivo: ejercicio7.js
+2026-10-05 11:57:07.906 [main] DEBUG org.example.Main4 - Directorio padre: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Optativa\Introduccón JS_Ejercicio\eje8
+2026-10-05 11:57:07.906 [main] DEBUG org.example.Main4 - Archivo: ejercicio8.html
+2026-10-05 11:57:07.907 [main] DEBUG org.example.Main4 - Archivo: ejercicio8.js
+2026-10-05 11:57:07.907 [main] DEBUG org.example.Main4 - Directorio padre: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Optativa\Introduccón JS_Ejercicio\eje9
+2026-10-05 11:57:07.907 [main] DEBUG org.example.Main4 - Archivo: ejercicio9.html
+2026-10-05 11:57:07.907 [main] DEBUG org.example.Main4 - Archivo: ejercicio9.js
+2026-10-05 11:58:23.243 [main] DEBUG org.example.Main4 - Ingrese la ruta del directorio
+2026-10-05 11:58:51.017 [main] DEBUG org.example.Main4 - Ingrese la ruta del directorio
+2026-10-05 11:58:53.683 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.684 [main] DEBUG org.example.Main4 - Directorio padre: Ejercicios_No_Entregables
+2026-10-05 11:58:53.684 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.684 [main] DEBUG org.example.Main4 - Archivo: ejercicio1.js
+2026-10-05 11:58:53.684 [main] DEBUG org.example.Main4 - Archivo: ejercicio2.js
+2026-10-05 11:58:53.684 [main] DEBUG org.example.Main4 - Archivo: ejercicio3.js
+2026-10-05 11:58:53.685 [main] DEBUG org.example.Main4 - Archivo: ejercicio4.js
+2026-10-05 11:58:53.685 [main] DEBUG org.example.Main4 - Archivo: pruebas.html
+2026-10-05 11:58:53.685 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.685 [main] DEBUG org.example.Main4 - Directorio padre: Introduccón JS_Ejercicio
+2026-10-05 11:58:53.685 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.685 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.685 [main] DEBUG org.example.Main4 - Directorio padre: eje1
+2026-10-05 11:58:53.686 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.686 [main] DEBUG org.example.Main4 - Archivo: ejercicio1.html
+2026-10-05 11:58:53.686 [main] DEBUG org.example.Main4 - Archivo: ejercicio1.js
+2026-10-05 11:58:53.686 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.686 [main] DEBUG org.example.Main4 - Directorio padre: eje10
+2026-10-05 11:58:53.686 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.687 [main] DEBUG org.example.Main4 - Archivo: ejercicio10.html
+2026-10-05 11:58:53.687 [main] DEBUG org.example.Main4 - Archivo: ejercicio10.js
+2026-10-05 11:58:53.687 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.687 [main] DEBUG org.example.Main4 - Directorio padre: eje2
+2026-10-05 11:58:53.687 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.687 [main] DEBUG org.example.Main4 - Archivo: ejercicio2.html
+2026-10-05 11:58:53.688 [main] DEBUG org.example.Main4 - Archivo: ejercicio2.js
+2026-10-05 11:58:53.688 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.688 [main] DEBUG org.example.Main4 - Directorio padre: eje3
+2026-10-05 11:58:53.688 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.689 [main] DEBUG org.example.Main4 - Archivo: ejercicio3.html
+2026-10-05 11:58:53.689 [main] DEBUG org.example.Main4 - Archivo: ejercicio3.js
+2026-10-05 11:58:53.689 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.689 [main] DEBUG org.example.Main4 - Directorio padre: eje4
+2026-10-05 11:58:53.689 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.691 [main] DEBUG org.example.Main4 - Archivo: ejercicio4.html
+2026-10-05 11:58:53.691 [main] DEBUG org.example.Main4 - Archivo: ejercicio4.js
+2026-10-05 11:58:53.691 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.691 [main] DEBUG org.example.Main4 - Directorio padre: eje5
+2026-10-05 11:58:53.691 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.691 [main] DEBUG org.example.Main4 - Archivo: ejercicio5.html
+2026-10-05 11:58:53.691 [main] DEBUG org.example.Main4 - Archivo: ejercicio5.js
+2026-10-05 11:58:53.692 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.692 [main] DEBUG org.example.Main4 - Directorio padre: eje6
+2026-10-05 11:58:53.692 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.692 [main] DEBUG org.example.Main4 - Archivo: ejercicio6.html
+2026-10-05 11:58:53.692 [main] DEBUG org.example.Main4 - Archivo: ejercicio6.js
+2026-10-05 11:58:53.692 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.692 [main] DEBUG org.example.Main4 - Directorio padre: eje7
+2026-10-05 11:58:53.692 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.693 [main] DEBUG org.example.Main4 - Archivo: ejercicio7.html
+2026-10-05 11:58:53.693 [main] DEBUG org.example.Main4 - Archivo: ejercicio7.js
+2026-10-05 11:58:53.693 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.693 [main] DEBUG org.example.Main4 - Directorio padre: eje8
+2026-10-05 11:58:53.693 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.693 [main] DEBUG org.example.Main4 - Archivo: ejercicio8.html
+2026-10-05 11:58:53.693 [main] DEBUG org.example.Main4 - Archivo: ejercicio8.js
+2026-10-05 11:58:53.693 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.694 [main] DEBUG org.example.Main4 - Directorio padre: eje9
+2026-10-05 11:58:53.694 [main] DEBUG org.example.Main4 - ------------------------------------
+2026-10-05 11:58:53.694 [main] DEBUG org.example.Main4 - Archivo: ejercicio9.html
+2026-10-05 11:58:53.694 [main] DEBUG org.example.Main4 - Archivo: ejercicio9.js
+2026-10-05 12:02:24.193 [main] DEBUG org.example.Main - Ingrese la ruta del directorio
+2026-10-05 12:02:47.395 [main] DEBUG org.example.Main - [D] .idea
+2026-10-05 12:02:47.395 [main] DEBUG org.example.Main - [D] accesoAFicheros_1
+2026-10-05 12:02:47.396 [main] DEBUG org.example.Main - [F] application-20261005.log
+2026-10-05 12:02:47.396 [main] DEBUG org.example.Main - [D] UD1-BOLETIN1
+2026-10-05 12:02:47.396 [main] DEBUG org.example.Main - Número total de ficheros: 3
+2026-10-05 12:02:47.396 [main] DEBUG org.example.Main - Número total de directorios: 1
+2026-10-05 12:03:23.459 [main] DEBUG org.example.Main - Ingrese la ruta del directorio
+2026-10-05 12:03:25.211 [main] DEBUG org.example.Main - [D] .idea
+2026-10-05 12:03:25.211 [main] DEBUG org.example.Main - [D] accesoAFicheros_1
+2026-10-05 12:03:25.212 [main] DEBUG org.example.Main - [F] application-20261005.log
+2026-10-05 12:03:25.212 [main] DEBUG org.example.Main - [D] UD1-BOLETIN1
+2026-10-05 12:03:25.212 [main] DEBUG org.example.Main - Número total de ficheros: 1
+2026-10-05 12:03:25.212 [main] DEBUG org.example.Main - Número total de directorios: 3
+2026-10-05 12:06:41.860 [main] DEBUG org.example.Main - Ingrese la ruta del directorio
+2026-10-05 12:06:43.363 [main] DEBUG org.example.Main - Nombre: Acceso a Ficheros
+2026-10-05 12:15:12.218 [main] DEBUG org.example.Main - Ingrese la ruta del directorio
+2026-10-05 12:15:15.372 [main] DEBUG org.example.Main - Nombre: Acceso a Ficheros
+2026-10-05 12:15:15.372 [main] DEBUG org.example.Main - Ruta: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Acceso a Datos\Acceso a Ficheros
+2026-10-05 12:15:15.372 [main] DEBUG org.example.Main - Ruta Absoluta: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Acceso a Datos\Acceso a Ficheros
+2026-10-05 12:15:15.373 [main] DEBUG org.example.Main - Ruta Canónica: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Acceso a Datos\Acceso a Ficheros
+2026-10-05 12:15:15.373 [main] DEBUG org.example.Main - Directorio Padre: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Acceso a Datos
+2026-10-05 12:15:15.373 [main] DEBUG org.example.Main - Tipo: Directorio
+2026-10-05 12:15:15.375 [main] DEBUG org.example.Main - Número Elementos: 4
+2026-10-05 12:15:15.377 [main] DEBUG org.example.Main - Permisos: Lectura, Escritura, Ejecucionotruetruetrue
+2026-10-05 12:15:15.378 [main] DEBUG org.example.Main - Oculto: false
+2026-10-05 12:15:15.378 [main] DEBUG org.example.Main - Tamaño: 479034601472
+2026-10-05 12:15:15.379 [main] DEBUG org.example.Main - Fecha Ult.Modificación: 1791189779594
+2026-10-05 12:15:56.312 [main] DEBUG org.example.Main - Ingrese la ruta del directorio
+2026-10-05 12:15:58.585 [main] DEBUG org.example.Main - Nombre: Acceso a Ficheros
+2026-10-05 12:15:58.586 [main] DEBUG org.example.Main - Ruta: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Acceso a Datos\Acceso a Ficheros
+2026-10-05 12:15:58.586 [main] DEBUG org.example.Main - Ruta Absoluta: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Acceso a Datos\Acceso a Ficheros
+2026-10-05 12:15:58.587 [main] DEBUG org.example.Main - Ruta Canónica: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Acceso a Datos\Acceso a Ficheros
+2026-10-05 12:15:58.587 [main] DEBUG org.example.Main - Directorio Padre: C:\Users\alumno\Desktop\Jaime DAM\2-DAM\Acceso a Datos
+2026-10-05 12:15:58.587 [main] DEBUG org.example.Main - Tipo: Directorio
+2026-10-05 12:15:58.587 [main] DEBUG org.example.Main - Número Elementos: 4
+2026-10-05 12:15:58.590 [main] DEBUG org.example.Main - Permisos: (Lectura, Escritura, Ejecucion) true true true
+2026-10-05 12:15:58.590 [main] DEBUG org.example.Main - Oculto: false
+2026-10-05 12:15:58.591 [main] DEBUG org.example.Main - Tamaño: 479034601472
+2026-10-05 12:15:58.591 [main] DEBUG org.example.Main - Fecha Ult.Modificación: 1791189779594

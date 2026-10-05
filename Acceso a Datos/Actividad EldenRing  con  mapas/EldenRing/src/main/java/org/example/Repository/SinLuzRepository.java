@@ -29,11 +29,11 @@ public class SinLuzRepository {
     }
 
     public SinLuz obtenerSinLuz(Long id) {
+
         SinLuz sinLuz = this.mapaSinLuz.get(id);
         if (sinLuz == null) {
             throw   new ELdenException(id);
         }
-
         return sinLuz;
     }
 
