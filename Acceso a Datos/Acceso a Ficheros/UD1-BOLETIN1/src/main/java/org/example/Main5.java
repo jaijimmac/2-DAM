@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.File;
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Main5 {
@@ -48,7 +49,9 @@ public class Main5 {
                 tamanio += list[i].length();
             }
         }
-
-        return tamanio;
+        DecimalFormat df = new DecimalFormat("#.00");
+        String s = df.format(tamanio);
+        s = s.replace(',', '.');
+        return Double.parseDouble(s);
     }
 }

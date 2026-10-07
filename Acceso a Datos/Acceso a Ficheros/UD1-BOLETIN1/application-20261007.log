@@ -1,0 +1,36 @@
+2026-10-07 12:26:10.056 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-07 12:26:33.506 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-07 12:26:35.163 [main] DEBUG org.example.Main5 - Tamaño completo (BYTES): 0.0
+2026-10-07 12:26:35.163 [main] DEBUG org.example.Main5 - Tamaño completo (MEGABYTES): 0.0
+2026-10-07 12:26:54.415 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-07 12:26:58.610 [main] DEBUG org.example.Main5 - Tamaño completo (BYTES): 0.0
+2026-10-07 12:26:58.612 [main] DEBUG org.example.Main5 - Tamaño completo (MEGABYTES): 0.0
+2026-10-07 12:27:06.416 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-07 12:27:08.708 [main] DEBUG org.example.Main5 - Tamaño completo (BYTES): 2361512.0
+2026-10-07 12:27:08.708 [main] DEBUG org.example.Main5 - Tamaño completo (MEGABYTES): 2.2521133422851562
+2026-10-07 12:30:35.474 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-07 12:30:38.559 [main] DEBUG org.example.Main5 - Tamaño completo (BYTES): 3.73167954546688E14
+2026-10-07 12:30:38.559 [main] DEBUG org.example.Main5 - Tamaño completo (MEGABYTES): 3.5588069395703125E8
+2026-10-07 12:31:04.108 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-07 12:31:07.982 [main] DEBUG org.example.Main5 - Tamaño completo (BYTES): 3.73167954546688E14
+2026-10-07 12:31:07.982 [main] DEBUG org.example.Main5 - Tamaño completo (MEGABYTES): 3.5588069395703125E8
+2026-10-07 12:31:07.982 [main] DEBUG org.example.Main5 - Tamaño completo (GIGABYTES): 347539.74019241333
+2026-10-07 12:31:52.933 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-07 12:32:02.727 [main] DEBUG org.example.Main5 - Tamaño completo (BYTES): 3.73167954546688E14
+2026-10-07 12:32:02.727 [main] DEBUG org.example.Main5 - Tamaño completo (MEGABYTES): 3.5588069395703125E8
+2026-10-07 12:32:02.727 [main] DEBUG org.example.Main5 - Tamaño completo (GIGABYTES): 347539.74019241333
+2026-10-07 12:33:04.422 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-07 12:33:07.868 [main] DEBUG org.example.Main5 - Tamaño completo (BYTES): 3.73167954546688E14
+2026-10-07 12:33:07.868 [main] DEBUG org.example.Main5 - Tamaño completo (MEGABYTES): 3.5588069395703125E8
+2026-10-07 12:33:07.869 [main] DEBUG org.example.Main5 - Tamaño completo (GIGABYTES): 347539.74019241333
+2026-10-07 12:33:23.427 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-07 12:33:26.375 [main] DEBUG org.example.Main5 - Tamaño completo (BYTES): 3.73167954546688E14
+2026-10-07 12:33:26.376 [main] DEBUG org.example.Main5 - Tamaño completo (MEGABYTES): 3.5588069395703125E8
+2026-10-07 12:33:26.376 [main] DEBUG org.example.Main5 - Tamaño completo (GIGABYTES): 347539.74019241333
+2026-10-07 12:34:04.943 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-07 12:41:18.432 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-07 12:41:20.311 [main] DEBUG org.example.Main5 - Tamaño completo (BYTES): 2363968.0
+2026-10-07 12:41:20.311 [main] DEBUG org.example.Main5 - Tamaño completo (MEGABYTES): 2.25445556640625
+2026-10-07 12:45:31.990 [main] DEBUG org.example.Main5 - Ingrese la ruta del directorio
+2026-10-07 12:45:37.640 [main] DEBUG org.example.Main5 - Tamaño completo (BYTES): 2364464.0
+2026-10-07 12:45:37.640 [main] DEBUG org.example.Main5 - Tamaño completo (MEGABYTES): 2.2549285888671875
