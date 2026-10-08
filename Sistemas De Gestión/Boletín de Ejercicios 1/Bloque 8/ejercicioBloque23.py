@@ -44,13 +44,17 @@ while opcion != 7:
         case 4:
             print('')
             nombre = input('Introduce el nombre de un producto: ')
-            print('')
-            for i, p in enumerate(productos):
-                if p.buscarProducto(nombre):
-                    print('Producto eliminado')
-                    productos.remove(p)
-                elif i == len(productos) - 1:
-                    print('Producto no encontrado')
+            p = p.venderProducto(nombre)
+            if p != None :
+                p.mostrarDatos()
 
+        case 5:
+            nombre = input('Introduce el nombre de un producto: ')
+            p = p.reponerProducto(nombre)
+            if p != None :
+                p.mostrarDatos()
+
+
+                    
         case default: 
             opcion = input('¿Qué quieres hacer?\n')

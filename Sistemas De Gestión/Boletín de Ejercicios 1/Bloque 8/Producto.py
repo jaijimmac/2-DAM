@@ -16,10 +16,39 @@ class Producto:
 
         return enconcontrado
 
+    def venderProducto(self, nombre):
+
+        if(self.buscarProducto(nombre)):
+            n =  input('Producto encontrado.  Que cantidad  quiere comprar: ')
+            if n <= self.stock :
+                self.stock -=  n
+                return self
+            else: 
+                print('La  cantidad  de stock es inferior a la intoducida.')
+        else:
+             print('Producto no encontrado.')
+             return
+
+        
+    def reponerStock(self, nombre):
+    
+        if(self.buscarProducto(nombre)):
+            n =  int( input('Producto encontrado.  Que cantidad  quiere comprar: '))
+            if n > 0 :
+                self.stock +=  n
+                return self
+            else: 
+                print('La  cantidad  de stock es inferior  1')
+        else:
+                print('Producto no encontrado.')
+                return    
+
+        
+
     def reponerProducto(sefl, cantidad):
         cantidadA = sefl.stock
         sefl.stock + cantidad
-        print(_______________________________)
+        print("_______________________________")
         print(f'Cantidad de stock: {cantidadA}\nCantidad de repuesto: {cantidad}\nCantidad total: {sefl.stock}')
 
 
