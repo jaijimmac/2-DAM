@@ -7,10 +7,10 @@
     <script src="ejercicio3.js"></script>
 </head>
 <style>
-    boton-rojo {
+    .boton-rojo {
         color: red;
     }
-    boton-verde {
+    .boton-verde {
         color: green
     }
 </style>
@@ -21,7 +21,7 @@
 
     <div style="display: flex;">
         <button onclick="cambiarCorrecto()">Correcto</button>
-        <button onclick="cambiarIncorrecto()">Incorrecto</button>
+        <button onclick="cambiarIncorrecto(this)">Incorrecto</button>
     </div>
     
 </body>
