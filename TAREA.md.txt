@@ -4,7 +4,7 @@
 
 - JS: Actividad del 1 al 10.
 
-- Proyecto: Mirar Ideas  + Documentación.
+- Proyecto: Documentación.
 
 - Interfaces: Hacer el modelo en Figma.
 

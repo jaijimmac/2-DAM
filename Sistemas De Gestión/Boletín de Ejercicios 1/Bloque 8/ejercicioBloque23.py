@@ -4,14 +4,27 @@
 
 from Producto import Producto
 
+
+def buscar(productos, nombre):
+    for p in productos:
+        if p.buscarProducto(nombre):
+            return p
+    return None
+
+
 productos = []
 opcion = -1
 contador = 1
 
 while opcion != 7:
     print('1. Añadir producto\n2. Mostrar productos\n3. Buscar producto\n4. Vender producto\n5. Reponer producto\n6. Mostrar valor total del inventario\n7. Salir')
-    opcion = input('¿Qué quieres hacer?\n')
-    match int(opcion):
+    try:
+        opcion = int(input('¿Qué quieres hacer?\n'))
+    except ValueError:
+        print('Introduce un número del 1 al 7.')
+        continue
+
+    match opcion:
 
         case 1:
             crearCodigo = f'N{contador:03d}'
@@ -20,41 +33,49 @@ while opcion != 7:
             precio = float(input('Ingresa el precio del producto: \n'))
             stock = int(input('Ingresa el stock del producto: \n'))
 
-            p = Producto(crearCodigo, nombreProducto, precio, stock)
+            productos.append(Producto(crearCodigo, nombreProducto, precio, stock))
             contador += 1
-            productos.append(p)
 
         case 2:
             for p in productos:
-                print("")
-                p.mostrarDatos();
-                print("")
+                print('')
+                p.mostrarDatos()
+                print('')
 
         case 3:
-            print('')
             nombre = input('Introduce el nombre de un producto: ')
-            print('')
-            for i, p in enumerate(productos):
-                if p.buscarProducto(nombre):
-                    p.mostrarDatos()
-                    break
-                elif i == len(productos) - 1:
-                    print('Producto no encontrado')
+            p = buscar(productos, nombre)
+            if p is None:
+                print('Producto no encontrado.')
+            else:
+                p.mostrarDatos()
 
         case 4:
-            print('')
             nombre = input('Introduce el nombre de un producto: ')
-            p = p.venderProducto(nombre)
-            if p != None :
-                p.mostrarDatos()
+            p = buscar(productos, nombre)
+            if p is None:
+                print('Producto no encontrado.')
+            else:
+                cantidad = int(input('Producto encontrado. ¿Qué cantidad quiere comprar?: '))
+                if p.venderProducto(cantidad):
+                    p.mostrarDatos()
 
         case 5:
             nombre = input('Introduce el nombre de un producto: ')
-            p = p.reponerProducto(nombre)
-            if p != None :
-                p.mostrarDatos()
+            p = buscar(productos, nombre)
+            if p is None:
+                print('Producto no encontrado.')
+            else:
+                cantidad = int(input('Introduce la cantidad de producto a reponer: '))
+                p.reponerProducto(cantidad)
 
+        case 6:
+            total = sum(p.valorStock() for p in productos)
+            print("_______________________________")
+            print(f'Valor total del inventario: {total}')
 
-                    
-        case default: 
-            opcion = input('¿Qué quieres hacer?\n')
+        case 7:
+            print('Saliendo...')
+
+        case _:
+            print('Opción no válida.')

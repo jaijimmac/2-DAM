@@ -6,51 +6,30 @@ class Producto:
         self.precio = precio
         self.stock = stock
 
-    def buscarProducto(self,nombre):
-        enconcontrado = True
+    def buscarProducto(self, nombre):
+        return self.nombre.lower() == nombre.lower()
 
-        if self.nombre.lower() == nombre.lower() :
-            enconcontrado = True
-        else:
-            enconcontrado = False
+    def venderProducto(self, cantidad):
+        if cantidad <= 0:
+            print('La cantidad debe ser mayor que 0.')
+            return False
+        if cantidad > self.stock:
+            print('La cantidad de stock es inferior a la introducida.')
+            return False
+        self.stock -= cantidad
+        return True
 
-        return enconcontrado
-
-    def venderProducto(self, nombre):
-
-        if(self.buscarProducto(nombre)):
-            n =  input('Producto encontrado.  Que cantidad  quiere comprar: ')
-            if n <= self.stock :
-                self.stock -=  n
-                return self
-            else: 
-                print('La  cantidad  de stock es inferior a la intoducida.')
-        else:
-             print('Producto no encontrado.')
-             return
-
-        
-    def reponerStock(self, nombre):
-    
-        if(self.buscarProducto(nombre)):
-            n =  int( input('Producto encontrado.  Que cantidad  quiere comprar: '))
-            if n > 0 :
-                self.stock +=  n
-                return self
-            else: 
-                print('La  cantidad  de stock es inferior  1')
-        else:
-                print('Producto no encontrado.')
-                return    
-
-        
-
-    def reponerProducto(sefl, cantidad):
-        cantidadA = sefl.stock
-        sefl.stock + cantidad
+    def reponerProducto(self, cantidad):
+        if cantidad <= 0:
+            print('La cantidad debe ser mayor que 0.')
+            return
+        cantidadA = self.stock
+        self.stock += cantidad
         print("_______________________________")
-        print(f'Cantidad de stock: {cantidadA}\nCantidad de repuesto: {cantidad}\nCantidad total: {sefl.stock}')
+        print(f'Cantidad de stock: {cantidadA}\nCantidad de repuesto: {cantidad}\nCantidad total: {self.stock}')
 
+    def valorStock(self):
+        return self.stock * self.precio
 
     def mostrarDatos(self):
         print(f'Código del producto: {self.cod}\nNombre del producto: {self.nombre}\nPrecio del producto: {self.precio}\nStock del producto: {self.stock}')
