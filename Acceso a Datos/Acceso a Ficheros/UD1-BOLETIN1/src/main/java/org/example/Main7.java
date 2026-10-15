@@ -36,7 +36,4 @@ public class Main7 {
 
         return listaEncontrados;
     }
-
-
-
 }

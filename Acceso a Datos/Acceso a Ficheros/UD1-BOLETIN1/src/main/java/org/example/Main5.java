@@ -30,8 +30,8 @@ public class Main5 {
 
         double tamanio = main5.mostrarDirectorio(directorio);
 
-        logger.debug("Tamaño completo (BYTES): " + tamanio);
-        logger.debug("Tamaño completo (MEGABYTES): "
+        logger.debug("Tamaño completo (KB): " + tamanio / 1024.0);
+        logger.debug("Tamaño completo (MB): "
                 + (tamanio / 1024.0 / 1024.0));
 
 
