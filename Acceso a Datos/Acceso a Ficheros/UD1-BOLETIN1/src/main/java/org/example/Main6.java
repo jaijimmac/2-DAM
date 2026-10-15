@@ -51,6 +51,7 @@ public class Main6 implements FilenameFilter {
 
         if (file.isFile()){
             File[] txt = file.listFiles((d, name) ->name.endsWith(".txt"));
+            assert txt != null;
             listaArchivos.addAll(Arrays.asList(txt));
         }else {
             File[] children = file.listFiles();

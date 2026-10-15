@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES6", "DOM"],
+    "types": [],
+    "rootDir": "./",
+    "outDir": "./",
+    "sourceMap": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
+  },
+  "include": ["*.ts", "./*/*.ts"],
+  "exclude": ["node_modules"]
+}
