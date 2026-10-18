@@ -1,6 +1,5 @@
-- Inglés: Preparar una mini presentación sobre unidad 2
-
 - Proyecto: Documentación.
 
-- Interfaces: Hacer el modelo en Figma.
+- Digitalización y Sostenibilidad: Tareas Classroom.
 
+-  JS: Boletín

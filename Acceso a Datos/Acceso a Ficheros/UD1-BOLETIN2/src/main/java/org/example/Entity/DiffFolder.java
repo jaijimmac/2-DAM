@@ -21,7 +21,7 @@ public class DiffFolder {
     }
 
     public void setFolders(File a1, File a2) {
-        if (a1.isDirectory() && a1.exists()) {
+        if (!a1.isDirectory() || !a1.exists()) {
             throw new GestionFicherosException("El dierectorio " + a1 + " no existe o la ruta es incorrecta.");
         } else if (a2.isDirectory() && a2.exists()) {
             throw new GestionFicherosException("El dierectorio " + a2 + " no existe o la ruta es incorrecta.");
@@ -44,46 +44,34 @@ public class DiffFolder {
     public Collection<ResultadoComparacion> comparame() {
         Collection<ResultadoComparacion> result = new ArrayList<>();
 
-        File ficheroMayor;
-        File ficheroMenor;
+        File[] lista1 = Objects.requireNonNull(archivo1.listFiles());
+        File[] lista2 = Objects.requireNonNull(archivo2.listFiles());
 
-        if (Objects.requireNonNull(this.archivo1.listFiles()).length > Objects.requireNonNull(this.archivo2.listFiles()).length) {
-            ficheroMayor = archivo1;
-            ficheroMenor = archivo2;
-        } else {
-            ficheroMayor = archivo2;
-            ficheroMenor = archivo1;
-        }
-
-        File[] lista1 = ficheroMayor.listFiles();
-        File[] lista2 = ficheroMenor.listFiles();
-
-        ResultadoComparacion resultadoComparacion;
-        for (File file : lista1) {
-            for (File file2 : lista2) {
-                if (file.getName().equals(file2.getName())) {
-                    if (file.lastModified() == file2.lastModified()) {
-                        resultadoComparacion = new ResultadoComparacion(file.getName(), ValorComparacion.IGUALES);
-                        result.add(resultadoComparacion);
-                    } else if (file.lastModified() > file2.lastModified()) {
-                        resultadoComparacion = new ResultadoComparacion(file.getName(), ValorComparacion.MENOS_NUEVO_EN_2);
-                        result.add(resultadoComparacion);
-                    } else if (file.lastModified() < file2.lastModified()) {
-                        resultadoComparacion = new ResultadoComparacion(file.getName(), ValorComparacion.MENOS_NUEVO_EN_1);
-                        result.add(resultadoComparacion);
+        for (File f1 : lista1) {
+            boolean encontrado = false;
+            for (File f2 : lista2) {
+                if (f1.getName().equals(f2.getName())) {
+                    encontrado = true;
+                    if (f1.lastModified() == f2.lastModified()) {
+                        result.add(new ResultadoComparacion(f1.getName(), ValorComparacion.IGUALES));
+                    } else if (f1.lastModified() > f2.lastModified()) {
+                        result.add(new ResultadoComparacion(f1.getName(), ValorComparacion.MENOS_NUEVO_EN_2));
+                    } else {
+                        result.add(new ResultadoComparacion(f1.getName(), ValorComparacion.MENOS_NUEVO_EN_1));
                     }
+                    break;
                 }
-                resultadoComparacion = new ResultadoComparacion(file.getName(), ValorComparacion.FALTA_EN_2);
-                result.add(resultadoComparacion);
+            }
+            if (!encontrado) {
+                result.add(new ResultadoComparacion(f1.getName(), ValorComparacion.FALTA_EN_2));
             }
         }
 
-        for (File a:lista1){
-            for (ResultadoComparacion resultadoComparacion1: result){
-                if (!a.getName().equals(resultadoComparacion1.getNomFichero())){
-                    resultadoComparacion = new ResultadoComparacion(a.getName(), ValorComparacion.FALTA_EN_1);
-                    result.add(resultadoComparacion);
-                }
+        for (File f2 : lista2) {
+            boolean encontrado = Arrays.stream(lista1)
+                    .anyMatch(f1 -> f1.getName().equals(f2.getName()));
+            if (!encontrado) {
+                result.add(new ResultadoComparacion(f2.getName(), ValorComparacion.FALTA_EN_1));
             }
         }
 
