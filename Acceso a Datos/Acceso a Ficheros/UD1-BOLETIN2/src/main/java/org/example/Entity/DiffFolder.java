@@ -34,10 +34,12 @@ public class DiffFolder {
     }
 
     public File getArchivo1() {
+
         return archivo1;
     }
 
     public File getArchivo2() {
+
         return archivo2;
     }
 
