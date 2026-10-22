@@ -24,6 +24,7 @@ public class GestorEldenRing implements Comparable<Encuentros> {
 
         GestorEldenRing gestor = new GestorEldenRing();
 
+
         List<SinLuz> sinLuzes = List.of(
                 new SinLuz("SinLuz3"),
                 new SinLuz("SinLuz2"),

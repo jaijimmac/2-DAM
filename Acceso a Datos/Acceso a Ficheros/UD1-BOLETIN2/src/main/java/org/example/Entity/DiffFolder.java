@@ -15,7 +15,6 @@ public class DiffFolder {
 
     private File archivo2;
 
-
     public DiffFolder(File a1, File a2) {
         setFolders(a1, a2);
     }

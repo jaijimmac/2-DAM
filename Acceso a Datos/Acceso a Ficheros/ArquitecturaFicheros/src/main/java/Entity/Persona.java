@@ -6,16 +6,14 @@ import java.util.Objects;
 
 public class Persona {
 
-    private double notaMin;
-    private double notaMax;
+    private double notaMin = 1000;
+    private double notaMax = 0 ;
     private String nombre;
     private List<Double> listaNotas;
 
     public Persona(){}
 
-    public Persona(double notaMin, double notaMax, String nombre) {
-        this.notaMin = notaMin;
-        this.notaMax = notaMax;
+    public Persona(String nombre) {
         this.nombre = nombre;
         this.listaNotas = new ArrayList<>();
     }
@@ -52,8 +50,17 @@ public class Persona {
         this.listaNotas = listaNotas;
     }
 
-    public List<Double> annadirNota(double nota){
-        this.listaNotas.add(nota);
+    public List<Double> annadirNota(double nota1){
+        this.listaNotas.add(nota1);
+           for (Double nota: listaNotas){
+               if (nota > notaMax) {
+                   notaMax = nota;
+               }
+               if (nota < notaMin){
+                   notaMin = nota;
+               }
+
+           }
         return this.listaNotas;
     }
 
