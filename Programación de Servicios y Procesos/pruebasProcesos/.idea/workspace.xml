@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b49d0d11-6c70-4451-844e-7dccc73a7fea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Acceso a Datos/Acceso a Ficheros/ArquitecturaFicheros/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Acceso a Datos/Acceso a Ficheros/ArquitecturaFicheros/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Acceso a Datos/Acceso a Ficheros/UD1-BOLETIN1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Acceso a Datos/Acceso a Ficheros/UD1-BOLETIN1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Acceso a Datos/Acceso a Ficheros/UD1-BOLETIN2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Acceso a Datos/Acceso a Ficheros/UD1-BOLETIN2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD1-BOLETIN1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1-BOLETIN1/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JaimeJimenez03"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jaijimmac/2-DAM.git",
+    "accountId": "956e9fb4-8033-4ab1-a4ed-08321966c7e1"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="3L8kyBdWycRaXukvncJTZEwU7ao" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jaime/Desktop/2-DAM/Programación de Servicios y Procesos/pruebasProcesos"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b49d0d11-6c70-4451-844e-7dccc73a7fea" name="Changes" comment="" />
+      <created>1792843334664</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1792843334664</updated>
+    </task>
+    <servers />
+  </component>
+</project>
