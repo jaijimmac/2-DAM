@@ -1,5 +1,5 @@
-- Proyecto: Documentación.
+Acceso: 
+- Acabar arquitectura(excepciones y añadir un logger.error)
 
-- Digitalización y Sostenibilidad: Tareas Classroom.
-
--  JS: Boletín
+Procesos: 
+ - Boletin 2.

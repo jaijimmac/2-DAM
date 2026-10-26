@@ -1,0 +1,58 @@
+package org.example;
+
+public class Domicilio {
+
+    private String calle;
+    private int numero;
+    private String ciudad;
+    private String codPost;
+
+    public Domicilio(String calle, int numero, String ciudad, String codPost) {
+        this.calle = calle;
+        this.numero = numero;
+        this.ciudad = ciudad;
+        this.codPost = codPost;
+    }
+
+    public String getCalle() {
+        return calle;
+    }
+
+    public void setCalle(String calle) {
+        this.calle = calle;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    public String getCiudad() {
+        return ciudad;
+    }
+
+    public void setCiudad(String ciudad) {
+        this.ciudad = ciudad;
+    }
+
+    public String getCodPost() {
+        return codPost;
+    }
+
+    public void setCodPost(String codPost) {
+        this.codPost = codPost;
+    }
+
+    @Override
+    public String toString() {
+        return "Domicilio{" +
+                "calle='" + calle + '\'' +
+                ", numero=" + numero +
+                ", ciudad='" + ciudad + '\'' +
+                ", codPost='" + codPost + '\'' +
+                '}';
+    }
+}

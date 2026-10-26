@@ -31,7 +31,7 @@ public class ContadorPalabras {
 
             while(sc.hasNext()){
                 String valor = sc.next();
-                if(valor.equals(palabra)){
+                if(valor.equalsIgnoreCase(palabra)){
                     contador++;
                 }
             }
@@ -45,7 +45,11 @@ public class ContadorPalabras {
 
     public void escribirResultado(String ruta, String palabra, String nombreArchivo, int nPalabras){
         PrintWriter out = null;
-        File file = new File(ruta, nombreArchivo);
+        File dir = new File(ruta, "palabras");
+        if (!dir.exists()){
+            dir.mkdir();
+        }
+        File file = new File(ruta + "/palabras", nombreArchivo);
         try{
 
             FileWriter ficheroSalida = new FileWriter(file, StandardCharsets.UTF_8);

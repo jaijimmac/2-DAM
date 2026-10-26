@@ -1,0 +1,12 @@
+{
+  "identificador": "empleado123",
+  "nombreApellido": "MiguelRamirez",
+  "edad": "34",
+  "empresa": "Su Empresa",
+  "domicilio": {
+    "calle": "Arroyo",
+    "numero": "8",
+    "ciudad": "Sevilla",
+    "codPost": "41230"
+  }
+}

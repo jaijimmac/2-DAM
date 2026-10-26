@@ -1,5 +1,7 @@
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     private final static String directorioGenerarClasses = "target\\classes";
@@ -14,13 +16,13 @@ public class Main {
         m.lanzarCompilador();
 
         String[] palabras= { "servicio", "hilo", "proceso", "multihilo", "concurrencia" };
+       
 
         for(String palabra: palabras) {
             int comando = m.ejecutarClase(rutaClase, rutaFichero, palabra, palabra);
         }
 
     }
-
 
     public int lanzarCompilador() {
         ProcessBuilder pb;
@@ -42,23 +44,35 @@ public class Main {
     }
 
     public int ejecutarClase(String clase, String ruta, String palabra, String nombreFichero) {
-        int reesultado = -1;
+        int resultado = -1;
+        Process process = null;
         String claseCompleta = clase;
-
-        try {
-            String[] comando = {"java", "-cp", directorioGenerarClasses, claseCompleta, ruta,palabra, nombreFichero };
-            ProcessBuilder pb = new ProcessBuilder(comando);
-            pb.redirectErrorStream(true);
-            pb.inheritIO();
-
-            Process process = pb.start();
-            int exit = process.waitFor();
-            System.out.println(exit);
-
-        } catch (Exception e) {
-            System.out.println("Error al ejecutar el programa: " + e.getMessage());
+        String[] palabras= { "servicio", "hilo", "proceso", "multihilo", "concurrencia" };
+        List<ProcessBuilder> listaPb = new ArrayList<ProcessBuilder>();
+        
+        try{
+        	for(String palabra1: palabras) {
+         	   
+         	   String[] comando = {"java", "-cp", directorioGenerarClasses, claseCompleta, ruta, palabra1, nombreFichero };
+               ProcessBuilder pb = new ProcessBuilder(comando);
+               pb.redirectErrorStream(true);
+               pb.inheritIO(); 
+                
+               listaPb.add(pb);
+            }
+           
+         for(ProcessBuilder pb: listaPb) {
+        	 
+         	process = pb.start();
+         }
+         
+         int exit = process.waitFor();
+         
+        }catch (Exception e) {
+        	
+        	System.out.println("Error" + e.getMessage());
         }
 
-        return reesultado;
+        return resultado;
     }
 }

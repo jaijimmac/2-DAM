@@ -52,10 +52,12 @@ public class RepositorioPersonasTxt implements RepositorioPersonas {
 
     @Override
     public Optional<Persona> findByName(String name) {
-        return this.listadoPersonas
+        return  this.listadoPersonas
                 .stream()
                 .filter(persona -> persona.getNombre().equals(name))
                 .findFirst();
+
+
     }
 
     @Override
