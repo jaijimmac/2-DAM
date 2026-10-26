@@ -1,0 +1,17 @@
+{
+  "name": "notas-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "esm": "node app.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "picocolors": "^1.1.1"
+  }
+}

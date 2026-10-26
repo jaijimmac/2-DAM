@@ -25,8 +25,15 @@ public class AnalizadorTemperaturas{
 		
         List<Integer> listaDatos = at.leerDatos(nombreFicheroTemperaturas, umbral);
 		at.escribriDatos(listaDatos, rutaFicheros, nombreFicheroUmbral);
-        //System.out.println(listaDatos.size());
-        //at.mostrarEnConsola(listaDatos, Integer.toString(umbral));
+
+
+
+        // APARTADO 4 //
+        List<Integer> listaDatosConsola = at.leerDatosConsola(nombreFicheroTemperaturas, umbral);
+
+        // APARTADO 3 //
+        System.out.println("Umbral: " + umbral + " --> " + "Dias: " + listaDatosConsola.size());
+
 	}
 	
 	public List<Integer> leerDatos(String ruta, int umbral) {
@@ -34,20 +41,18 @@ public class AnalizadorTemperaturas{
 		List<Integer> listadoTemperaturas = new ArrayList<Integer>();
 		
 		try {
-			
 			FileReader fr = new FileReader(ruta);
 			sc = new Scanner(fr);
 			while(sc.hasNextInt()) {
 				if(sc.nextInt() >= umbral) {
 					listadoTemperaturas.add(sc.nextInt());
-					
 				}
 			}
+
 		} catch (Exception e) {
 			
 			System.err.println("Error: El proceso con umbral: "+ umbral +  " ha fallado. Motivo: " +  e.getMessage());
 		} finally {
-	
 			sc.close();
 		}
 		
@@ -91,20 +96,22 @@ public class AnalizadorTemperaturas{
         
         return nombreArchivo;
     }
-	
-	public void mostrarEnConsola(List<Integer> listado, String nombre) {
-		System.out.println("ENtra");
-		
-		try {
-			
-			System.out.println("Umbral " + nombre + ", " + " Dias: " + listado.size());
-		} catch (Exception e) {
-			
-			System.out.println("Error: " + e.getMessage());
-		} finally {
-			
-			System.exit(0);
-		}
-		
-	}
+
+    public List<Integer> leerDatosConsola(String ruta, int umbral) throws FileNotFoundException {
+        List<Integer> listadoTemperaturas = new ArrayList<Integer>();
+
+        Scanner sc = new Scanner(new FileReader(ruta));
+        try {
+            while(sc.hasNextInt()) {
+                int temperatura = sc.nextInt();
+                if(temperatura >= umbral) {
+                    listadoTemperaturas.add(temperatura);
+                }
+            }
+        } finally {
+            sc.close();
+        }
+
+        return listadoTemperaturas;
+    }
 }
