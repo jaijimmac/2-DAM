@@ -60,30 +60,30 @@ public class AnalizadorTemperaturas{
 	}
 	
 	public void escribriDatos(List<Integer> listado, String ruta, String nombreFichero) {
-		PrintWriter out = null;
-		File dir = new File(ruta, "datos");
-        
-		if (!dir.exists()){
-            dir.mkdir();
-        }
-		
-		dir.canRead();
-		
-        File file = new File(ruta + "/datos", nombreFichero);
-        try {
-     
-        	FileWriter ficheroEscritura = new FileWriter(file, StandardCharsets.UTF_8);
-        	out = new PrintWriter(ficheroEscritura);
-        	out.printf(Locale.ENGLISH, "%-15s %5s%n", "Número Días", listado.size());
-        	out.println();
-        } catch (Exception e) {
+            PrintWriter out = null;
+            File dir = new File(ruta, "datos");
 
-            throw new RuntimeException(e);
-        } finally {
+            if (!dir.exists()){
+                dir.mkdir();
+            }
 
-            if (out != null)
-                out.close();
-        }
+            dir.canRead();
+
+            File file = new File(ruta + "/datos", nombreFichero);
+            try {
+
+                FileWriter ficheroEscritura = new FileWriter(file, StandardCharsets.UTF_8);
+                out = new PrintWriter(ficheroEscritura);
+                out.printf(Locale.ENGLISH, "%-15s %5s%n", "Número Días", listado.size());
+                out.println();
+            } catch (Exception e) {
+
+                throw new RuntimeException(e);
+            } finally {
+
+                if (out != null)
+                    out.close();
+            }
 		
 	}
 
