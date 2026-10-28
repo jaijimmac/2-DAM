@@ -31,9 +31,12 @@ import androidx.compose.ui.unit.dp
 fun ConsultaScreen(
     localidad: String,
     mensaje: String,
+    mensajeUbicacion: String,
     onLocalidadChange: (String) -> Unit,
     onConsultar: () -> Unit,
-    onSolicitarLimpiar: () -> Unit
+    onSolicitarLimpiar: () -> Unit,
+    onUsarUbicacion: () -> Unit
+
 ) {
 
     var menuAbierto by remember {
@@ -114,6 +117,21 @@ fun ConsultaScreen(
                 Text("Limpiar")
             }
         }
+        Spacer(
+            modifier = Modifier.height(12.dp)
+        )
+        Button(
+            onClick = onUsarUbicacion
+        ) {
+            Text("Usar mi ubicación")
+        }
+        Spacer(
+            modifier = Modifier.height(12.dp)
+        )
+        Text(
+            text = mensajeUbicacion
+        )
+
         Spacer(
             modifier = Modifier.width(20.dp)
         )

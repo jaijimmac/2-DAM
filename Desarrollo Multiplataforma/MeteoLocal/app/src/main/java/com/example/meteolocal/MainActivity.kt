@@ -1,9 +1,13 @@
 package com.example.meteolocal
 
+import android.Manifest
+import android.content.pm.PackageManager
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.NavigationBar
@@ -19,6 +23,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.meteolocal.ui.theme.MeteoLocalTheme
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.platform.LocalContext
+import androidx.core.content.ContextCompat
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
@@ -49,6 +55,47 @@ fun MeteoLocalApp(){
     var mostrarDialogoLimpiar by remember {
         mutableStateOf(false)
     }
+
+    var mensajeUbicacion by remember {
+        mutableStateOf(
+            "No se ha solicitado autorización todavía."
+        )
+    }
+
+    val context = LocalContext.current
+
+    val permissionLauncher =
+        rememberLauncherForActivityResult(
+            contract =
+                ActivityResultContracts.RequestPermission()
+        ) { concedido: Boolean ->
+            if (concedido) {
+                mensajeUbicacion =
+                    "Permiso de ubicación concedido."
+            } else {
+                mensajeUbicacion =
+                    "No se ha autorizado la ubicación. " +
+                            "Puedes introducir una localidad manualmente."
+            }
+        }
+
+    val onUsarUbicacion = {
+        val permisoConcedido =
+            ContextCompat.checkSelfPermission(
+                context,
+                Manifest.permission.ACCESS_COARSE_LOCATION
+            ) == PackageManager.PERMISSION_GRANTED
+        if (permisoConcedido) {
+            mensajeUbicacion =
+                "Permiso de ubicación ya concedido."
+        } else {
+            permissionLauncher.launch(
+                Manifest.permission.ACCESS_COARSE_LOCATION
+            )
+        }
+    }
+
+
 
     val navController = rememberNavController()
 
@@ -99,6 +146,7 @@ fun MeteoLocalApp(){
                 ConsultaScreen(
                     localidad = localidad,
                     mensaje = mensaje,
+                    mensajeUbicacion = mensajeUbicacion,
                     onLocalidadChange = { nuevoValor: String ->
                         localidad = nuevoValor
                     },
@@ -112,8 +160,10 @@ fun MeteoLocalApp(){
                     },
                     onSolicitarLimpiar = {
                         mostrarDialogoLimpiar = true
-                    }
+                    },
+                    onUsarUbicacion = onUsarUbicacion
                 )
+
             }
 
             composable("favoritos") {
