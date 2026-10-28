@@ -1,0 +1,5 @@
+V002;Malaga;Lacteos;8;0.95
+V008;Sevilla;Lacteos;-2;0.95
+V014;Granada;Lacteos;14;1.05
+V021;Cadiz;Lacteos;10;0.95
+V024;Cordoba;Lacteos;-5;1.05

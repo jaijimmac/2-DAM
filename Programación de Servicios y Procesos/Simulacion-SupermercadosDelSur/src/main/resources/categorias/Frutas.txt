@@ -1,0 +1,7 @@
+V001;Sevilla;Frutas;12;1.50
+V005;Granada;Frutas;-3;1.50
+V009;Almeria;Frutas;20;1.20
+V012;Cadiz;Frutas;7;2.10
+V016;Cordoba;Frutas;11;1.80
+V020;Malaga;Frutas;16;1.35
+V025;Jaen;Frutas;9;1.60

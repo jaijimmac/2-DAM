@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da794277-bb27-4723-b5a8-1a4813fbaf80" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pruebas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Programación de Servicios y Procesos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SimulacionExamen-Pedidos/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SimulacionExamen-Pedidos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos2/src/main/java/ExtraerProvincia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos2/src/main/java/LogisticaAmazon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos2/src/main/resources/Almería.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos2/src/main/resources/Cádiz.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos2/src/main/resources/Córdoba.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos2/src/main/resources/Granada.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos2/src/main/resources/Huelva.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos2/src/main/resources/Jaén.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos2/src/main/resources/Málaga.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos2/src/main/resources/Sevilla.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulacionExamen-Pedidos2/src/main/resources/pedidos.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JaimeJimenez03"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jaijimmac/2-DAM.git",
+    "accountId": "956e9fb4-8033-4ab1-a4ed-08321966c7e1"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="3LKZ79cCCeTDlWQ01K5kGNrp9u5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jaime/Desktop/2-DAM/Programación de Servicios y Procesos"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da794277-bb27-4723-b5a8-1a4813fbaf80" name="Changes" comment="" />
+      <created>1793204549299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793204549299</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,7 @@
+Espejo	#1	#150	#0000011	#c/Calle Jaén, 2	#Jaén	#06/03/2021
+Escritorio	#2	#220	#0000017	#c/Calle Jaén, 20	#Jaén	#12/03/2021
+Alfombra	#2	#150	#0000025	#c/Calle Jaén, 30	#Jaén	#20/03/2021
+Armario ropero	#2	#400	#0000033	#c/Calle Jaén, 38	#Jaén	#28/03/2021
+Lámpara colgante	#2	#200	#0000041	#c/Calle Jaén, 46	#Jaén	#05/04/2021
+Espejo decorativo	#1	#60	#0000049	#c/Calle Jaén, 54	#Jaén	#13/04/2021
+Lámpara colgante	#1	#130	#0000057	#c/Calle Jaén, 62	#Jaén	#21/04/2021

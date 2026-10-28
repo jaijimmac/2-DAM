@@ -1,0 +1,7 @@
+Sofá	#1	#700	#0000008	#c/Avenida Andalucía, 3	#Málaga	#03/03/2021
+Reloj de pared	#3	#75	#0000014	#c/Calle Málaga, 12	#Málaga	#09/03/2021
+Cojines decorativos	#5	#100	#0000022	#c/Calle Málaga, 27	#Málaga	#17/03/2021
+Mueble recibidor	#1	#320	#0000030	#c/Calle Málaga, 35	#Málaga	#25/03/2021
+Estantería alta	#1	#250	#0000038	#c/Calle Málaga, 43	#Málaga	#02/04/2021
+Cojines sofá	#5	#90	#0000046	#c/Calle Málaga, 51	#Málaga	#10/04/2021
+Estantería madera	#1	#200	#0000054	#c/Calle Málaga, 59	#Málaga	#18/04/2021
