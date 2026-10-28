@@ -1,5 +1,4 @@
 Acceso: 
 - Acabar arquitectura(excepciones y añadir un logger.error)
 
-Procesos: 
- - Boletin 2.
+

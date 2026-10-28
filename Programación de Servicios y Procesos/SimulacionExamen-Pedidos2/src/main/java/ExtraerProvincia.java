@@ -30,7 +30,7 @@ public class ExtraerProvincia {
             sc.nextLine();
             while(sc.hasNextLine()) {
                 String valor = sc.nextLine();
-                if(valor.contains(nombreProvincia)) {
+                if(valor.contains("#" + nombreProvincia)) {
                     listado.add(valor);
                 }
             }
