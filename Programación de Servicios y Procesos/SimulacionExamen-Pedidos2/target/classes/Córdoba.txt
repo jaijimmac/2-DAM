@@ -1,0 +1,7 @@
+Cojines	#6	#90	#0000010	#c/Calle Córdoba, 7	#Córdoba	#05/03/2021
+Armario	#1	#450	#0000016	#c/Calle Córdoba, 18	#Córdoba	#11/03/2021
+Ropa de cama	#4	#200	#0000024	#c/Calle Córdoba, 29	#Córdoba	#19/03/2021
+Espejo grande	#1	#150	#0000032	#c/Calle Córdoba, 37	#Córdoba	#27/03/2021
+Ropa de cama	#3	#150	#0000040	#c/Calle Córdoba, 45	#Córdoba	#04/04/2021
+Silla infantil	#2	#80	#0000048	#c/Calle Córdoba, 53	#Córdoba	#12/04/2021
+Ropa de hogar	#2	#80	#0000056	#c/Calle Córdoba, 61	#Córdoba	#20/04/2021

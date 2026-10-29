@@ -5,30 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44bea2b7-1b8d-46d3-a98a-51744d7c4395" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/Programación de Servicios y Procesos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimulacionExamen-Pedidos/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimulacionExamen-Pedidos/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimulacionExamen-Pedidos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimulacionExamen-Pedidos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExtraerProvincia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LogisticaAmazon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Almería.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Cádiz.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Córdoba.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Granada.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Huelva.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Jaén.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Málaga.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Sevilla.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pedidos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/Simulacion-SupermercadosDelSur/src/main/java/DetectaDevoluciones.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/Simulacion-SupermercadosDelSur/src/main/java/DetectaDevoluciones.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/Simulacion-SupermercadosDelSur/src/main/java/FiltrarCategoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/Simulacion-SupermercadosDelSur/src/main/java/FiltrarCategoria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/Simulacion-SupermercadosDelSur/src/main/java/GestorVentas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/Simulacion-SupermercadosDelSur/src/main/java/GestorVentas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/SimulacionExamen-Datos/src/main/java/GeneraNSSFichero.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/SimulacionExamen-Datos/src/main/java/GeneraNSSFichero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/SimulacionExamen-Datos/src/main/java/GeneradorHacienda.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/SimulacionExamen-Datos/src/main/java/GeneradorHacienda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/SimulacionExamen-Pedidos/src/main/java/ExtraerProvincia.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/SimulacionExamen-Pedidos/src/main/java/ExtraerProvincia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/SimulacionExamen-Pedidos/src/main/java/LogisticaAmazon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/SimulacionExamen-Pedidos/src/main/java/LogisticaAmazon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/UD1-BOLETIN1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/UD1-BOLETIN1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/UD1-BOLETIN1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/UD1-BOLETIN1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/UD1-BOLETIN1/src/main/java/org/example/Ejercicio1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/UD1-BOLETIN1/src/main/java/org/example/Ejercicio1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/UD1-BOLETIN1/src/main/java/org/example/Ejercicio2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/UD1-BOLETIN1/src/main/java/org/example/Ejercicio2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/UD1-BOLETIN1/src/main/java/org/example/Ejercicio3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/UD1-BOLETIN1/src/main/java/org/example/Ejercicio3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/UD1-BOLETIN2/src/main/java/Apartado2/AnalizadorTemperaturas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/UD1-BOLETIN2/src/main/java/Apartado2/AnalizadorTemperaturas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/UD1-BOLETIN2/src/main/java/Apartado2/LanzadorAnalisisTemperaturas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/UD1-BOLETIN2/src/main/java/Apartado2/LanzadorAnalisisTemperaturas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/UD1-BOLETIN2/src/main/java/ContadorPalabras.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/UD1-BOLETIN2/src/main/java/ContadorPalabras.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/UD1-BOLETIN2/src/main/java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/UD1-BOLETIN2/src/main/java/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/pruebasProcesos/java/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/pruebasProcesos/java/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/pruebasProcesos/java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/pruebasProcesos/java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/pruebasProcesos/java/src/main/java/Procesos/ProcesoHijo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/pruebasProcesos/java/src/main/java/Procesos/ProcesoHijo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/pruebasProcesos/java/src/main/java/Pruebas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/pruebasProcesos/java/src/main/java/Pruebas.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,22 +61,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ExtraerProvincia.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LogisticaAmazon.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/jaime/Desktop/2-DAM/Programación de Servicios y Procesos/SimulacionExamen-Pedidos2/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ExtraerProvincia.executor": "Run",
+    "Application.LogisticaAmazon.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/jaime/Desktop/2-DAM/Programación de Servicios y Procesos/SimulacionExamen-Pedidos2/src/main/java/org/example/Main.java",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
       </set>
     </attachedChunks>
   </component>
@@ -93,5 +93,8 @@
       <updated>1793119150984</updated>
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
