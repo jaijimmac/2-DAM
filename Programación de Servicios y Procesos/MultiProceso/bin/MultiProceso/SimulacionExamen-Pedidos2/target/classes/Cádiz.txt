@@ -1,0 +1,7 @@
+Estantería	#4	#120	#0000009	#c/Calle Cádiz, 6	#Cádiz	#04/03/2021
+Silla de oficina	#2	#180	#0000015	#c/Calle Cádiz, 15	#Cádiz	#10/03/2021
+Lámpara LED	#3	#120	#0000023	#c/Calle Cádiz, 28	#Cádiz	#18/03/2021
+Silla de cocina	#2	#70	#0000031	#c/Calle Cádiz, 36	#Cádiz	#26/03/2021
+Cojines grandes	#4	#160	#0000039	#c/Calle Cádiz, 44	#Cádiz	#03/04/2021
+Lámpara techo LED	#1	#120	#0000047	#c/Calle Cádiz, 52	#Cádiz	#11/04/2021
+Cojines cama	#4	#100	#0000055	#c/Calle Cádiz, 60	#Cádiz	#19/04/2021
