@@ -1,0 +1,1 @@
+cadenaTexto.char(numero) --> da la posición de un carácter en una cadena.
