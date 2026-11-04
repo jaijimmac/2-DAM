@@ -19,6 +19,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.meteolocal.ui.theme.MeteoLocalTheme
@@ -29,6 +30,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.example.meteolocal.network.ModelosMeteo.MeteoCliente
+import kotlinx.coroutines.launch
 
 
 class MainActivity : ComponentActivity() {
@@ -95,6 +98,27 @@ fun MeteoLocalApp(){
         }
     }
 
+    var resultadoRed by remember {
+        mutableStateOf("Aún no se ha realizado ninguna consulta real.")
+    }
+    val scope = rememberCoroutineScope()
+
+    val onProbarConexion: () -> Unit = {
+        resultadoRed = "Consultando Open-Meteo..."
+        scope.launch {
+            try {
+                val respuesta = MeteoCliente.OpenMeteoClient.meteoApi
+                    .obtenerTiempoActual(
+                        latitud = 37.39,
+                        longitud = -5.99
+                    )
+                resultadoRed = "Temperatura actual en Sevilla: " +
+                        "${respuesta.current.temperature_2m} °C"
+            } catch (e: Exception) {
+                resultadoRed = "No se ha podido realizar la consulta."
+            }
+        }
+    }
 
 
     val navController = rememberNavController()
@@ -161,7 +185,9 @@ fun MeteoLocalApp(){
                     onSolicitarLimpiar = {
                         mostrarDialogoLimpiar = true
                     },
-                    onUsarUbicacion = onUsarUbicacion
+                    onUsarUbicacion = onUsarUbicacion,
+                    resultadoRed = resultadoRed,
+                    onProbarConexion = onProbarConexion
                 )
 
             }

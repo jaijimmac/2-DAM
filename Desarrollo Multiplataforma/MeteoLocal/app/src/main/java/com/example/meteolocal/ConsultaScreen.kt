@@ -11,6 +11,8 @@ import androidx.compose.foundation.layout.fillMaxWidth;
 import androidx.compose.foundation.layout.height;
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.DropdownMenu
@@ -35,7 +37,10 @@ fun ConsultaScreen(
     onLocalidadChange: (String) -> Unit,
     onConsultar: () -> Unit,
     onSolicitarLimpiar: () -> Unit,
-    onUsarUbicacion: () -> Unit
+    onUsarUbicacion: () -> Unit,
+    resultadoRed: String,
+    onProbarConexion: () -> Unit
+
 
 ) {
 
@@ -50,9 +55,11 @@ fun ConsultaScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
+            .verticalScroll(rememberScrollState())
             .padding(24.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
+        verticalArrangement = Arrangement.Top
+
     ) {
         Text(
             text = "MeteoLocal",
@@ -110,34 +117,28 @@ fun ConsultaScreen(
             Button(onClick = onConsultar) {
                 Text("Consultar")
             }
-            Spacer(
-                modifier = Modifier.width(12.dp)
-            )
+            Spacer(modifier = Modifier.width(12.dp))
             Button(onClick = onSolicitarLimpiar) {
                 Text("Limpiar")
             }
         }
-        Spacer(
-            modifier = Modifier.height(12.dp)
-        )
-        Button(
-            onClick = onUsarUbicacion
-        ) {
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = onUsarUbicacion) {
             Text("Usar mi ubicación")
         }
-        Spacer(
-            modifier = Modifier.height(12.dp)
-        )
-        Text(
-            text = mensajeUbicacion
-        )
 
-        Spacer(
-            modifier = Modifier.width(20.dp)
-        )
-        Text(
-            text = mensaje
-        )
+        Spacer(modifier = Modifier.height(12.dp))
+        Text(text = mensajeUbicacion)
+
+        Spacer(modifier = Modifier.width(20.dp))
+        Text(text = mensaje)
+
+        Spacer(modifier = Modifier.height(12.dp))
+        Button(onClick = onProbarConexion) {
+            Text("Probar conexión (Sevilla)")
+        }
+        Spacer(modifier = Modifier.height(12.dp))
+        Text(text = resultadoRed)
     }
     if (mostrarAcercaDe) {
         AlertDialog(
