@@ -36,7 +36,7 @@ public class Main {
 
 
     public void empleadoAJSON(List<Empleado> empleados, String ruta){
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().setDateFormat("dd/MM/yyyy").create();
         String json = gson.toJson(empleados);
         FileWriter fichero = null;
         try {

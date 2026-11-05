@@ -90,7 +90,7 @@ public class RepositorioPersonasTxt implements RepositorioPersonas {
     @Override
     public boolean deleteByName(String name) {
         Optional<Persona> persona = findByName(name);
-        if (persona.isEmpty()){
+        if (!persona.isPresent()){
             return false;
         }
         this.listadoPersonas.remove(persona.get());
