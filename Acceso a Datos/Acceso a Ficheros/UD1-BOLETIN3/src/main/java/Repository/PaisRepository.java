@@ -35,13 +35,12 @@ public class PaisRepository implements InterfaceRepo{
 			while(in.hasNextLine()) {
 				String valor = in.nextLine();
 				String[] lineas = valor.split(",");
-				
 				for(String linea: lineas) {
 					if(linea.trim().equals("")) {
 						throw new Exception();
 					}
 				}
-				
+
 				Pais pais = new Pais(lineas[0],lineas[1],Integer.parseInt(lineas[2]),lineas[3],lineas[4]);
 				this.listadoPaises.add(pais);
 			}
@@ -71,28 +70,42 @@ public class PaisRepository implements InterfaceRepo{
 	@Override
 	public Optional<Pais> obtenerPais(String nombre) {
 		
-		return this.listadoPaises
-			.stream()
-			.filter(pais -> pais.getNombre().equals(nombre))
-			.findFirst();
+		return Optional.of(this.listadoPaises
+                .stream()
+                .filter(pais -> pais.getNombre().equals(nombre))
+                .findFirst()
+                .orElseThrow(() -> new RuntimeException("País no encontrado: " + nombre)));
 	}
 
 	@Override
 	public Pais annadirPais(Pais pais) {
-		// TODO Auto-generated method stub
-		return null;
+		Pais nuevoPais = new Pais();
+		nuevoPais.setNombre(pais.getNombre());
+		nuevoPais.setContinente(pais.getContinente());
+		nuevoPais.setIdioma(pais.getIdioma());
+		nuevoPais.setMoneda(pais.getMoneda());
+		nuevoPais.setPoblacion(pais.getPoblacion());
+
+		this.listadoPaises.add(nuevoPais);
+		return nuevoPais;
 	}
 
 	@Override
 	public Pais modificarPais(Pais pais) {
-		// TODO Auto-generated method stub
-		return null;
+		Optional<Pais> antiguo = obtenerPais(pais.getNombre());
+
+		antiguo.get().setNombre(pais.getNombre());
+		antiguo.get().setContinente(pais.getContinente());
+		antiguo.get().setIdioma(pais.getIdioma());
+		antiguo.get().setMoneda(pais.getMoneda());
+		antiguo.get().setPoblacion(pais.getPoblacion());
+		return antiguo.get();
 	}
 
 	@Override
 	public void eliminarPais(String nombre) {
-		// TODO Auto-generated method stub
-		
+		Optional<Pais> pais = obtenerPais(nombre);
+        pais.ifPresent(p -> this.listadoPaises.remove(p));
 	}
 
 }

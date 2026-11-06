@@ -10,10 +10,7 @@ public class Pais {
 	String moneda;
 	
 	
-	public Pais(String nombre, String continente) {
-		super();
-		this.nombre = nombre;
-		this.continente = continente;
+	public Pais() {
 	}
 	
 	public Pais(String nombre, String continente, int poblacion, String idioma, String moneda) {

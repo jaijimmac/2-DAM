@@ -15,15 +15,16 @@ public class PaisController {
 	public static void main(String[] args) throws FileNotFoundException {
 		
 		PaisController ctr = new PaisController();
-		
 		List<Pais> listado = ctr.service.listadoPaises();
-	
-		/*listado.forEach((pais) -> {
-			System.out.println(pais);
-		});*/
 		
-		Optional<Pais> pais = ctr.service.obtenerPais("Argentina");
+		Pais nuevo = new Pais("España", "Europa", 46000000, "Español", "Euro");
+		ctr.service.annadirPais(nuevo);
 		
+		Pais actualizado = new Pais("Españ", "Europa", 46000000, "Español", "Euro");
+		//ctr.service.modificarPais(actualizado);
+		
+		
+		Optional<Pais> pais = ctr.service.obtenerPais("España");
 		System.out.println(pais.get().toString());
 	
 	}

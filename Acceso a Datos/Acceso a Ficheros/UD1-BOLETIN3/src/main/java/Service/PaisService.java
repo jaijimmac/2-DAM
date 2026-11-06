@@ -41,23 +41,36 @@ public class PaisService implements InterfaceService{
 
 	@Override
 	public Optional<Pais> obtenerPais(String nombre) {
-		return repo.obtenerPais(nombre);
+		if(nombre != null) {
+			return repo.obtenerPais(nombre);
+		}
+		
+		return null;
 	}
 
 	@Override
 	public Pais annadirPais(Pais pais) {
+		if(pais != null) {
+			repo.annadirPais(pais);
+		}
+		
 		return null;
 	}
 
 	@Override
 	public Pais modificarPais(Pais pais) {
+		if(pais != null) {
+			repo.modificarPais(pais);
+		}
 		
 		return null;
 	}
 
 	@Override
 	public void eliminarPais(String nombre) {
-		
+		if(nombre != null) {
+			repo.eliminarPais(nombre);
+		}
 	}
 
 }
