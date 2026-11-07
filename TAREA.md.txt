@@ -1,4 +1,3 @@
-Acceso: 
-- Acabar arquitectura(excepciones y añadir un logger.error)
+String[] miTabla = miLista.toArray(String[]::new);
 
-
+De lista a tabla
