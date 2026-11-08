@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Configuración del logger.
+  Todo lo que se registre con logger.error / logger.warn / logger.info
+  se añade (append) a resources/tienda.log con el formato:
+  [2026-11-08 16:30:12] [ERROR] [ProductoRepository] Producto P005 descartado: falta el nombre
+-->
+<configuration>
+
+    <appender name="FICHERO" class="ch.qos.logback.core.FileAppender">
+        <file>resources/tienda.log</file>
+        <append>true</append>
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss}] [%-5level] [%logger{0}] %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Por consola solo los ERROR, en rojo, para verlos también mientras se ejecuta -->
+    <appender name="CONSOLA" class="ch.qos.logback.core.ConsoleAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>%red(    [LOG %level] %msg%n)</pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="FICHERO"/>
+        <appender-ref ref="CONSOLA"/>
+    </root>
+
+</configuration>

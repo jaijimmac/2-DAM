@@ -193,7 +193,12 @@ public class PaisRepository implements InterfaceRepo{
 			
 			FileWriter fichero = null;
 	        try {
-	            fichero = new FileWriter("src/main/resources/" + nombre + ".json", true);
+	        	
+	        	//Tener en cuenta que el true no sobreescribe, si no que hace un append.
+	        	
+	        	//fichero = new FileWriter("src/main/resources/" + nombre + ".json", true);
+	        	
+	            fichero = new FileWriter("src/main/resources/" + nombre + ".json");
 	            fichero.write(json);
 	        } catch (IOException e) {
 	            e.printStackTrace();

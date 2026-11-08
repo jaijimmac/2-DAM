@@ -1,0 +1,27 @@
+nombre,inmortal,peligrosidad,magia,tipo
+Niffler,false,30,40,BESTIA
+Bowtruckle,false,10,20,BESTIA
+Thestral,false,50,50,BESTIA
+Fénix,true,40,90,BESTIA
+Erumpent,false,70,30,BESTIA
+Demiguise,false,20,60,BESTIA
+Occamy,false,60,80,BESTIA
+Graphorn,false,70,30,BESTIA
+Zouwu,false,80,70,BESTIA
+Kelpie,false,60,50,BESTIA
+Swooping Evil,false,60,40,BESTIA
+Chupacabra,false,50,30,BESTIA
+Mooncalf,false,10,20,BESTIA
+Nundu,false,90,70,BESTIA
+Murtlap,false,40,30,BESTIA
+Basilisco,false,100,60,BESTIA
+Dementor,false,90,80,ESPÍRITU
+Poltergeist,true,60,80,ESPÍRITU
+House Elf,false,30,70,SER
+Boggart,false,40,50,ESPÍRITU
+Fantasma,true,20,30,ESPÍRITU
+Goblin,false,30,40,SER
+Vampiro,false,70,50,SER
+Hombre Lobo,false,80,40,SER
+Veela,false,60,60,SER
+Centauro,false,50,40,SER

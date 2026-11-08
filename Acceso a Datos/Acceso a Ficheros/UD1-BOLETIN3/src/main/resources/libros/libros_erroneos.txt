@@ -1,0 +1,501 @@
+07/11/2026 23:07:50 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=null, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:07:58 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=null, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:07:58 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=null, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:07:58 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=null, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:07:58 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=null, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:08:02 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=null, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:08:02 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=null, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:08:02 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=null, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:08:02 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=null, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:15:13 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=null, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:15:13 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=null, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:15:13 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=null, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:15:13 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=null, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:15:34 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=null, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:15:34 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=null, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:15:34 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=null, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:15:34 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=null, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:15:43 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=null, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:15:43 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=null, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:15:43 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=null, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:15:43 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=null, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:19:08 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:19:08 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:19:08 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:19:08 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:19:58 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:19:58 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:19:58 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:19:58 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:20:12 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:20:12 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:20:12 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:20:12 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:20:22 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:20:22 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:20:22 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:20:22 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:21:42 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:21:42 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:21:42 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:21:42 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:24:59 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:24:59 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:24:59 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:24:59 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:25:40 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:25:40 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:25:40 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:25:40 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:26:45 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:26:45 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:26:45 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:26:45 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:32:06 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:32:06 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:32:06 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:32:06 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:33:56 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:33:56 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:33:56 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:33:56 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:34:35 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:34:35 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:34:35 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:34:35 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:36:54 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:36:54 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:36:54 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:36:54 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:37:01 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:37:01 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:37:01 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:37:01 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:47:45 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:47:45 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:47:45 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:47:45 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:49:16 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:49:16 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:49:16 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:49:16 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:49:38 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:49:38 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:49:38 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:49:38 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:52:36 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:52:36 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:52:36 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:52:36 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:52:51 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:52:51 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:52:51 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:52:51 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:53:58 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:53:58 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:53:58 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:53:58 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:54:05 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:54:05 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:54:05 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:54:05 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:54:20 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:54:20 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:54:20 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:54:20 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:54:47 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:54:47 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:54:47 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:54:47 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:56:49 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:56:49 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:56:49 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:56:49 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:57:48 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:57:48 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:57:48 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:57:48 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:57:50 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:57:50 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:57:50 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:57:50 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:58:05 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:58:05 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:58:05 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:58:05 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:58:52 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:58:52 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:58:52 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:58:52 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:58:56 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:58:56 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:58:56 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:58:56 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:59:06 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:59:06 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:59:06 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:59:06 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:59:13 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:59:13 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:59:13 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:59:13 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+07/11/2026 23:59:39 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+07/11/2026 23:59:39 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+07/11/2026 23:59:39 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+07/11/2026 23:59:39 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+08/11/2026 00:00:09 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+08/11/2026 00:00:09 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+08/11/2026 00:00:09 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+08/11/2026 00:00:09 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+08/11/2026 00:00:13 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+08/11/2026 00:00:13 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+08/11/2026 00:00:13 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+08/11/2026 00:00:13 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+08/11/2026 00:02:19 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+08/11/2026 00:02:19 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+08/11/2026 00:02:19 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+08/11/2026 00:02:19 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+08/11/2026 00:02:46 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+08/11/2026 00:02:46 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+08/11/2026 00:02:46 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+08/11/2026 00:02:46 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+08/11/2026 14:17:35 - Libro erróneo: Libro [isbn=9788445000663, titulo=El camino de los reyes, editorial=null, numero_edicione=0, autor=Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]]
+08/11/2026 14:17:35 - Libro erróneo: Libro [isbn=9788445003176, titulo=Neuromante, editorial=null, numero_edicione=0, autor=Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]]
+08/11/2026 14:17:35 - Libro erróneo: Libro [isbn=9788497592209, titulo=Guía del autoestopista galáctico, editorial=null, numero_edicione=0, autor=Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]]
+08/11/2026 14:17:35 - Libro erróneo: Libro [isbn=9788445004562, titulo=La historia interminable, editorial=null, numero_edicione=0, autor=Autor [nombre=Michael, apellidos=Ende, pais=Alemania]]
+08/11/2026 14:19:03 - Libro erróneo: Libro:
+[-] ISBM: 9788445000663
+[-] Título: El camino de los reyes
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor [nombre=Brandon, apellidos=Sanderson, pais=Estados Unidos]
+08/11/2026 14:19:03 - Libro erróneo: Libro:
+[-] ISBM: 9788445003176
+[-] Título: Neuromante
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor [nombre=William, apellidos=Gibson, pais=Estados Unidos]
+08/11/2026 14:19:03 - Libro erróneo: Libro:
+[-] ISBM: 9788497592209
+[-] Título: Guía del autoestopista galáctico
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor [nombre=Douglas, apellidos=Adams, pais=Reino Unido]
+08/11/2026 14:19:03 - Libro erróneo: Libro:
+[-] ISBM: 9788445004562
+[-] Título: La historia interminable
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor [nombre=Michael, apellidos=Ende, pais=Alemania]
+08/11/2026 14:19:56 - Libro erróneo: Libro:
+[-] ISBM: 9788445000663
+[-] Título: El camino de los reyes
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor:
+[-] Nombre: Brandon
+[-] Apellido: Sanderson
+[-] País: Estados Unidos
+
+08/11/2026 14:19:56 - Libro erróneo: Libro:
+[-] ISBM: 9788445003176
+[-] Título: Neuromante
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor:
+[-] Nombre: William
+[-] Apellido: Gibson
+[-] País: Estados Unidos
+
+08/11/2026 14:19:56 - Libro erróneo: Libro:
+[-] ISBM: 9788497592209
+[-] Título: Guía del autoestopista galáctico
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor:
+[-] Nombre: Douglas
+[-] Apellido: Adams
+[-] País: Reino Unido
+
+08/11/2026 14:19:56 - Libro erróneo: Libro:
+[-] ISBM: 9788445004562
+[-] Título: La historia interminable
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor:
+[-] Nombre: Michael
+[-] Apellido: Ende
+[-] País: Alemania
+
+08/11/2026 14:20:16 - Libro erróneo: Libro:
+[-] ISBM: 9788445000663
+[-] Título: El camino de los reyes
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor:
+[-] Nombre: Brandon[-] Apellido: Sanderson[-] País: Estados Unidos
+08/11/2026 14:20:16 - Libro erróneo: Libro:
+[-] ISBM: 9788445003176
+[-] Título: Neuromante
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor:
+[-] Nombre: William[-] Apellido: Gibson[-] País: Estados Unidos
+08/11/2026 14:20:16 - Libro erróneo: Libro:
+[-] ISBM: 9788497592209
+[-] Título: Guía del autoestopista galáctico
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor:
+[-] Nombre: Douglas[-] Apellido: Adams[-] País: Reino Unido
+08/11/2026 14:20:16 - Libro erróneo: Libro:
+[-] ISBM: 9788445004562
+[-] Título: La historia interminable
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor:
+[-] Nombre: Michael[-] Apellido: Ende[-] País: Alemania
+08/11/2026 14:20:25 - Libro erróneo: Libro:
+[-] ISBM: 9788445000663
+[-] Título: El camino de los reyes
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor:
+[-] Nombre: Brandon [-] Apellido: Sanderson [-] País: Estados Unidos 
+08/11/2026 14:20:25 - Libro erróneo: Libro:
+[-] ISBM: 9788445003176
+[-] Título: Neuromante
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor:
+[-] Nombre: William [-] Apellido: Gibson [-] País: Estados Unidos 
+08/11/2026 14:20:25 - Libro erróneo: Libro:
+[-] ISBM: 9788497592209
+[-] Título: Guía del autoestopista galáctico
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor:
+[-] Nombre: Douglas [-] Apellido: Adams [-] País: Reino Unido 
+08/11/2026 14:20:25 - Libro erróneo: Libro:
+[-] ISBM: 9788445004562
+[-] Título: La historia interminable
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor:
+[-] Nombre: Michael [-] Apellido: Ende [-] País: Alemania 
+08/11/2026 14:20:45 - Libro erróneo: Libro:
+[-] ISBM: 9788445000663
+[-] Título: El camino de los reyes
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor: Nombre: Brandon Apellido: Sanderson País: Estados Unidos 
+08/11/2026 14:20:45 - Libro erróneo: Libro:
+[-] ISBM: 9788445003176
+[-] Título: Neuromante
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor: Nombre: William Apellido: Gibson País: Estados Unidos 
+08/11/2026 14:20:45 - Libro erróneo: Libro:
+[-] ISBM: 9788497592209
+[-] Título: Guía del autoestopista galáctico
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor: Nombre: Douglas Apellido: Adams País: Reino Unido 
+08/11/2026 14:20:45 - Libro erróneo: Libro:
+[-] ISBM: 9788445004562
+[-] Título: La historia interminable
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Autor: Nombre: Michael Apellido: Ende País: Alemania 
+08/11/2026 14:20:54 - Libro erróneo: Libro:
+[-] ISBM: 9788445000663
+[-] Título: El camino de los reyes
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Nombre: Brandon Apellido: Sanderson País: Estados Unidos 
+08/11/2026 14:20:54 - Libro erróneo: Libro:
+[-] ISBM: 9788445003176
+[-] Título: Neuromante
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Nombre: William Apellido: Gibson País: Estados Unidos 
+08/11/2026 14:20:54 - Libro erróneo: Libro:
+[-] ISBM: 9788497592209
+[-] Título: Guía del autoestopista galáctico
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Nombre: Douglas Apellido: Adams País: Reino Unido 
+08/11/2026 14:20:54 - Libro erróneo: Libro:
+[-] ISBM: 9788445004562
+[-] Título: La historia interminable
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Nombre: Michael Apellido: Ende País: Alemania 
+08/11/2026 14:21:16 - Libro erróneo: Libro:
+[-] ISBM: 9788445000663
+[-] Título: El camino de los reyes
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Nombre: Brandon->Apellido: Sanderson->País: Estados Unidos->
+08/11/2026 14:21:16 - Libro erróneo: Libro:
+[-] ISBM: 9788445003176
+[-] Título: Neuromante
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Nombre: William->Apellido: Gibson->País: Estados Unidos->
+08/11/2026 14:21:16 - Libro erróneo: Libro:
+[-] ISBM: 9788497592209
+[-] Título: Guía del autoestopista galáctico
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Nombre: Douglas->Apellido: Adams->País: Reino Unido->
+08/11/2026 14:21:16 - Libro erróneo: Libro:
+[-] ISBM: 9788445004562
+[-] Título: La historia interminable
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Nombre: Michael->Apellido: Ende->País: Alemania->
+08/11/2026 14:21:37 - Libro erróneo: Libro:
+[-] ISBM: 9788445000663
+[-] Título: El camino de los reyes
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Nombre: BrandonSandersonPaís: Estados Unidos
+08/11/2026 14:21:37 - Libro erróneo: Libro:
+[-] ISBM: 9788445003176
+[-] Título: Neuromante
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Nombre: WilliamGibsonPaís: Estados Unidos
+08/11/2026 14:21:37 - Libro erróneo: Libro:
+[-] ISBM: 9788497592209
+[-] Título: Guía del autoestopista galáctico
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Nombre: DouglasAdamsPaís: Reino Unido
+08/11/2026 14:21:37 - Libro erróneo: Libro:
+[-] ISBM: 9788445004562
+[-] Título: La historia interminable
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Nombre: MichaelEndePaís: Alemania
+08/11/2026 14:21:42 - Libro erróneo: Libro:
+[-] ISBM: 9788445000663
+[-] Título: El camino de los reyes
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Nombre: Brandon SandersonPaís: Estados Unidos
+08/11/2026 14:21:42 - Libro erróneo: Libro:
+[-] ISBM: 9788445003176
+[-] Título: Neuromante
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Nombre: William GibsonPaís: Estados Unidos
+08/11/2026 14:21:42 - Libro erróneo: Libro:
+[-] ISBM: 9788497592209
+[-] Título: Guía del autoestopista galáctico
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Nombre: Douglas AdamsPaís: Reino Unido
+08/11/2026 14:21:42 - Libro erróneo: Libro:
+[-] ISBM: 9788445004562
+[-] Título: La historia interminable
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Nombre: Michael EndePaís: Alemania
+08/11/2026 14:21:52 - Libro erróneo: Libro:
+[-] ISBM: 9788445000663
+[-] Título: El camino de los reyes
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor:  Brandon SandersonPaís: Estados Unidos
+08/11/2026 14:21:52 - Libro erróneo: Libro:
+[-] ISBM: 9788445003176
+[-] Título: Neuromante
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor:  William GibsonPaís: Estados Unidos
+08/11/2026 14:21:52 - Libro erróneo: Libro:
+[-] ISBM: 9788497592209
+[-] Título: Guía del autoestopista galáctico
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor:  Douglas AdamsPaís: Reino Unido
+08/11/2026 14:21:52 - Libro erróneo: Libro:
+[-] ISBM: 9788445004562
+[-] Título: La historia interminable
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor:  Michael EndePaís: Alemania
+08/11/2026 14:22:11 - Libro erróneo: Libro:
+[-] ISBM: 9788445000663
+[-] Título: El camino de los reyes
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Brandon Sanderson País: Estados Unidos
+08/11/2026 14:22:11 - Libro erróneo: Libro:
+[-] ISBM: 9788445003176
+[-] Título: Neuromante
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: William Gibson País: Estados Unidos
+08/11/2026 14:22:11 - Libro erróneo: Libro:
+[-] ISBM: 9788497592209
+[-] Título: Guía del autoestopista galáctico
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Douglas Adams País: Reino Unido
+08/11/2026 14:22:11 - Libro erróneo: Libro:
+[-] ISBM: 9788445004562
+[-] Título: La historia interminable
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Michael Ende País: Alemania
+08/11/2026 14:22:26 - Libro erróneo: Libro:
+[-] ISBM: 9788445000663
+[-] Título: El camino de los reyes
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Brandon Sanderson , Estados Unidos
+08/11/2026 14:22:26 - Libro erróneo: Libro:
+[-] ISBM: 9788445003176
+[-] Título: Neuromante
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: William Gibson , Estados Unidos
+08/11/2026 14:22:26 - Libro erróneo: Libro:
+[-] ISBM: 9788497592209
+[-] Título: Guía del autoestopista galáctico
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Douglas Adams , Reino Unido
+08/11/2026 14:22:26 - Libro erróneo: Libro:
+[-] ISBM: 9788445004562
+[-] Título: La historia interminable
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Michael Ende , Alemania
+08/11/2026 14:22:43 - Libro erróneo: Libro:
+[-] ISBM: 9788445000663
+[-] Título: El camino de los reyes
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Brandon Sanderson, Estados Unidos
+08/11/2026 14:22:43 - Libro erróneo: Libro:
+[-] ISBM: 9788445003176
+[-] Título: Neuromante
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: William Gibson, Estados Unidos
+08/11/2026 14:22:43 - Libro erróneo: Libro:
+[-] ISBM: 9788497592209
+[-] Título: Guía del autoestopista galáctico
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Douglas Adams, Reino Unido
+08/11/2026 14:22:43 - Libro erróneo: Libro:
+[-] ISBM: 9788445004562
+[-] Título: La historia interminable
+[-] Editorial: null
+[-] Nuúmero de Ediciones: 0
+[-] Autor: Michael Ende, Alemania

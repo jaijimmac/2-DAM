@@ -1,0 +1,435 @@
+
+======================================================================
+  3. CARGA DE DATOS (productos -> clientes -> pedidos)
+======================================================================
+
+> Cargar ficheros
+    [LOG ERROR] Producto P005 (línea 6) descartado: falta el nombre
+    [LOG ERROR] Producto P007 (línea 8) descartado: precio no válido (-59.9)
+    [LOG ERROR] Producto P008 (línea 9) descartado: stock no numérico (abc)
+    [LOG ERROR] Producto P002 (línea 12) descartado: id duplicado
+    [LOG ERROR] Producto P013 (línea 13) descartado: número de columnas incorrecto (4 en vez de 6)
+    [LOG ERROR] Cliente C003 (línea 30) descartado: falta el email
+    [LOG ERROR] Cliente C005 (línea 53) descartado: email no válido (marcos.gmail.com)
+    [LOG ERROR] Cliente C007 (línea 81) descartado: JSON mal formado (Unterminated object at line 5 column 6 path $.apellidos)
+    [LOG ERROR] Cliente C008 (línea 91) descartado: 'direccion' debe ser un objeto o null, no "Calle Sol 3, Valencia"
+    [LOG ERROR] Cliente C009 (línea 101) descartado: 'telefonos' debe ser una lista, no "699001122"
+    [LOG ERROR] Cliente C010 (línea 115) descartado: teléfono no válido (60011): debe tener 9 dígitos
+    [LOG ERROR] Cliente C011 (línea 125) descartado: 'vip' debe ser true o false, no "si"
+    [LOG ERROR] Pedido PED-004 (línea 7) descartado: el cliente C099 no existe
+    [LOG ERROR] Pedido PED-005 (línea 8) descartado: fecha no válida (32/10/2026)
+    [LOG ERROR] Pedido PED-006 (línea 10) descartado: el producto P020 no existe
+    [LOG ERROR] Pedido de la línea 14 descartado: formato incorrecto (4 campos en vez de 5)
+    [LOG ERROR] Pedido PED-010 (línea 15) descartado: estado no válido (DEVUELTO)
+  OK
+
+Productos cargados: 8
+  P001  Teclado mecánico       Periféricos        79.90 €    25 uds.  [gaming, rgb, usb]
+  P002  Ratón inalámbrico      Periféricos        24.50 €    60 uds.  [inalambrico, usb]
+  P003  Monitor 27 pulgadas    Monitores         249.00 €    10 uds.  [4k, ips]
+  P004  Portátil Ultra 14      Portátiles       1099.99 €     5 uds.  [ligero, ssd]
+  P006  Cable HDMI 2m          Cables              8.99 €   200 uds.  []
+  P009  Altavoz portátil       Audio              45.00 €    15 uds.  [bluetooth, resistente-agua]
+  P010  Disco SSD 1TB          Almacenamiento     89.90 €    40 uds.  [ssd, nvme]
+  P011  Hub USB-C              Cables             29.99 €     0 uds.  [usb-c, aluminio]
+
+Clientes cargados: 5
+  C001  Lucía Martín Ruiz      lucia.martin@mail.com     alta: 12/03/2023  Sevilla  tlf: [654321987, 954112233]  ★ VIP
+  C002  Pablo Gómez Torres     pablo.gomez@mail.com      alta: 01/09/2024  Madrid  tlf: [611223344]  
+  C004  Ana López Vega         ana.lopez@mail.com        alta: 20/06/2025  (sin dirección)  tlf: []  
+  C006  Sara Navarro Pons      sara.navarro@mail.com     alta: 11/11/2024  Valencia  tlf: [622334455]  ★ VIP
+  C012  Diego Moreno Gil       diego.moreno@mail.com     alta: 18/07/2025  Sevilla  tlf: [655443322]  
+
+Pedidos cargados: 6
+  PED-001  05/10/2026  C001  [P001x1, P002x2]             ENTREGADO  subtotal:   128.90 €
+  PED-002  07/10/2026  C002  [P004x1]                     ENVIADO    subtotal:  1099.99 €
+  PED-003  07/10/2026  C001  [P010x2, P006x3]             PENDIENTE  subtotal:   206.77 €
+  PED-007  11/10/2026  C004  [P003x1]                     CANCELADO  subtotal:   249.00 €
+  PED-008  12/10/2026  C002  [P001x2, P009x1, P006x1]     ENTREGADO  subtotal:   213.79 €
+  PED-009  12/10/2026  C006  [P011x1]                     PENDIENTE  subtotal:    29.99 €
+
+Errores de carga registrados con logger.error en resources/tienda.log:
+  [2026-11-08 16:42:10] [ERROR] [ProductoRepository] Producto P005 (línea 6) descartado: falta el nombre
+  [2026-11-08 16:42:10] [ERROR] [ProductoRepository] Producto P007 (línea 8) descartado: precio no válido (-59.9)
+  [2026-11-08 16:42:10] [ERROR] [ProductoRepository] Producto P008 (línea 9) descartado: stock no numérico (abc)
+  [2026-11-08 16:42:10] [ERROR] [ProductoRepository] Producto P002 (línea 12) descartado: id duplicado
+  [2026-11-08 16:42:10] [ERROR] [ProductoRepository] Producto P013 (línea 13) descartado: número de columnas incorrecto (4 en vez de 6)
+  [2026-11-08 16:42:10] [ERROR] [ClienteRepository] Cliente C003 (línea 30) descartado: falta el email
+  [2026-11-08 16:42:10] [ERROR] [ClienteRepository] Cliente C005 (línea 53) descartado: email no válido (marcos.gmail.com)
+  [2026-11-08 16:42:10] [ERROR] [ClienteRepository] Cliente C007 (línea 81) descartado: JSON mal formado (Unterminated object at line 5 column 6 path $.apellidos)
+  [2026-11-08 16:42:10] [ERROR] [ClienteRepository] Cliente C008 (línea 91) descartado: 'direccion' debe ser un objeto o null, no "Calle Sol 3, Valencia"
+  [2026-11-08 16:42:10] [ERROR] [ClienteRepository] Cliente C009 (línea 101) descartado: 'telefonos' debe ser una lista, no "699001122"
+  [2026-11-08 16:42:10] [ERROR] [ClienteRepository] Cliente C010 (línea 115) descartado: teléfono no válido (60011): debe tener 9 dígitos
+  [2026-11-08 16:42:10] [ERROR] [ClienteRepository] Cliente C011 (línea 125) descartado: 'vip' debe ser true o false, no "si"
+  [2026-11-08 16:42:10] [ERROR] [PedidoRepository] Pedido PED-004 (línea 7) descartado: el cliente C099 no existe
+  [2026-11-08 16:42:10] [ERROR] [PedidoRepository] Pedido PED-005 (línea 8) descartado: fecha no válida (32/10/2026)
+  [2026-11-08 16:42:10] [ERROR] [PedidoRepository] Pedido PED-006 (línea 10) descartado: el producto P020 no existe
+  [2026-11-08 16:42:10] [ERROR] [PedidoRepository] Pedido de la línea 14 descartado: formato incorrecto (4 campos en vez de 5)
+  [2026-11-08 16:42:10] [ERROR] [PedidoRepository] Pedido PED-010 (línea 15) descartado: estado no válido (DEVUELTO)
+
+======================================================================
+  4. GESTIÓN DE PRODUCTOS
+======================================================================
+
+--- Listado por categoría y precio ---
+  P010  Disco SSD 1TB          Almacenamiento     89.90 €    40 uds.  [ssd, nvme]
+  P009  Altavoz portátil       Audio              45.00 €    15 uds.  [bluetooth, resistente-agua]
+  P006  Cable HDMI 2m          Cables              8.99 €   200 uds.  []
+  P011  Hub USB-C              Cables             29.99 €     0 uds.  [usb-c, aluminio]
+  P003  Monitor 27 pulgadas    Monitores         249.00 €    10 uds.  [4k, ips]
+  P002  Ratón inalámbrico      Periféricos        24.50 €    60 uds.  [inalambrico, usb]
+  P001  Teclado mecánico       Periféricos        79.90 €    25 uds.  [gaming, rgb, usb]
+  P004  Portátil Ultra 14      Portátiles       1099.99 €     5 uds.  [ligero, ssd]
+
+--- Buscar P009 y P099 ---
+
+> Buscar P009
+  P009  Altavoz portátil       Audio              45.00 €    15 uds.  [bluetooth, resistente-agua]
+  OK
+
+> Buscar P099
+  ERROR: No existe el producto P099
+
+--- Buscar por etiqueta 'usb' ---
+  P001  Teclado mecánico       Periféricos        79.90 €    25 uds.  [gaming, rgb, usb]
+  P002  Ratón inalámbrico      Periféricos        24.50 €    60 uds.  [inalambrico, usb]
+
+--- Añadir productos ---
+
+> Añadir P012 (válido)
+  OK
+
+> Añadir P013 con precio 0
+    [LOG ERROR] No se ha podido dar de alta el producto Regalo: precio no válido (0.0)
+  ERROR: precio no válido (0.0)
+
+> Añadir P001 repetido
+    [LOG ERROR] No se ha podido dar de alta el producto Otro teclado: ya existe un producto con id P001
+  ERROR: ya existe un producto con id P001
+
+--- Reponer stock ---
+
+> Reponer 5 uds. de P003
+  P003  Monitor 27 pulgadas    Monitores         249.00 €    15 uds.  [4k, ips]
+  OK
+
+> Reponer -3 uds. de P003
+  ERROR: las unidades a reponer deben ser positivas
+
+--- Eliminar P010 (está en PED-003, PENDIENTE) ---
+
+> Eliminar P010
+    [LOG ERROR] No se ha podido dar de baja el producto P010: aparece en pedidos activos [PED-003]
+  ERROR: No se ha podido dar de baja el producto P010: aparece en pedidos activos [PED-003]
+
+======================================================================
+  5. GESTIÓN DE CLIENTES
+======================================================================
+
+> Añadir cliente válido
+  C013  Elena Castro Díaz      elena.castro@mail.com     alta: 08/11/2026  Madrid  tlf: [633445566]  
+  OK
+
+> Añadir cliente con email inválido
+    [LOG ERROR] No se ha podido dar de alta al cliente Pedro Ruiz: email no válido (pedro@@mail)
+  ERROR: email no válido (pedro@@mail)
+
+> Añadir teléfono 600112233 a C004
+  OK
+
+> Añadir teléfono 123 a C004
+    [LOG ERROR] No se ha podido añadir el teléfono a C004: teléfono no válido (123): debe tener 9 dígitos
+  ERROR: teléfono no válido (123): debe tener 9 dígitos
+
+> Añadir otra vez 600112233 a C004
+    [LOG ERROR] No se ha podido añadir el teléfono a C004: el teléfono 600112233 ya está registrado
+  ERROR: el teléfono 600112233 ya está registrado
+
+> Hacer VIP a C004
+  OK
+
+> Hacer VIP a C099
+  ERROR: No existe el cliente C099
+
+> Ver C004
+  C004  Ana López Vega         ana.lopez@mail.com        alta: 20/06/2025  (sin dirección)  tlf: [600112233]  ★ VIP
+  OK
+
+======================================================================
+  6. GESTIÓN DE PEDIDOS
+======================================================================
+
+--- Crear pedidos ---
+
+> Pedido de 1 ud. de P011 (stock 0)
+    [LOG ERROR] Stock insuficiente para el pedido de C006: P011 (pedidas 1, hay 0)
+  ERROR: Stock insuficiente para el pedido de C006: P011 (pedidas 1, hay 0)
+
+> Pedido con P002x1 y P011x1 (no debe descontar P002)
+    [LOG ERROR] Stock insuficiente para el pedido de C006: P011 (pedidas 1, hay 0)
+  ERROR: Stock insuficiente para el pedido de C006: P011 (pedidas 1, hay 0)
+
+> Comprobar stock de P002 (debe seguir en 60)
+  P002  Ratón inalámbrico      Periféricos        24.50 €    60 uds.  [inalambrico, usb]
+  OK
+
+> Pedido de cliente inexistente
+  ERROR: No existe el cliente C099
+
+> Pedido válido C006: 4 x P004 (deja stock bajo)
+  Creado: PED-011  08/11/2026  C006  [P004x4]                     PENDIENTE  subtotal:  4399.96 €
+  OK
+
+--- Cambios de estado ---
+
+> PED-001 ENTREGADO -> PENDIENTE
+    [LOG ERROR] El pedido PED-001 no puede pasar de ENTREGADO a PENDIENTE
+  ERROR: El pedido PED-001 no puede pasar de ENTREGADO a PENDIENTE
+
+> PED-002 ENVIADO -> ENTREGADO
+  OK
+
+> PED-009 PENDIENTE -> ENTREGADO (se salta ENVIADO)
+    [LOG ERROR] El pedido PED-009 no puede pasar de PENDIENTE a ENTREGADO
+  ERROR: El pedido PED-009 no puede pasar de PENDIENTE a ENTREGADO
+
+> Cancelar PED-003 (devuelve stock)
+  P010  Disco SSD 1TB          Almacenamiento     89.90 €    42 uds.  [ssd, nvme]
+  P006  Cable HDMI 2m          Cables              8.99 €   203 uds.  []
+  OK
+
+--- Pedidos tras los cambios ---
+  PED-001  05/10/2026  C001  [P001x1, P002x2]             ENTREGADO  subtotal:   128.90 €
+  PED-002  07/10/2026  C002  [P004x1]                     ENTREGADO  subtotal:  1099.99 €
+  PED-003  07/10/2026  C001  [P010x2, P006x3]             CANCELADO  subtotal:   206.77 €
+  PED-007  11/10/2026  C004  [P003x1]                     CANCELADO  subtotal:   249.00 €
+  PED-008  12/10/2026  C002  [P001x2, P009x1, P006x1]     ENTREGADO  subtotal:   213.79 €
+  PED-009  12/10/2026  C006  [P011x1]                     PENDIENTE  subtotal:    29.99 €
+  PED-011  08/11/2026  C006  [P004x4]                     PENDIENTE  subtotal:  4399.96 €
+
+======================================================================
+  7. FACTURAS E INFORMES
+======================================================================
+
+> Factura PED-001
+  --- resources/facturas/factura_PED-001.txt ---
+  ===========================================
+                  TIENDATECH
+  ===========================================
+  Factura:   PED-001
+  Fecha:     05/10/2026
+  Cliente:   Lucía Martín Ruiz (C001)
+  Dirección: Calle Feria 12, 41003 Sevilla
+  -------------------------------------------
+  Producto              Cant.  P.Unit   Total
+  Teclado mecánico          1   79.90   79.90
+  Ratón inalámbrico         2   24.50   49.00
+  -------------------------------------------
+  Subtotal:                            128.90
+  Descuento VIP (10%):                  12.89
+  Base imponible:                      116.01
+  IVA (21%):                            24.36
+  TOTAL:                               140.37
+  ===========================================
+  OK
+
+> Factura PED-008
+  --- resources/facturas/factura_PED-008.txt ---
+  ===========================================
+                  TIENDATECH
+  ===========================================
+  Factura:   PED-008
+  Fecha:     12/10/2026
+  Cliente:   Pablo Gómez Torres (C002)
+  Dirección: Av. de América 45, 28002 Madrid
+  -------------------------------------------
+  Producto              Cant.  P.Unit   Total
+  Teclado mecánico          2   79.90  159.80
+  Altavoz portátil          1   45.00   45.00
+  Cable HDMI 2m             1    8.99    8.99
+  -------------------------------------------
+  Subtotal:                            213.79
+  Descuento VIP (10%):                   0.00
+  Base imponible:                      213.79
+  IVA (21%):                            44.90
+  TOTAL:                               258.69
+  ===========================================
+  OK
+
+> Factura PED-007 (cancelado)
+    [LOG ERROR] No se puede generar la factura de PED-007: el pedido está CANCELADO
+  ERROR: No se puede generar la factura de PED-007: el pedido está CANCELADO
+
+> Factura PED-099
+  ERROR: No existe el pedido PED-099
+
+> Ventas por categoría
+  --- resources/ventas_por_categoria.csv ---
+  categoria,unidades_vendidas,importe_total
+  Portátiles,1,1099.99
+  Periféricos,5,288.70
+  Audio,1,45.00
+  Cables,1,8.99
+  OK
+
+> Informe de clientes
+  --- resources/informe_clientes.json ---
+  [
+    {
+      "id": "C001",
+      "nombre_completo": "Lucía Martín Ruiz",
+      "vip": true,
+      "numero_pedidos": 1,
+      "total_gastado": 140.37,
+      "producto_favorito": "Ratón inalámbrico"
+    },
+    {
+      "id": "C002",
+      "nombre_completo": "Pablo Gómez Torres",
+      "vip": false,
+      "numero_pedidos": 2,
+      "total_gastado": 1589.68,
+      "producto_favorito": "Teclado mecánico"
+    },
+    {
+      "id": "C004",
+      "nombre_completo": "Ana López Vega",
+      "vip": true,
+      "numero_pedidos": 0,
+      "total_gastado": 0.0,
+      "producto_favorito": null
+    },
+    {
+      "id": "C006",
+      "nombre_completo": "Sara Navarro Pons",
+      "vip": true,
+      "numero_pedidos": 0,
+      "total_gastado": 0.0,
+      "producto_favorito": null
+    },
+    {
+      "id": "C012",
+      "nombre_completo": "Diego Moreno Gil",
+      "vip": false,
+      "numero_pedidos": 0,
+      "total_gastado": 0.0,
+      "producto_favorito": null
+    },
+    {
+      "id": "C013",
+      "nombre_completo": "Elena Castro Díaz",
+      "vip": false,
+      "numero_pedidos": 0,
+      "total_gastado": 0.0,
+      "producto_favorito": null
+    }
+  ]
+  OK
+
+> Stock bajo (< 5)
+  --- resources/stock_bajo.txt ---
+  PRODUCTOS CON STOCK INFERIOR A 5 UNIDADES
+  Generado: 08/11/2026 16:42
+  -------------------------------------------
+  P011  Hub USB-C                   0 uds.  <-- AGOTADO
+  P004  Portátil Ultra 14           1 uds.
+  OK
+
+--- Top 3 productos más vendidos ---
+  Teclado mecánico -> 3 uds.
+  Ratón inalámbrico -> 2 uds.
+  Portátil Ultra 14 -> 1 uds.
+
+> Pedidos de Madrid
+  --- resources/pedidos_Madrid.csv ---
+  id_pedido,fecha,cliente,estado,total
+  PED-002,07/10/2026,Pablo Gómez Torres,ENTREGADO,1330.99
+  PED-008,12/10/2026,Pablo Gómez Torres,ENTREGADO,258.69
+  OK
+
+--- Eliminar P001 (solo está en pedidos ENTREGADO) ---
+
+> Eliminar P001
+  OK
+
+======================================================================
+  8. COPIAS DE SEGURIDAD
+======================================================================
+
+> Listar copias
+  clientes_20261108_164210.json
+  pedidos_20261108_164210.txt
+  productos_20261108_164210.csv
+  OK
+
+> Restaurar clientes.json desde la última copia
+  Restaurado desde clientes_20261108_164210.json
+  Clientes antes: 6 / después: 6
+  OK
+
+======================================================================
+  9. VERSIÓN 2: PROVEEDORES
+======================================================================
+
+> Migrar productos.csv -> productos_v2.csv
+  8 líneas migradas
+  OK
+
+> Cargar productos_v2.csv (detecta el formato por la cabecera)
+  OK
+
+> Asignar proveedores
+  OK
+
+> Volver a cargar el v2 para comprobar que se lee bien
+  P002  Ratón inalámbrico      Periféricos        24.50 €    60 uds.  [inalambrico, usb]  Proveedor: Logitech (Suiza)
+  P003  Monitor 27 pulgadas    Monitores         249.00 €    15 uds.  [4k, ips]
+  P004  Portátil Ultra 14      Portátiles       1099.99 €     1 uds.  [ligero, ssd]  Proveedor: Asus (Taiwán)
+  P006  Cable HDMI 2m          Cables              8.99 €   203 uds.  []
+  P009  Altavoz portátil       Audio              45.00 €    15 uds.  [bluetooth, resistente-agua]
+  P010  Disco SSD 1TB          Almacenamiento     89.90 €    42 uds.  [ssd, nvme]  Proveedor: Kingston (Taiwán)
+  P011  Hub USB-C              Cables             29.99 €     0 uds.  [usb-c, aluminio]
+  P012  Alfombrilla XL         Periféricos        19.90 €    50 uds.  [gaming]
+  OK
+
+> Productos de Taiwán
+  --- resources/productos_Taiwan.json ---
+  [
+    {
+      "id": "P004",
+      "nombre": "Portátil Ultra 14",
+      "categoria": "Portátiles",
+      "precio": 1099.99,
+      "stock": 1,
+      "etiquetas": [
+        "ligero",
+        "ssd"
+      ],
+      "proveedor": {
+        "nombre": "Asus",
+        "pais": "Taiwán",
+        "email": "b2b@asus.com"
+      }
+    },
+    {
+      "id": "P010",
+      "nombre": "Disco SSD 1TB",
+      "categoria": "Almacenamiento",
+      "precio": 89.9,
+      "stock": 42,
+      "etiquetas": [
+        "ssd",
+        "nvme"
+      ],
+      "proveedor": {
+        "nombre": "Kingston",
+        "pais": "Taiwán",
+        "email": "pedidos@kingston.tw"
+      }
+    }
+  ]
+  OK
+
+======================================================================
+  FIN. Revisa resources/ (tienda.log, facturas/, backup/ e informes)
+======================================================================

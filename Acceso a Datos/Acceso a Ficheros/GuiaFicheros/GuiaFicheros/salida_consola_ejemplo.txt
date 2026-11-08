@@ -1,0 +1,124 @@
+
+===========================================================================
+  CSV: paises_errores.csv
+===========================================================================
+  ERROR [LectorCsv] Línea 4 descartada: falta el continente  ->  Brasil,,214000000,Portugués,Real brasileño
+  WARN  [PaisFactory] Población '67.000.000' escrita con puntos de miles: se interpreta como 67000000
+  ERROR [LectorCsv] Línea 8 descartada: falta la población  ->  India,Asia,,Hindi Inglés,Rupia india
+  ERROR [LectorCsv] Línea 9 descartada: faltan columnas (4 de 5)  ->  Japón,Asia,125800000,Japonés
+  ERROR [LectorCsv] Línea 10 descartada: sobran columnas (6 de 5)  ->  México,América,126000000,Español,Peso mexicano,extra
+  ERROR [LectorCsv] Línea 11 descartada: usa ';' como separador en vez de ','  ->  Nigeria;África;206000000;Inglés;Naira
+  ERROR [LectorCsv] Línea 12 descartada: falta el nombre  ->  null,Asia,1000,Chino,Yuan
+  ERROR [LectorCsv] Línea 14 descartada: población negativa (-83000000)  ->  Alemania,Europa,-83000000,Alemán,Euro
+  ERROR [LectorCsv] Línea 15 descartada: país duplicado (Argentina)  ->  Argentina,América,46000000,Español,Peso argentino
+  ERROR [LectorCsv] Línea 18 descartada: comillas sin cerrar  ->  "Chile,América,19600000,Español,Peso chileno
+  WARN  [PaisFactory] País Italia: continente 'europa' corregido a 'Europa'
+  ERROR [LectorCsv] Línea 20 descartada: continente desconocido (Atlántida)  ->  Perú,Atlántida,33000000,Español Quechua,Sol
+  WARN  [PaisFactory] País Kenia: continente 'Africa' corregido a 'África'
+  ERROR [LectorCsv] Línea 23 descartada: población no numérica (diez millones)  ->  Portugal,Europa,diez millones,Portugués,Euro
+  INFO  [LectorCsv] paises_errores.csv: 11 países cargados
+  Países válidos: 11
+    Argentina              América        46,000,000  [Español]                      Peso argentino
+    Canadá                 América        38,000,000  [Inglés, Francés]              Dólar canadiense
+    China                  Asia        1,412,000,000  [Chino]                        Yuan
+    Francia                Europa         67,000,000  [Francés]                      Euro
+    Sudáfrica              África         60,000,000  [Inglés, Afrikáans, Zulú]      Rand sudafricano
+    Corea del Sur          Asia           51,700,000  [Coreano]                      Won surcoreano
+    Bosnia, Herzegovina    Europa          3,200,000  [Bosnio, Croata, Serbio]       Marco convertible
+    Italia                 Europa         59,000,000  [Italiano]                     Euro
+    Egipto                 África        104,000,000  [Árabe]                        (sin moneda)
+    Kenia                  África         54,000,000  [Suajili, Inglés]              Chelín keniano
+    Australia              Oceanía        26,000,000  [Inglés]                       Dólar australiano
+
+===========================================================================
+  CSV: casos de fichero completo
+===========================================================================
+  ERROR [LectorCsv] No existe el fichero /home/claude/guia/GuiaFicheros/resources/no_existe.csv
+  ERROR [LectorCsv] El fichero paises_vacio.csv está vacío
+  ERROR [LectorCsv] Cabecera no válida en paises_sin_columna.csv: falta la columna 'continente'
+  INFO  [LectorCsv] paises_sin_columna.csv: 0 países cargados
+  ERROR [LectorCsv] Cabecera no válida en paises_puntoycoma.csv: parece que el separador es ';' y no ','. Usa new LectorCsv(fichero, ';')
+  INFO  [LectorCsv] paises_puntoycoma.csv: 0 países cargados
+  -> Con el separador correcto:
+  INFO  [LectorCsv] paises_puntoycoma.csv: 2 países cargados
+  Países válidos: 2
+    Suiza                  Europa          8,700,000  [Alemán, Francés, Italiano]    Franco suizo
+    Noruega                Europa          5,400,000  [Noruego]                      Corona noruega
+
+===========================================================================
+  CSV: escritura e ida y vuelta
+===========================================================================
+  WARN  [EscritorCsv] País null en la lista: se ignora
+  INFO  [EscritorCsv] paises.csv: 12 países escritos
+  INFO  [LectorCsv] paises.csv: 12 países cargados
+  OK: se han releído los 12 países escritos sin errores
+
+===========================================================================
+  JSON: paises_errores.json
+===========================================================================
+  ERROR [LectorJson] Objeto nº 2 (línea 9) descartado: falta el nombre
+  ERROR [LectorJson] Objeto nº 3 (línea 16) descartado: falta el continente
+  ERROR [LectorJson] Objeto nº 4 (línea 22) descartado: población no numérica (38 millones)
+  WARN  [LectorJson] Objeto nº 5 (línea 29): 'poblacion' venía como texto ("1412000000"), se convierte a número
+  ERROR [LectorJson] Objeto nº 6 (línea 36) descartado: 'poblacion' debe ser entero, no 67000000.5
+  WARN  [LectorJson] Objeto nº 7 (línea 43): 'idiomas' venía como texto en vez de lista, se separa por espacios
+  ERROR [LectorJson] Objeto nº 9 (línea 57) descartado: JSON mal formado (Unterminated object at line 4 column 6 path $.continente)
+  ERROR [LectorJson] Objeto nº 10 (línea 64) descartado: JSON mal formado (Expected name at line 7 column 4 path $.moneda)
+  ERROR [LectorJson] Objeto nº 11 (línea 71) descartado: 'nombre' debe ser un texto, no 123
+  ERROR [LectorJson] Objeto nº 12 (línea 78) descartado: 'moneda' debe ser un texto, no {"codigo":"EUR","nombre":"Euro"}
+  WARN  [LectorJson] Objeto nº 13 (línea 85): campo desconocido 'capital' ignorado
+  ERROR [LectorJson] Objeto nº 14 (línea 93) descartado: 'poblacion' debe ser un número, no true
+  ERROR [LectorJson] Objeto nº 15 (línea 100) descartado: JSON mal formado (Unterminated object at line 3 column 7 path $.nombre)
+  INFO  [LectorJson] paises_errores.json: 6 países cargados
+  Países válidos: 6
+    Argentina              América        46,000,000  [Español]                      Peso argentino
+    China                  Asia        1,412,000,000  [Chino]                        Yuan
+    India                  Asia        1,393,000,000  [Hindi, Inglés]                Rupia india
+    Japón                  Asia          125,800,000  [Japonés]                      Yen
+    Sudáfrica              África         60,000,000  [Inglés, Afrikáans, Zulú]      Rand sudafricano
+    Australia              Oceanía        26,000,000  [Inglés]                       Dólar australiano
+
+===========================================================================
+  JSON: casos de fichero completo
+===========================================================================
+  ERROR [LectorJson] No existe el fichero /home/claude/guia/GuiaFicheros/resources/no_existe.json
+  ERROR [LectorJson] El fichero paises_vacio.json está vacío
+  WARN  [LectorJson] paises_no_array.json no empieza por '[': no es un array; se leen los objetos que contenga
+  INFO  [LectorJson] paises_no_array.json: 1 países cargados
+  Países válidos: 1
+    Islandia               Europa            380,000  [Islandés]                     Corona islandesa
+
+===========================================================================
+  JSON: escritura e ida y vuelta
+===========================================================================
+  INFO  [EscritorJson] paises.json: 6 países escritos
+  INFO  [LectorJson] paises.json: 6 países cargados
+  OK: se han releído los 6 países escritos sin errores
+
+===========================================================================
+  TXT: paises_errores.txt
+===========================================================================
+  ERROR [LectorTxt] Bloque de la línea 8 (Brasil) descartado: línea 9 sin '=' (continente América)
+  ERROR [LectorTxt] Bloque de la línea 14 (Chile) descartado: clave 'nombre' repetida en la línea 15
+  WARN  [LectorTxt] Línea 23: clave desconocida 'color' ignorada
+  ERROR [LectorTxt] Bloque de la línea 28 descartado: falta el nombre
+  ERROR [LectorTxt] Bloque de la línea 38 (Francia) descartado: falta la población
+  ERROR [LectorTxt] Bloque de la línea 44 (Italia) descartado: línea 44 sin clave (=Europa)
+  INFO  [LectorTxt] paises_errores.txt: 4 países cargados
+  Países válidos: 4
+    Argentina              América        46,000,000  [Español]                      Peso argentino
+    Perú                   América        33,000,000  [Español, Quechua]             Sol
+    México                 América       126,000,000  [Español]                      Peso=MXN
+    Egipto                 África        104,000,000  [Árabe]                        Libra egipcia
+
+===========================================================================
+  TXT: escritura, append e ida y vuelta
+===========================================================================
+  INFO  [EscritorTxt] paises.txt: 4 países escritos
+  INFO  [EscritorTxt] paises.txt: país Noruega añadido al final
+  INFO  [LectorTxt] paises.txt: 5 países cargados
+  OK: se han releído los 5 países escritos sin errores
+
+===========================================================================
+  FIN: revisa la carpeta salida/ y el fichero errores.log
+===========================================================================

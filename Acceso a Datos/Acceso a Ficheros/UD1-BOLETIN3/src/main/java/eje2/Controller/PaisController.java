@@ -39,5 +39,15 @@ public class PaisController {
 		//System.out.println(pais.get().toString());
 		
 		ctr.service.calcularPaises("América");
+		
+		
+		/*
+		 *  String[] tabla = {"Ana", "Luis", "Eva"};
+			List<String> lista = new ArrayList<>(Arrays.asList(tabla));
+		 * 
+		 *  String[] tabla2 = lista.toArray(new String[0]);
+		 * 
+		 * 
+		 * */
 	}
 }

@@ -1,0 +1,114 @@
+[
+  {
+    "nombre": "Argentina",
+    "continente": "América",
+    "poblacion": 46000000,
+    "idiomas": ["Español"],
+    "moneda": "Peso argentino"
+  },
+  {
+    "nombre": null,
+    "continente": "Asia",
+    "poblacion": 1000,
+    "idiomas": ["Chino"],
+    "moneda": "Yuan"
+  },
+  {
+    "nombre": "Brasil",
+    "poblacion": 214000000,
+    "idiomas": ["Portugués"],
+    "moneda": "Real brasileño"
+  },
+  {
+    "nombre": "Canadá",
+    "continente": "América",
+    "poblacion": "38 millones",
+    "idiomas": ["Inglés", "Francés"],
+    "moneda": "Dólar canadiense"
+  },
+  {
+    "nombre": "China",
+    "continente": "Asia",
+    "poblacion": "1412000000",
+    "idiomas": ["Chino"],
+    "moneda": "Yuan"
+  },
+  {
+    "nombre": "Francia",
+    "continente": "Europa",
+    "poblacion": 67000000.5,
+    "idiomas": ["Francés"],
+    "moneda": "Euro"
+  },
+  {
+    "nombre": "India",
+    "continente": "Asia",
+    "poblacion": 1393000000,
+    "idiomas": "Hindi Inglés",
+    "moneda": "Rupia india"
+  },
+  {
+    "nombre": "Japón",
+    "continente": "Asia",
+    "poblacion": 125800000,
+    "idiomas": ["Japonés", null, "  "],
+    "moneda": "Yen"
+  },
+  {
+    "nombre": "México",
+    "continente": "América"
+    "poblacion": 126000000,
+    "idiomas": ["Español"],
+    "moneda": "Peso mexicano"
+  },
+  {
+    "nombre": "Nigeria",
+    "continente": "África",
+    "poblacion": 206000000,
+    "idiomas": ["Inglés"],
+    "moneda": "Naira",
+  },
+  {
+    "nombre": 123,
+    "continente": "Europa",
+    "poblacion": 1000,
+    "idiomas": [],
+    "moneda": "Euro"
+  },
+  {
+    "nombre": "Alemania",
+    "continente": "Europa",
+    "poblacion": 83000000,
+    "idiomas": ["Alemán"],
+    "moneda": {"codigo": "EUR", "nombre": "Euro"}
+  },
+  {
+    "Nombre": "Sudáfrica",
+    "Continente": "África",
+    "Población": 60000000,
+    "Idioma": ["Inglés", "Afrikáans", "Zulú"],
+    "Moneda": "Rand sudafricano",
+    "capital": "Pretoria"
+  },
+  {
+    "nombre": "Kenia",
+    "continente": "África",
+    "poblacion": true,
+    "idiomas": ["Suajili"],
+    "moneda": "Chelín keniano"
+  },
+  {
+    "nombre": "Perú,
+    "continente": "América",
+    "poblacion": 33000000,
+    "idiomas": ["Español"],
+    "moneda": "Sol"
+  },
+  {
+    "nombre": "Australia",
+    "continente": "Oceanía",
+    "poblacion": 26000000,
+    "idiomas": ["Inglés"],
+    "moneda": "Dólar australiano"
+  }
+]

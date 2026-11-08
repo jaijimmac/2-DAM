@@ -1,0 +1,57 @@
+# Países en formato clave=valor. Cada país termina con una línea ---
+nombre=Argentina
+continente=América
+poblacion=46000000
+idiomas=Español
+moneda=Peso argentino
+---
+nombre=Brasil
+continente América
+poblacion=214000000
+idiomas=Portugués
+moneda=Real brasileño
+---
+nombre=Chile
+nombre=República de Chile
+continente=América
+poblacion=19600000
+idiomas=Español
+moneda=Peso chileno
+---
+  nombre   =   Perú
+continente=América
+color=rojo
+poblacion=33000000
+idiomas=Español   Quechua
+moneda=Sol
+---
+continente=Asia
+poblacion=1000
+idiomas=Chino
+---
+nombre=México
+continente=América
+poblacion=126000000
+idiomas=Español
+moneda=Peso=MXN
+---
+nombre=Francia
+continente=Europa
+poblacion=
+idiomas=Francés
+moneda=Euro
+---
+=Europa
+nombre=Italia
+continente=Europa
+poblacion=59000000
+idiomas=Italiano
+moneda=
+---
+
+
+nombre=Egipto
+continente=África
+poblacion=104000000
+idiomas=Árabe
+moneda=Libra egipcia

@@ -1,0 +1,52 @@
+[
+  {
+    "isbn": "9788497593793",
+    "titulo": "El nombre del viento",
+    "editorial": "Plaza & Janés",
+    "numero_ediciones": 1
+  },
+  {
+    "isbn": "9788445000663",
+    "titulo": "El camino de los reyes",
+    "numero_ediciones": 1
+  },
+  {
+    "isbn": "9788445002070",
+    "titulo": "El imperio final",
+    "editorial": "Nova",
+    "numero_ediciones": 2
+  },
+  {
+    "isbn": "9788498890541",
+    "titulo": "Ready Player One",
+    "editorial": "Ediciones B",
+    "numero_ediciones": 1
+  },
+  {
+    "isbn": "9788445003176",
+    "titulo": "Neuromante",
+    "numero_ediciones": 1
+  },
+  {
+    "isbn": "9788445003152",
+    "titulo": "Dune",
+    "editorial": "Minotauro",
+    "numero_ediciones": 3
+  },
+  {
+    "isbn": "9788497592209",
+    "titulo": "Guía del autoestopista galáctico",
+    "numero_ediciones": 1
+  },
+  {
+    "isbn": "9788445001233",
+    "titulo": "Juego de tronos",
+    "editorial": "Gigamesh",
+    "numero_ediciones": 3
+  },
+  {
+    "isbn": "9788445004562",
+    "titulo": "La historia interminable",
+    "numero_ediciones": 2
+  }
+]
