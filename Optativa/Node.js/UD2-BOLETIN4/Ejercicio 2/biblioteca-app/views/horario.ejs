@@ -1,0 +1,29 @@
+<%- include('partials/cabecera') %>
+<main>
+    <h1>Horario</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Día</th>
+                <th>Horas</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tbody>
+            <% if (listadoHorarios && listadoHorarios.length > 0) { %>
+                <% listadoHorarios.forEach(h => { %>
+                <tr>
+                    <td><%= h.dia %></td>
+                    <td><%= h.horario %></td>
+                </tr>
+                <% }) %>
+            <% } else { %>
+                <tr>
+                <td colspan="2">No hay horarios disponibles.</td>
+                </tr>
+            <% } %>
+    </tbody>
+
+    </table>
+</main>
+<%- include('partials/pie') %>
