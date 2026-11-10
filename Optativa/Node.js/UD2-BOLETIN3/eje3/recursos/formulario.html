@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+</head>
+<body>
+  <form action="/firmar" method="post">
+    <h2>Libro de visitas</h2>
+
+    <p>
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+    </p>
+
+    <p>
+      <label for="mensaje">Mensaje:</label><br>
+      <textarea id="mensaje" name="mensaje" rows="4" cols="30" placeholder="Firma aquí..." required></textarea>
+    </p>
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
