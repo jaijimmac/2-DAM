@@ -1,6 +1,6 @@
 <%- include('partials/cabecera') %>
 <main>
-    <h1>Libros</h1>
+    <h1><%= titulo %></h1>
     <table>
             <thead>
                 <tr>
@@ -18,7 +18,7 @@
                         <td><%= l.titulo %></td>
                         <td><%= l.autor %> <%= (l.anio < 2000) ? '(Clasico)' : '' %></td>
                         <td><%= l.anio %></td>
-                        <td><%= l.disponible ? 'Disponible' : 'Prestado' %></td>
+                        <td><%= l.disponible ? 'Disponible' : 'Prestado' %></td> 
                     </tr>
                     <% }) %>
                 <% } else { %>

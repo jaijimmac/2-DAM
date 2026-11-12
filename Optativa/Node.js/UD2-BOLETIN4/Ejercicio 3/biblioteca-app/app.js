@@ -23,12 +23,12 @@ app.use((req, res, next) => {
 })
 
 app.get('/libros', (req, res) => {
-    res.render('libros', {titulo: "Libros", libros: libros })
+    res.render('libros', {titulo: "Libros", tituloH1: "Libros",  libros: libros })
 })
 
 app.get('/libros/disponibles', (req, res) => {
     const librosDispo = libros.filter(libro => libro.disponible); 
-    res.render('libros', {titulo: "Libros Disponibles", libros: librosDispo})
+    res.render('libros', {titulo: "Libros Disponibles", tituloH1: "Libros Disponibles", libros: librosDispo})
 })
 
 app.get('/404', (req, res) => {
