@@ -22,14 +22,15 @@ const libros = [
     { titulo: 'El nombre del viento', autor: 'Patrick Rothfuss', anio: 2007, disponible: true }
 ];
 
-const librosDispo = libros.filter(libro => libro.disponible);
+
 
 app.get('/libros', (req, res) => {
     res.render('libros', {titulo: "Libros", libros: libros })
 })
 
 app.get('/libros/disponibles', (req, res) => {
-    res.render('librosDisponibles', {titulo: "Libros", libros: librosDispo })
+    const librosDispo = libros.filter(libro => libro.disponible); 
+    res.render('libros', {titulo: "Libros", libros: librosDispo })
 })
 
 app.get('/404', (req, res) => {
