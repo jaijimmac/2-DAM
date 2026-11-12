@@ -8,12 +8,6 @@ app.set('views', __dirname + '/views')
 
 app.use(express.static(__dirname + '/public'))
 
-app.use((req, res, next) => {
-    const hora = new Date().toLocaleTimeString()
-    console.log(`${hora} ${req.method} ${req.url}`)
-    next()
-})
-
 const libros = [
     { titulo: 'El Quijote', autor: 'Miguel de Cervantes', anio: 1605, disponible: true },
     { titulo: 'Cien años de soledad', autor: 'Gabriel García Márquez', anio: 1967, disponible: false},
@@ -22,7 +16,11 @@ const libros = [
     { titulo: 'El nombre del viento', autor: 'Patrick Rothfuss', anio: 2007, disponible: true }
 ];
 
-
+app.use((req, res, next) => {
+    const hora = new Date().toLocaleTimeString()
+    console.log(`${hora} ${req.method} ${req.url}`)
+    next()
+})
 
 app.get('/libros', (req, res) => {
     res.render('libros', {titulo: "Libros", libros: libros })
@@ -30,7 +28,7 @@ app.get('/libros', (req, res) => {
 
 app.get('/libros/disponibles', (req, res) => {
     const librosDispo = libros.filter(libro => libro.disponible); 
-    res.render('libros', {titulo: "Libros", libros: librosDispo })
+    res.render('libros', {titulo: "Libros Disponibles", libros: librosDispo})
 })
 
 app.get('/404', (req, res) => {
