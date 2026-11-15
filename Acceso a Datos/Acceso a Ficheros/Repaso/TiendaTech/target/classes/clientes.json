@@ -1,0 +1,153 @@
+[
+  {
+    "id": "C001",
+    "nombre": "Lucía",
+    "apellidos": "Martín Ruiz",
+    "email": "lucia.martin@mail.com",
+    "fecha_alta": "12/03/2023",
+    "direccion": {
+      "calle": "Calle Feria 12",
+      "ciudad": "Sevilla",
+      "cp": "41003"
+    },
+    "telefonos": ["654321987", "954112233"],
+    "vip": true
+  },
+  {
+    "id": "C002",
+    "nombre": "Pablo",
+    "apellidos": "Gómez Torres",
+    "email": "pablo.gomez@mail.com",
+    "fecha_alta": "01/09/2024",
+    "direccion": {
+      "calle": "Av. de América 45",
+      "ciudad": "Madrid",
+      "cp": "28002"
+    },
+    "telefonos": ["611223344"],
+    "vip": false
+  },
+  {
+    "id": "C003",
+    "nombre": "Javier",
+    "apellidos": "Ruiz León",
+    "fecha_alta": "15/01/2025",
+    "direccion": {
+      "calle": "Calle Larios 3",
+      "ciudad": "Málaga",
+      "cp": "29005"
+    },
+    "telefonos": [],
+    "vip": false
+  },
+  {
+    "id": "C004",
+    "nombre": "Ana",
+    "apellidos": "López Vega",
+    "email": "ana.lopez@mail.com",
+    "fecha_alta": "20/06/2025",
+    "direccion": null,
+    "telefonos": [],
+    "vip": false
+  },
+  {
+    "id": "C005",
+    "nombre": "Marcos",
+    "apellidos": "Sanz Gil",
+    "email": "marcos.gmail.com",
+    "fecha_alta": "03/02/2026",
+    "direccion": {
+      "calle": "Gran Vía 8",
+      "ciudad": "Bilbao",
+      "cp": "48001"
+    },
+    "telefonos": ["688990011"],
+    "vip": false
+  },
+  {
+    "id": "C006",
+    "nombre": "Sara",
+    "apellidos": "Navarro Pons",
+    "email": "sara.navarro@mail.com",
+    "fecha_alta": "11/11/2024",
+    "direccion": {
+      "calle": "Calle Colón 22",
+      "ciudad": "Valencia",
+      "cp": "46004"
+    },
+    "telefonos": ["622334455"],
+    "vip": true
+  },
+  {
+    "id": "C007",
+    "nombre": "Rosa",
+    "apellidos": "Blanco Ortiz"
+    "email": "rosa.blanco@mail.com",
+    "fecha_alta": "14/04/2025",
+    "direccion": null,
+    "telefonos": [],
+    "vip": false
+  },
+  {
+    "id": "C008",
+    "nombre": "Hugo",
+    "apellidos": "Ferrer Sala",
+    "email": "hugo.ferrer@mail.com",
+    "fecha_alta": "05/05/2025",
+    "direccion": "Calle Sol 3, Valencia",
+    "telefonos": ["677889900"],
+    "vip": false
+  },
+  {
+    "id": "C009",
+    "nombre": "Irene",
+    "apellidos": "Campos Rey",
+    "email": "irene.campos@mail.com",
+    "fecha_alta": "09/09/2025",
+    "direccion": {
+      "calle": "Calle Real 7",
+      "ciudad": "Granada",
+      "cp": "18009"
+    },
+    "telefonos": "699001122",
+    "vip": false
+  },
+  {
+    "id": "C010",
+    "nombre": "Óscar",
+    "apellidos": "Prieto Lara",
+    "email": "oscar.prieto@mail.com",
+    "fecha_alta": "30/12/2025",
+    "direccion": null,
+    "telefonos": ["60011"],
+    "vip": false
+  },
+  {
+    "id": "C011",
+    "nombre": "Nuria",
+    "apellidos": "Soler Mas",
+    "email": "nuria.soler@mail.com",
+    "fecha_alta": "21/01/2026",
+    "direccion": {
+      "calle": "Carrer Major 4",
+      "ciudad": "Lleida",
+      "cp": "25007"
+    },
+    "telefonos": [],
+    "vip": "si"
+  },
+  {
+    "id": "C012",
+    "nombre": "Diego",
+    "apellidos": "Moreno Gil",
+    "email": "diego.moreno@mail.com",
+    "fecha_alta": "18/07/2025",
+    "direccion": {
+      "calle": "Calle Sierpes 40",
+      "ciudad": "Sevilla",
+      "cp": "41004"
+    },
+    "telefonos": ["655443322"],
+    "vip": false
+  }
+]

@@ -1,0 +1,14 @@
+id,nombre,categoria,precio,stock,etiquetas
+P001,Teclado mecánico,Periféricos,79.90,25,gaming|rgb|usb
+P002,Ratón inalámbrico,Periféricos,24.50,60,inalambrico|usb
+P003,Monitor 27 pulgadas,Monitores,249.00,10,4k|ips
+P004,Portátil Ultra 14,Portátiles,1099.99,5,ligero|ssd
+P005,,Periféricos,15.00,100,usb
+P006,Cable HDMI 2m,Cables,8.99,200,
+P007,Auriculares Pro,Audio,-59.90,30,bluetooth
+P008,Webcam HD,Periféricos,39.95,abc,usb|video
+P009,Altavoz portátil,Audio,45.00,15,bluetooth|resistente-agua
+P010,Disco SSD 1TB,Almacenamiento,89.90,40,ssd|nvme
+P002,Ratón ergonómico,Periféricos,34.00,20,usb
+P013,Funda portátil,Accesorios,12.50
+P011,Hub USB-C,Cables,29.99,0,usb-c|aluminio
