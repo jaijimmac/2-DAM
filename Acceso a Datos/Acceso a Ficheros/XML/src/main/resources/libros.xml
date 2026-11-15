@@ -1,0 +1,18 @@
+<libros>
+    <libro id="1" categoria="novela">
+        <titulo>El Quijote</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <editorial>
+        	<nombre>Editorial 1</nombre>
+        	<cif>1</cif>
+        </editorial>
+    </libro>
+    <libro id="2" categoria="fantasia">
+        <titulo>Harry Potter y la piedra filosofal</titulo>
+        <autor>J. K. Rowling</autor>
+        <editorial>
+        	<nombre>Editorial 2</nombre>
+        	<cif>2</cif>
+        </editorial>
+    </libro>
+</libros>
