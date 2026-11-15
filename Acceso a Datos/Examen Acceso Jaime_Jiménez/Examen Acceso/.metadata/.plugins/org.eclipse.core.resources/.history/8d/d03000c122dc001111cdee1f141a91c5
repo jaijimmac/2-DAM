@@ -1,0 +1,45 @@
+package Service;
+
+import java.util.Collection;
+import java.util.Optional;
+
+import Entity.Criatura;
+import Entity.TipoCriatura;
+import Repository.CriaturaRepository;
+
+public class CriaturaService implements ICriaturaService {
+	
+	private CriaturaRepository repo;
+	
+	public CriaturaService(String ruta) {
+		this.repo = new CriaturaRepository(ruta);
+	}
+
+	@Override
+	public Collection<Criatura> findAll() {
+		return repo.findAll();
+	}
+
+	@Override
+	public Optional<Criatura> findById(String nombre) {
+		return repo.findById(nombre);
+	}
+
+	@Override
+	public Criatura addCriatura(Criatura criatura) {
+		return repo.addCriatura(criatura);
+	}
+
+	@Override
+	public Optional<Criatura> obtenerCriaturaDeTipo(TipoCriatura tipo) {
+		// TODO Auto-generated method stub
+		return Optional.empty();
+	}
+
+	@Override
+	public void exportarJSON(Collection<Criatura> criaturas, String nombreFichero) {
+		repo.exportarJSON(criaturas, nombreFichero);
+		
+	}
+
+}

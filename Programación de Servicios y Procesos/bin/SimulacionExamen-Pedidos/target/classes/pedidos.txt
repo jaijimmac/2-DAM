@@ -1,0 +1,60 @@
+Artículo	#NumUnidades 	#Importe	#NumReferencia	#Dirección	#Provincia 	#FechaPedido
+Mesa exterior	#1	#500	#0000001	#c/Calle Jamaica, 1	#Sevilla	#01/03/2021
+Silla	#2	#60	#0000002	#c/Calle Ebro, 2	#Sevilla	#01/03/2021
+Nintendo	#1	#400	#0000003	#c/Calle Sebastián, 4	#Sevilla	#02/03/2021
+Lámpara	#2	#175	#0000004	#c/Calle Sevilla 1	#Huelva	#01/03/2021
+Cortina	#3	#300	#0000005	#c/Calle Granada, 5	#Granada	#02/03/2021
+Alexa	#2	#50	#0000006	#c/Calle 4	#Granada	#02/03/2021
+Toallas	#2	#40	#0000007	#c/Calle 5	#Granada	#07/03/2021
+Sofá	#1	#700	#0000008	#c/Avenida Andalucía, 3	#Málaga	#03/03/2021
+Estantería	#4	#120	#0000009	#c/Calle Cádiz, 6	#Cádiz	#04/03/2021
+Cojines	#6	#90	#0000010	#c/Calle Córdoba, 7	#Córdoba	#05/03/2021
+Espejo	#1	#150	#0000011	#c/Calle Jaén, 2	#Jaén	#06/03/2021
+Lámpara de techo	#2	#200	#0000012	#c/Calle Almería, 8	#Almería	#07/03/2021
+Mueble TV	#1	#350	#0000013	#c/Calle Huelva, 9	#Huelva	#08/03/2021
+Reloj de pared	#3	#75	#0000014	#c/Calle Málaga, 12	#Málaga	#09/03/2021
+Silla de oficina	#2	#180	#0000015	#c/Calle Cádiz, 15	#Cádiz	#10/03/2021
+Armario	#1	#450	#0000016	#c/Calle Córdoba, 18	#Córdoba	#11/03/2021
+Escritorio	#2	#220	#0000017	#c/Calle Jaén, 20	#Jaén	#12/03/2021
+Lámpara de mesa	#3	#90	#0000018	#c/Calle Almería, 21	#Almería	#13/03/2021
+Sofá cama	#1	#600	#0000019	#c/Calle Sevilla, 22	#Sevilla	#14/03/2021
+Mesa de comedor	#1	#500	#0000020	#c/Calle Granada, 25	#Granada	#15/03/2021
+Estantería pequeña	#2	#80	#0000021	#c/Calle Huelva, 26	#Huelva	#16/03/2021
+Cojines decorativos	#5	#100	#0000022	#c/Calle Málaga, 27	#Málaga	#17/03/2021
+Lámpara LED	#3	#120	#0000023	#c/Calle Cádiz, 28	#Cádiz	#18/03/2021
+Ropa de cama	#4	#200	#0000024	#c/Calle Córdoba, 29	#Córdoba	#19/03/2021
+Alfombra	#2	#150	#0000025	#c/Calle Jaén, 30	#Jaén	#20/03/2021
+Mesa auxiliar	#1	#90	#0000026	#c/Calle Almería, 31	#Almería	#21/03/2021
+Silla plegable	#3	#135	#0000027	#c/Calle Sevilla, 32	#Sevilla	#22/03/2021
+Lamparita	#2	#60	#0000028	#c/Calle Granada, 33	#Granada	#23/03/2021
+Perchero	#1	#45	#0000029	#c/Calle Huelva, 34	#Huelva	#24/03/2021
+Mueble recibidor	#1	#320	#0000030	#c/Calle Málaga, 35	#Málaga	#25/03/2021
+Silla de cocina	#2	#70	#0000031	#c/Calle Cádiz, 36	#Cádiz	#26/03/2021
+Espejo grande	#1	#150	#0000032	#c/Calle Córdoba, 37	#Córdoba	#27/03/2021
+Armario ropero	#2	#400	#0000033	#c/Calle Jaén, 38	#Jaén	#28/03/2021
+Cama doble	#1	#550	#0000034	#c/Calle Almería, 39	#Almería	#29/03/2021
+Mesa centro	#1	#200	#0000035	#c/Calle Sevilla, 40	#Sevilla	#30/03/2021
+Silla escritorio	#2	#120	#0000036	#c/Calle Granada, 41	#Granada	#31/03/2021
+Lámpara de pie	#3	#180	#0000037	#c/Calle Huelva, 42	#Huelva	#01/04/2021
+Estantería alta	#1	#250	#0000038	#c/Calle Málaga, 43	#Málaga	#02/04/2021
+Cojines grandes	#4	#160	#0000039	#c/Calle Cádiz, 44	#Cádiz	#03/04/2021
+Ropa de cama	#3	#150	#0000040	#c/Calle Córdoba, 45	#Córdoba	#04/04/2021
+Lámpara colgante	#2	#200	#0000041	#c/Calle Jaén, 46	#Jaén	#05/04/2021
+Mesa de noche	#2	#120	#0000042	#c/Calle Almería, 47	#Almería	#06/04/2021
+Sofá pequeño	#1	#400	#0000043	#c/Calle Sevilla, 48	#Sevilla	#07/04/2021
+Mesa plegable	#2	#100	#0000044	#c/Calle Granada, 49	#Granada	#08/04/2021
+Estantería metálica	#3	#180	#0000045	#c/Calle Huelva, 50	#Huelva	#09/04/2021
+Cojines sofá	#5	#90	#0000046	#c/Calle Málaga, 51	#Málaga	#10/04/2021
+Lámpara techo LED	#1	#120	#0000047	#c/Calle Cádiz, 52	#Cádiz	#11/04/2021
+Silla infantil	#2	#80	#0000048	#c/Calle Córdoba, 53	#Córdoba	#12/04/2021
+Espejo decorativo	#1	#60	#0000049	#c/Calle Jaén, 54	#Jaén	#13/04/2021
+Armario pequeño	#2	#220	#0000050	#c/Calle Almería, 55	#Almería	#14/04/2021
+Mesa redonda	#1	#300	#0000051	#c/Calle Sevilla, 56	#Sevilla	#15/04/2021
+Silla moderna	#2	#140	#0000052	#c/Calle Granada, 57	#Granada	#16/04/2021
+Lámpara escritorio	#3	#150	#0000053	#c/Calle Huelva, 58	#Huelva	#17/04/2021
+Estantería madera	#1	#200	#0000054	#c/Calle Málaga, 59	#Málaga	#18/04/2021
+Cojines cama	#4	#100	#0000055	#c/Calle Cádiz, 60	#Cádiz	#19/04/2021
+Ropa de hogar	#2	#80	#0000056	#c/Calle Córdoba, 61	#Córdoba	#20/04/2021
+Lámpara colgante	#1	#130	#0000057	#c/Calle Jaén, 62	#Jaén	#21/04/2021
+Mesa auxiliar	#2	#90	#0000058	#c/Calle Almería, 63	#Almería	#22/04/2021
+Silla comedor	#3	#120	#0000059	#c/Calle Sevilla, 64	#Sevilla	#23/04/2021

@@ -1,0 +1,5 @@
+V003;Cadiz;Bebidas;24;0.60
+V007;Huelva;Bebidas;10;1.10
+V013;Sevilla;Bebidas;-6;0.60
+V017;Jaen;Bebidas;18;0.85
+V023;Granada;Bebidas;12;1.25

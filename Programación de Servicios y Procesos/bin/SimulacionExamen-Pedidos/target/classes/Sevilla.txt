@@ -1,0 +1,10 @@
+Mesa exterior	#1	#500	#0000001	#c/Calle Jamaica, 1	#Sevilla	#01/03/2021
+Silla	#2	#60	#0000002	#c/Calle Ebro, 2	#Sevilla	#01/03/2021
+Nintendo	#1	#400	#0000003	#c/Calle Sebastián, 4	#Sevilla	#02/03/2021
+Lámpara	#2	#175	#0000004	#c/Calle Sevilla 1	#Huelva	#01/03/2021
+Sofá cama	#1	#600	#0000019	#c/Calle Sevilla, 22	#Sevilla	#14/03/2021
+Silla plegable	#3	#135	#0000027	#c/Calle Sevilla, 32	#Sevilla	#22/03/2021
+Mesa centro	#1	#200	#0000035	#c/Calle Sevilla, 40	#Sevilla	#30/03/2021
+Sofá pequeño	#1	#400	#0000043	#c/Calle Sevilla, 48	#Sevilla	#07/04/2021
+Mesa redonda	#1	#300	#0000051	#c/Calle Sevilla, 56	#Sevilla	#15/04/2021
+Silla comedor	#3	#120	#0000059	#c/Calle Sevilla, 64	#Sevilla	#23/04/2021

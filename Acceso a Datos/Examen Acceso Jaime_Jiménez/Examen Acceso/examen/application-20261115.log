@@ -1,0 +1,136 @@
+2026-11-15 14:20:26.467 [main] ERROR Exception.CriaturasFantasticasException - No se puede añadir por falta del campo nombre: ;SER;false;10;20;Gales;templado
+2026-11-15 14:20:26.470 [main] ERROR Exception.CriaturasFantasticasException - No se puede añadir, error en el Tipo: Dragón;DRAGON;false;85;75;Gales;templado
+2026-11-15 14:20:26.470 [main] ERROR Exception.CriaturasFantasticasException - For input string: "alta"
+2026-11-15 14:20:26.470 [main] ERROR Exception.CriaturasFantasticasException - Index 5 out of bounds for length 5
+2026-11-15 14:20:26.470 [main] INFO  Repository.CriaturaRepository - Número de cargas incorrectas: 2
+2026-11-15 14:20:26.470 [main] INFO  Controller.CriaturaController - Numero de criaturas 14
+2026-11-15 14:20:26.471 [main] ERROR Exception.CriaturasFantasticasException - No existe niguna criatura con ese nombre: Dementor
+2026-11-15 14:37:51.531 [main] INFO  Controller.CriaturaController - ========== Probando findAll ==========
+2026-11-15 14:37:51.536 [main] ERROR Exception.CriaturasFantasticasException - No se puede añadir por falta del campo nombre: ;SER;false;10;20;Gales;templado
+2026-11-15 14:37:51.536 [main] ERROR Exception.CriaturasFantasticasException - No se puede añadir, error en el Tipo: Dragón;DRAGON;false;85;75;Gales;templado
+2026-11-15 14:37:51.536 [main] ERROR Exception.CriaturasFantasticasException - For input string: "alta"
+2026-11-15 14:37:51.536 [main] ERROR Exception.CriaturasFantasticasException - Index 5 out of bounds for length 5
+2026-11-15 14:37:51.536 [main] INFO  Repository.CriaturaRepository - Número de cargas incorrectas: 2
+2026-11-15 14:37:51.536 [main] INFO  Controller.CriaturaController - Número de criaturas cargadas: 14
+2026-11-15 14:37:51.536 [main] INFO  Controller.CriaturaController - ========== Probando addCriatura ==========
+2026-11-15 14:37:51.537 [main] INFO  Controller.CriaturaController - Añadida: Criatura: prueba Tipo: BESTIA Región: Moderado, Clima: prueba
+2026-11-15 14:37:51.537 [main] ERROR Exception.CriaturasFantasticasException - Criatura registrada con ese nombre
+2026-11-15 14:37:51.537 [main] INFO  Controller.CriaturaController - Duplicada (esperado null): Criatura: prueba Tipo: BESTIA Región: Moderado, Clima: prueba
+2026-11-15 14:37:51.537 [main] ERROR Exception.CriaturasFantasticasException - La criatura no puede ser nula ni tener el nombre vacío
+2026-11-15 14:37:51.537 [main] INFO  Controller.CriaturaController - Nula (esperado null): null
+2026-11-15 14:37:51.538 [main] ERROR Exception.CriaturasFantasticasException - La criatura no puede ser nula ni tener el nombre vacío
+2026-11-15 14:37:51.538 [main] INFO  Controller.CriaturaController - Sin nombre (esperado null): null
+2026-11-15 14:37:51.538 [main] ERROR Repository.CriaturaRepository - Archivo vacío
+2026-11-15 14:37:51.538 [main] INFO  Controller.CriaturaController - Total tras añadir: 15
+2026-11-15 14:37:51.538 [main] INFO  Controller.CriaturaController - ========== Probando findById ==========
+2026-11-15 14:37:51.538 [main] ERROR Exception.CriaturasFantasticasException - No existe niguna criatura con ese nombre: Dementor
+2026-11-15 14:37:51.538 [main] INFO  Controller.CriaturaController - Buscar Dementor -> no encontrada
+2026-11-15 14:37:51.538 [main] INFO  Controller.CriaturaController - Buscar PRUEBA -> Criatura: prueba Tipo: BESTIA Región: Moderado, Clima: prueba
+2026-11-15 14:37:51.538 [main] ERROR Exception.CriaturasFantasticasException - No existe niguna criatura con ese nombre: NoExiste
+2026-11-15 14:37:51.538 [main] INFO  Controller.CriaturaController - Buscar NoExiste -> no encontrada
+2026-11-15 14:37:51.539 [main] ERROR Exception.CriaturasFantasticasException - El nombre no puede ser nulo o vacío
+2026-11-15 14:37:51.539 [main] INFO  Controller.CriaturaController - Buscar null -> no encontrada
+2026-11-15 14:37:51.539 [main] ERROR Exception.CriaturasFantasticasException - El nombre no puede ser nulo o vacío
+2026-11-15 14:37:51.539 [main] INFO  Controller.CriaturaController - Buscar " " -> no encontrada
+2026-11-15 14:37:51.539 [main] INFO  Controller.CriaturaController - ========== Probando obtenerCriaturaDeTipo ==========
+2026-11-15 14:37:51.541 [main] INFO  Controller.CriaturaController - SER: 5 criaturas
+2026-11-15 14:37:51.542 [main] INFO  Controller.CriaturaController - BESTIA: 8 criaturas
+2026-11-15 14:37:51.542 [main] INFO  Controller.CriaturaController - ESPIRITU: 2 criaturas
+2026-11-15 14:37:51.542 [main] ERROR Exception.CriaturasFantasticasException - El tipo no puede ser nulo
+2026-11-15 14:37:51.542 [main] INFO  Controller.CriaturaController - Tipo null (esperado 0): 0
+2026-11-15 14:37:51.542 [main] INFO  Controller.CriaturaController - ========== Probando exportarJSON ==========
+2026-11-15 14:37:51.562 [main] INFO  Controller.CriaturaController - Exportado SER.json
+2026-11-15 14:37:51.563 [main] INFO  Controller.CriaturaController - Exportado BESTIA.json
+2026-11-15 14:37:51.564 [main] INFO  Controller.CriaturaController - Exportado ESPIRITU.json
+2026-11-15 14:37:51.564 [main] ERROR Exception.CriaturasFantasticasException - No hay criaturas para exportar
+2026-11-15 14:37:51.564 [main] ERROR Exception.CriaturasFantasticasException - No hay criaturas para exportar
+2026-11-15 14:37:51.564 [main] ERROR Repository.CriaturaRepository - Archivo vacío
+2026-11-15 14:37:51.564 [main] ERROR Exception.CriaturasFantasticasException - El nombre del fichero no puede ser nulo ni estar vacío
+2026-11-15 14:37:51.564 [main] ERROR Repository.CriaturaRepository - Archivo vacío
+2026-11-15 14:37:51.564 [main] ERROR Exception.CriaturasFantasticasException - El nombre del fichero no puede ser nulo ni estar vacío
+2026-11-15 14:39:37.305 [main] INFO  Controller.CriaturaController - ========== Probando findAll ==========
+2026-11-15 14:39:37.309 [main] ERROR Exception.CriaturasFantasticasException - No se puede añadir por falta del campo nombre: ;SER;false;10;20;Gales;templado
+2026-11-15 14:39:37.309 [main] ERROR Exception.CriaturasFantasticasException - No se puede añadir, error en el Tipo: Dragón;DRAGON;false;85;75;Gales;templado
+2026-11-15 14:39:37.309 [main] ERROR Exception.CriaturasFantasticasException - For input string: "alta"
+2026-11-15 14:39:37.309 [main] ERROR Exception.CriaturasFantasticasException - Index 5 out of bounds for length 5
+2026-11-15 14:39:37.310 [main] INFO  Repository.CriaturaRepository - Número de cargas incorrectas: 2
+2026-11-15 14:39:37.310 [main] INFO  Controller.CriaturaController - Número de criaturas cargadas: 14
+2026-11-15 14:39:37.310 [main] INFO  Controller.CriaturaController - ========== Probando addCriatura ==========
+2026-11-15 14:39:37.311 [main] INFO  Controller.CriaturaController - Añadida: Criatura: prueba Tipo: BESTIA Región: Moderado, Clima: prueba
+2026-11-15 14:39:37.312 [main] ERROR Exception.CriaturasFantasticasException - Criatura registrada con ese nombre
+2026-11-15 14:39:37.312 [main] INFO  Controller.CriaturaController - Duplicada (esperado null): Criatura: prueba Tipo: BESTIA Región: Moderado, Clima: prueba
+2026-11-15 14:39:37.312 [main] ERROR Exception.CriaturasFantasticasException - La criatura no puede ser nula ni tener el nombre vacío
+2026-11-15 14:39:37.312 [main] INFO  Controller.CriaturaController - Nula (esperado null): null
+2026-11-15 14:39:37.312 [main] ERROR Exception.CriaturasFantasticasException - La criatura no puede ser nula ni tener el nombre vacío
+2026-11-15 14:39:37.312 [main] INFO  Controller.CriaturaController - Sin nombre (esperado null): null
+2026-11-15 14:39:37.312 [main] ERROR Repository.CriaturaRepository - Archivo vacío
+2026-11-15 14:39:37.312 [main] INFO  Controller.CriaturaController - Total tras añadir: 15
+2026-11-15 14:39:37.312 [main] INFO  Controller.CriaturaController - ========== Probando findById ==========
+2026-11-15 14:39:37.313 [main] ERROR Exception.CriaturasFantasticasException - No existe niguna criatura con ese nombre: Dementor
+2026-11-15 14:39:37.313 [main] INFO  Controller.CriaturaController - Buscar Dementor -> no encontrada
+2026-11-15 14:39:37.313 [main] INFO  Controller.CriaturaController - Buscar PRUEBA -> Criatura: prueba Tipo: BESTIA Región: Moderado, Clima: prueba
+2026-11-15 14:39:37.313 [main] ERROR Exception.CriaturasFantasticasException - No existe niguna criatura con ese nombre: NoExiste
+2026-11-15 14:39:37.313 [main] INFO  Controller.CriaturaController - Buscar NoExiste -> no encontrada
+2026-11-15 14:39:37.313 [main] ERROR Exception.CriaturasFantasticasException - El nombre no puede ser nulo o vacío
+2026-11-15 14:39:37.313 [main] INFO  Controller.CriaturaController - Buscar null -> no encontrada
+2026-11-15 14:39:37.313 [main] ERROR Exception.CriaturasFantasticasException - El nombre no puede ser nulo o vacío
+2026-11-15 14:39:37.313 [main] INFO  Controller.CriaturaController - Buscar " " -> no encontrada
+2026-11-15 14:39:37.313 [main] INFO  Controller.CriaturaController - ========== Probando obtenerCriaturaDeTipo ==========
+2026-11-15 14:39:37.316 [main] INFO  Controller.CriaturaController - SER: 5 criaturas
+2026-11-15 14:39:37.316 [main] INFO  Controller.CriaturaController - BESTIA: 8 criaturas
+2026-11-15 14:39:37.316 [main] INFO  Controller.CriaturaController - ESPIRITU: 2 criaturas
+2026-11-15 14:39:37.316 [main] ERROR Exception.CriaturasFantasticasException - El tipo no puede ser nulo
+2026-11-15 14:39:37.316 [main] INFO  Controller.CriaturaController - Tipo null (esperado 0): 0
+2026-11-15 14:39:37.316 [main] INFO  Controller.CriaturaController - ========== Probando exportarJSON ==========
+2026-11-15 14:39:37.337 [main] INFO  Controller.CriaturaController - Exportado SER.json
+2026-11-15 14:39:37.338 [main] INFO  Controller.CriaturaController - Exportado BESTIA.json
+2026-11-15 14:39:37.339 [main] INFO  Controller.CriaturaController - Exportado ESPIRITU.json
+2026-11-15 14:39:37.339 [main] ERROR Exception.CriaturasFantasticasException - No hay criaturas para exportar
+2026-11-15 14:39:37.339 [main] ERROR Exception.CriaturasFantasticasException - No hay criaturas para exportar
+2026-11-15 14:39:37.339 [main] ERROR Repository.CriaturaRepository - Archivo vacío
+2026-11-15 14:39:37.339 [main] ERROR Exception.CriaturasFantasticasException - El nombre del fichero no puede ser nulo ni estar vacío
+2026-11-15 14:39:37.339 [main] ERROR Repository.CriaturaRepository - Archivo vacío
+2026-11-15 14:39:37.339 [main] ERROR Exception.CriaturasFantasticasException - El nombre del fichero no puede ser nulo ni estar vacío
+2026-11-15 22:57:49.762 [main] INFO  Controller.CriaturaController - ========== Probando findAll ==========
+2026-11-15 22:57:49.769 [main] ERROR Exception.CriaturasFantasticasException - No se puede añadir por falta del campo nombre: ;SER;false;10;20;Gales;templado
+2026-11-15 22:57:49.769 [main] ERROR Exception.CriaturasFantasticasException - No se puede añadir, error en el Tipo: Dragón;DRAGON;false;85;75;Gales;templado
+2026-11-15 22:57:49.769 [main] ERROR Exception.CriaturasFantasticasException - For input string: "alta"
+2026-11-15 22:57:49.769 [main] ERROR Exception.CriaturasFantasticasException - Index 5 out of bounds for length 5
+2026-11-15 22:57:49.769 [main] INFO  Repository.CriaturaRepository - Número de cargas incorrectas: 2
+2026-11-15 22:57:49.769 [main] INFO  Controller.CriaturaController - Número de criaturas cargadas: 14
+2026-11-15 22:57:49.770 [main] INFO  Controller.CriaturaController - ========== Probando addCriatura ==========
+2026-11-15 22:57:49.770 [main] INFO  Controller.CriaturaController - Añadida: Criatura: prueba Tipo: BESTIA Región: Moderado, Clima: prueba
+2026-11-15 22:57:49.771 [main] ERROR Exception.CriaturasFantasticasException - Criatura registrada con ese nombre
+2026-11-15 22:57:49.771 [main] INFO  Controller.CriaturaController - Duplicada (esperado null): Criatura: prueba Tipo: BESTIA Región: Moderado, Clima: prueba
+2026-11-15 22:57:49.771 [main] ERROR Exception.CriaturasFantasticasException - La criatura no puede ser nula ni tener el nombre vacío
+2026-11-15 22:57:49.771 [main] INFO  Controller.CriaturaController - Nula (esperado null): null
+2026-11-15 22:57:49.771 [main] ERROR Exception.CriaturasFantasticasException - La criatura no puede ser nula ni tener el nombre vacío
+2026-11-15 22:57:49.771 [main] INFO  Controller.CriaturaController - Sin nombre (esperado null): null
+2026-11-15 22:57:49.771 [main] ERROR Repository.CriaturaRepository - Archivo vacío
+2026-11-15 22:57:49.772 [main] INFO  Controller.CriaturaController - Total tras añadir: 15
+2026-11-15 22:57:49.772 [main] INFO  Controller.CriaturaController - ========== Probando findById ==========
+2026-11-15 22:57:49.772 [main] ERROR Exception.CriaturasFantasticasException - No existe niguna criatura con ese nombre: Dementor
+2026-11-15 22:57:49.772 [main] INFO  Controller.CriaturaController - Buscar Dementor -> no encontrada
+2026-11-15 22:57:49.772 [main] INFO  Controller.CriaturaController - Buscar PRUEBA -> Criatura: prueba Tipo: BESTIA Región: Moderado, Clima: prueba
+2026-11-15 22:57:49.772 [main] ERROR Exception.CriaturasFantasticasException - No existe niguna criatura con ese nombre: NoExiste
+2026-11-15 22:57:49.773 [main] INFO  Controller.CriaturaController - Buscar NoExiste -> no encontrada
+2026-11-15 22:57:49.773 [main] ERROR Exception.CriaturasFantasticasException - El nombre no puede ser nulo o vacío
+2026-11-15 22:57:49.773 [main] INFO  Controller.CriaturaController - Buscar null -> no encontrada
+2026-11-15 22:57:49.773 [main] ERROR Exception.CriaturasFantasticasException - El nombre no puede ser nulo o vacío
+2026-11-15 22:57:49.773 [main] INFO  Controller.CriaturaController - Buscar " " -> no encontrada
+2026-11-15 22:57:49.773 [main] INFO  Controller.CriaturaController - ========== Probando obtenerCriaturaDeTipo ==========
+2026-11-15 22:57:49.777 [main] INFO  Controller.CriaturaController - SER: 5 criaturas
+2026-11-15 22:57:49.777 [main] INFO  Controller.CriaturaController - BESTIA: 8 criaturas
+2026-11-15 22:57:49.777 [main] INFO  Controller.CriaturaController - ESPIRITU: 2 criaturas
+2026-11-15 22:57:49.778 [main] ERROR Exception.CriaturasFantasticasException - El tipo no puede ser nulo
+2026-11-15 22:57:49.778 [main] INFO  Controller.CriaturaController - Tipo null (esperado 0): 0
+2026-11-15 22:57:49.778 [main] INFO  Controller.CriaturaController - ========== Probando exportarJSON ==========
+2026-11-15 22:57:49.806 [main] INFO  Controller.CriaturaController - Exportado SER.json
+2026-11-15 22:57:49.807 [main] INFO  Controller.CriaturaController - Exportado BESTIA.json
+2026-11-15 22:57:49.808 [main] INFO  Controller.CriaturaController - Exportado ESPIRITU.json
+2026-11-15 22:57:49.808 [main] ERROR Exception.CriaturasFantasticasException - No hay criaturas para exportar
+2026-11-15 22:57:49.808 [main] ERROR Exception.CriaturasFantasticasException - No hay criaturas para exportar
+2026-11-15 22:57:49.808 [main] ERROR Repository.CriaturaRepository - Archivo vacío
+2026-11-15 22:57:49.808 [main] ERROR Exception.CriaturasFantasticasException - El nombre del fichero no puede ser nulo ni estar vacío
+2026-11-15 22:57:49.808 [main] ERROR Repository.CriaturaRepository - Archivo vacío
+2026-11-15 22:57:49.808 [main] ERROR Exception.CriaturasFantasticasException - El nombre del fichero no puede ser nulo ni estar vacío

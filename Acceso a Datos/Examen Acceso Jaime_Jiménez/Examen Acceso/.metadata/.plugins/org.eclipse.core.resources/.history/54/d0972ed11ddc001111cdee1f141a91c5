@@ -1,0 +1,50 @@
+package Controller;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Optional;
+
+import Entity.Criatura;
+import Entity.Habitat;
+import Entity.TipoCriatura;
+import Service.CriaturaService;
+
+public class CriaturaController {
+	
+	private static final String RUTA = "src/main/resources/criaturasfantasticas.csv";
+	private CriaturaService  service = new CriaturaService(RUTA);
+
+	public static void main(String[] args) {
+		
+		CriaturaController con = new CriaturaController();
+		
+		Collection<Criatura> listado = con.service.findAll();
+		
+		/*listado.forEach(criatura -> {
+			System.out.println(criatura);
+		});*/
+		
+		Habitat habitat = new Habitat("Moderado", "prueba");
+		Criatura nueva = new Criatura("prueba", TipoCriatura.BESTIA, true, 89,89,habitat);
+		Criatura probar = con.service.addCriatura(nueva);
+		
+		Optional<Criatura> criaEncontrada = con.service.findById("Dementor");
+		Optional<Criatura> criaEncontrada2 = con.service.findById("Nundu");
+		
+		System.out.println(criaEncontrada);
+		System.out.println(criaEncontrada2);
+		
+		Collection<Criatura> listaAExportar = new ArrayList<Criatura>();
+		
+		listado.forEach(cri -> {
+			if(cri.getTipo().equals("BESTIA")) {
+				
+			}
+		});
+	
+	
+		
+		
+		con.service.exportarJSON(listaAExportar, "Prueba");
+	}
+}

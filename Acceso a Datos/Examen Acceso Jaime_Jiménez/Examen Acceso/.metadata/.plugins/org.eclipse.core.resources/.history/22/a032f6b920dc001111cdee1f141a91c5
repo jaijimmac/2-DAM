@@ -1,0 +1,200 @@
+package Repository;
+
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.security.cert.PKIXRevocationChecker.Option;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.Optional;
+import java.util.Scanner;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.core.LogEvent;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import Entity.Criatura;
+import Entity.Habitat;
+import Entity.TipoCriatura;
+import Exception.CriaturasFantasticasException;
+
+public class CriaturaRepository implements ICriaturaRepository{
+	
+	private static final Logger logger = LogManager.getLogger(CriaturasFantasticasException.class);
+
+	
+	private Collection<Criatura> listadoCriaturas;
+	private File fichero;
+
+	public CriaturaRepository(String ruta) {
+		if(ruta == null || ruta.isEmpty()){
+	      throw  new IllegalArgumentException("La ruta es nula o esta vacía");
+		}    
+		
+		this.fichero = new File(ruta);
+		this.listadoCriaturas = new ArrayList<Criatura>();
+	}
+
+	@Override
+	public Collection<Criatura> findAll() {
+
+		if(listadoCriaturas.isEmpty()) {
+			leerArchivo();
+		}
+		
+		return this.listadoCriaturas;
+	}
+
+	@Override
+	public Optional<Criatura> findById(String nombre) {
+		
+		String mensaje = "No existe niguna criatura con ese nombre";
+		
+		Optional<Criatura> criatura = this.listadoCriaturas
+				.stream()
+				.filter(c -> c.getNombre().equalsIgnoreCase(nombre))
+				.findFirst();
+		
+		if(!criatura.isPresent()) {
+			new CriaturasFantasticasException(mensaje);
+		}
+		
+		return criatura;
+	}
+
+	@Override
+	public Criatura addCriatura(Criatura criatura) {
+		
+		boolean criaturaBusqueda = this.listadoCriaturas
+				.stream()
+				.anyMatch(c -> c.getNombre().equalsIgnoreCase(criatura.getNombre()));
+		
+		
+		String mensaje = "Criatura registrada con ese nombre o datos incorrectos";
+		
+		if(criaturaBusqueda || criatura.getNombre() == " ") {
+			new CriaturasFantasticasException(mensaje);
+		}
+		Criatura nueva = new Criatura(null);
+		
+		try {
+			nueva.setNombre(criatura.getNombre());
+			nueva.setTipo(criatura.getTipo());
+			nueva.setPeligrosidad(criatura.getPeligrosidad());
+			nueva.setMagia(criatura.getMagia());
+			nueva.setInmortal(criatura.isInmortal());
+			nueva.setHabitat(criatura.getHabitat());
+			
+			listadoCriaturas.add(nueva);
+			
+		} catch (Exception e) {
+			logger.error("Error al introducir datos");
+		}
+		
+		return nueva;
+	}
+
+	@Override
+	public List<Criatura> obtenerCriaturaDeTipo(TipoCriatura tipo) {
+		
+		return null;
+	}
+
+	@Override
+	public void exportarJSON(Collection<Criatura> criaturas, String nombreFichero) {
+		Gson gson = new GsonBuilder()
+				.setPrettyPrinting()
+				.create();
+		
+		String json = gson.toJson(criaturas);
+		FileWriter fichero= null;
+		
+		try {
+			if(!criaturas.isEmpty()) {
+				fichero = new FileWriter("src/main/resources/" + nombreFichero + ".json", false);
+				fichero.write(json);
+			}else {
+				logger.info("Colleccion Vacía");
+			}
+			
+			
+		} catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (fichero != null) {
+                try {
+                    fichero.close();
+                } catch (IOException e) {
+                	logger.error("Error al escribir fichero");
+                }
+            }
+        }
+	}
+	
+	
+	private void leerArchivo() {
+		Scanner in = null;
+		
+		try {
+			FileReader ficheroLectura = new FileReader(this.fichero);
+			in = new Scanner(ficheroLectura);
+			in.nextLine();
+			
+			while(in.hasNextLine()) {
+				String linea = in.nextLine();
+				String[] lineaDividida = linea.split(";");
+				
+				if(lineaDividida[0].isEmpty()) {
+					logger.error("No se puede añadir por falta del campo nombre");
+				}
+				
+				TipoCriatura tipo = null;
+				
+				switch (lineaDividida[1]) {
+				case "BESTIA":
+					tipo = TipoCriatura.BESTIA;
+					break;
+				
+				case "SER":
+					
+					tipo = TipoCriatura.SER;
+					break;
+					
+				case "ESPIRITU":
+					tipo = TipoCriatura.ESPIRITU;
+					break;
+
+				default: 
+					break;
+				}
+				
+				Habitat habitat = new Habitat();
+				habitat.setRegion(lineaDividida[5]);
+				habitat.setClima(lineaDividida[6]);
+				
+				int peligrosidad = Integer.parseInt(lineaDividida[3]);
+				int magia = Integer.parseInt(lineaDividida[4]);
+				
+				if(peligrosidad <0 || peligrosidad > 100) {
+					continue;
+				}
+				
+				if(magia <0 || magia > 100) {
+					continue;
+				}
+				
+				Criatura criatura = new Criatura(lineaDividida[0],tipo, Boolean.parseBoolean(lineaDividida[2]),peligrosidad, magia, habitat);
+				this.listadoCriaturas.add(criatura);
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		} 
+	}
+	
+	
+}

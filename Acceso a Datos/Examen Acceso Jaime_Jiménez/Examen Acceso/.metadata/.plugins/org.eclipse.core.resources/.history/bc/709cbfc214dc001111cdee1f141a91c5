@@ -1,0 +1,10 @@
+package Exception;
+
+public class CriaturasFantasticasException extends RuntimeException{
+
+
+	    public CriaturasFantasticasException(String mensaje) {
+	    }
+	}
+
+}

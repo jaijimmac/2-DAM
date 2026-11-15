@@ -1,0 +1,83 @@
+package Entity;
+
+
+public class Criatura{
+	
+	private String nombre;
+	private TipoCriatura tipo;
+	private boolean inmortal;
+	private int peligrosidad;
+	private int magia;
+	private Habitat habitat;
+	
+	public Criatura(String nombre) {
+		this.nombre = nombre;
+	}
+	
+	public Criatura(String nombre, TipoCriatura tipo, boolean inmortal, int peligrosidad, int magia, Habitat habitat) {
+		super();
+		this.nombre = nombre;
+		this.tipo = tipo;
+		this.inmortal = inmortal;
+		this.peligrosidad = peligrosidad;
+		this.magia = magia;
+		this.habitat = habitat;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public TipoCriatura getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(TipoCriatura tipo) {
+		this.tipo = tipo;
+	}
+
+	public boolean isInmortal() {
+		return inmortal;
+	}
+
+	public void setInmortal(boolean inmortal) {
+		this.inmortal = inmortal;
+	}
+
+	public int getPeligrosidad() {
+		return peligrosidad;
+	}
+
+	public void setPeligrosidad(int peligrosidad) {
+		this.peligrosidad = peligrosidad;
+	}
+
+	public int getMagia() {
+		return magia;
+	}
+
+	public void setMagia(int magia) {
+		this.magia = magia;
+	}
+
+	public Habitat getHabitat() {
+		return habitat;
+	}
+
+	public void setHabitat(Habitat habitat) {
+		this.habitat = habitat;
+	}
+	
+	
+
+	@Override
+	public String toString() {
+		return "Criatura [nombre=" + nombre + ", tipo=" + tipo + ", inmortal=" + inmortal + ", peligrosidad="
+				+ peligrosidad + ", magia=" + magia + ", habitat=" + habitat + "]";
+	}
+	
+}

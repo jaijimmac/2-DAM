@@ -1,0 +1,8 @@
+Cortina	#3	#300	#0000005	#c/Calle Granada, 5	#Granada	#02/03/2021
+Alexa	#2	#50	#0000006	#c/Calle 4	#Granada	#02/03/2021
+Toallas	#2	#40	#0000007	#c/Calle 5	#Granada	#07/03/2021
+Mesa de comedor	#1	#500	#0000020	#c/Calle Granada, 25	#Granada	#15/03/2021
+Lamparita	#2	#60	#0000028	#c/Calle Granada, 33	#Granada	#23/03/2021
+Silla escritorio	#2	#120	#0000036	#c/Calle Granada, 41	#Granada	#31/03/2021
+Mesa plegable	#2	#100	#0000044	#c/Calle Granada, 49	#Granada	#08/04/2021
+Silla moderna	#2	#140	#0000052	#c/Calle Granada, 57	#Granada	#16/04/2021

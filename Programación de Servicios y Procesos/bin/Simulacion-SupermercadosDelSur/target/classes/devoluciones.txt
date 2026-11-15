@@ -1,0 +1,6 @@
+V005;Granada;Frutas;-3;1.50
+V008;Sevilla;Lacteos;-2;0.95
+V011;Malaga;Limpieza;-1;3.20
+V013;Sevilla;Bebidas;-6;0.60
+V018;Almeria;Panaderia;-4;0.40
+V024;Cordoba;Lacteos;-5;1.05

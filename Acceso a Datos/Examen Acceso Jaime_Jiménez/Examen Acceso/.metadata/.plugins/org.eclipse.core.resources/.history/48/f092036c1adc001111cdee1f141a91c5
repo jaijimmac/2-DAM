@@ -1,0 +1,18 @@
+package Repository;
+
+import java.util.Collection;
+import java.util.List;
+import java.util.Optional;
+
+import Entity.Criatura;
+import Entity.TipoCriatura;
+
+public interface ICriaturaRepository {
+	
+	public Collection<Criatura> findAll();
+	public Optional<Criatura> findById(String nombre);
+	public Criatura addCriatura(Criatura criatura);
+	public Optional<Criatura> obtenerCriaturaDeTipo(TipoCriatura tipo);
+	
+	public void exportarJSON(Collection<Criatura> criaturas, String nombreFichero);
+}

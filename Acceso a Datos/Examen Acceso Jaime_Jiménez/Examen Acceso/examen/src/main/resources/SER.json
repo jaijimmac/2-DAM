@@ -1,0 +1,57 @@
+[
+  {
+    "nombre": "Dríade",
+    "tipo": "SER",
+    "inmortal": true,
+    "peligrosidad": 10,
+    "magia": 70,
+    "habitat": {
+      "region": "Grecia",
+      "clima": "templado"
+    }
+  },
+  {
+    "nombre": "Duende",
+    "tipo": "SER",
+    "inmortal": false,
+    "peligrosidad": 15,
+    "magia": 45,
+    "habitat": {
+      "region": "Irlanda",
+      "clima": "lluvioso"
+    }
+  },
+  {
+    "nombre": "Esfinge",
+    "tipo": "SER",
+    "inmortal": true,
+    "peligrosidad": 60,
+    "magia": 80,
+    "habitat": {
+      "region": "Egipto",
+      "clima": "árido"
+    }
+  },
+  {
+    "nombre": "Sirena",
+    "tipo": "SER",
+    "inmortal": false,
+    "peligrosidad": 35,
+    "magia": 50,
+    "habitat": {
+      "region": "Grecia",
+      "clima": "templado"
+    }
+  },
+  {
+    "nombre": "Trol",
+    "tipo": "SER",
+    "inmortal": false,
+    "peligrosidad": 75,
+    "magia": 5,
+    "habitat": {
+      "region": "Noruega",
+      "clima": "frío"
+    }
+  }
+]

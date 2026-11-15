@@ -1,0 +1,7 @@
+Lámpara de techo	#2	#200	#0000012	#c/Calle Almería, 8	#Almería	#07/03/2021
+Lámpara de mesa	#3	#90	#0000018	#c/Calle Almería, 21	#Almería	#13/03/2021
+Mesa auxiliar	#1	#90	#0000026	#c/Calle Almería, 31	#Almería	#21/03/2021
+Cama doble	#1	#550	#0000034	#c/Calle Almería, 39	#Almería	#29/03/2021
+Mesa de noche	#2	#120	#0000042	#c/Calle Almería, 47	#Almería	#06/04/2021
+Armario pequeño	#2	#220	#0000050	#c/Calle Almería, 55	#Almería	#14/04/2021
+Mesa auxiliar	#2	#90	#0000058	#c/Calle Almería, 63	#Almería	#22/04/2021

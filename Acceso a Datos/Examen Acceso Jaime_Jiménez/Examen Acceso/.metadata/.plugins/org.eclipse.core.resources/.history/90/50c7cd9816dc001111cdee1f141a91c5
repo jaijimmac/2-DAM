@@ -1,0 +1,19 @@
+package Exception;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import eje1.Repository.LibroRepository;
+
+public class CriaturasFantasticasException extends RuntimeException{
+	
+	private static final Logger logger = LogManager.getLogger(LibroRepository.class);
+	
+	public CriaturasFantasticasException(String mensaje) {
+    	super();
+    	
+
+    }    
+	    
+}
+

@@ -1,0 +1,12 @@
+package Entity;
+
+public class Criatura {
+	
+	private String nombre;
+	private TipoCriatura tipo;
+	private boolean inmortal;
+	private int peligrosidad;
+	private int magia;
+	private 
+
+}

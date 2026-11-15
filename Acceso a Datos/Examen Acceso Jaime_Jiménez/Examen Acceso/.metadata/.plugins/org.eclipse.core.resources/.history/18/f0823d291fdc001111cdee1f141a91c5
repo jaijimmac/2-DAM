@@ -1,0 +1,79 @@
+[
+  {
+    "nombre": "Basilisco",
+    "tipo": "BESTIA",
+    "inmortal": false,
+    "peligrosidad": 95,
+    "magia": 60,
+    "habitat": {
+      "region": "Grecia",
+      "clima": "templado"
+    }
+  },
+  {
+    "nombre": "Fénix",
+    "tipo": "BESTIA",
+    "inmortal": true,
+    "peligrosidad": 20,
+    "magia": 90,
+    "habitat": {
+      "region": "Egipto",
+      "clima": "árido"
+    }
+  },
+  {
+    "nombre": "Hipogrifo",
+    "tipo": "BESTIA",
+    "inmortal": false,
+    "peligrosidad": 40,
+    "magia": 30,
+    "habitat": {
+      "region": "Escocia",
+      "clima": "frío"
+    }
+  },
+  {
+    "nombre": "Kraken",
+    "tipo": "BESTIA",
+    "inmortal": false,
+    "peligrosidad": 90,
+    "magia": 25,
+    "habitat": {
+      "region": "Noruega",
+      "clima": "frío"
+    }
+  },
+  {
+    "nombre": "Unicornio",
+    "tipo": "BESTIA",
+    "inmortal": false,
+    "peligrosidad": 5,
+    "magia": 85,
+    "habitat": {
+      "region": "Escocia",
+      "clima": "frío"
+    }
+  },
+  {
+    "nombre": "Kelpie",
+    "tipo": "BESTIA",
+    "inmortal": false,
+    "peligrosidad": 65,
+    "magia": 40,
+    "habitat": {
+      "region": "Escocia",
+      "clima": "lluvioso"
+    }
+  },
+  {
+    "nombre": "prueba",
+    "tipo": "BESTIA",
+    "inmortal": true,
+    "peligrosidad": 89,
+    "magia": 89,
+    "habitat": {
+      "region": "Moderado",
+      "clima": "prueba"
+    }
+  }
+]

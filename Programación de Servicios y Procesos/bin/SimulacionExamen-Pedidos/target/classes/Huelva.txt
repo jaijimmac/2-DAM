@@ -1,0 +1,7 @@
+Lámpara	#2	#175	#0000004	#c/Calle Sevilla 1	#Huelva	#01/03/2021
+Mueble TV	#1	#350	#0000013	#c/Calle Huelva, 9	#Huelva	#08/03/2021
+Estantería pequeña	#2	#80	#0000021	#c/Calle Huelva, 26	#Huelva	#16/03/2021
+Perchero	#1	#45	#0000029	#c/Calle Huelva, 34	#Huelva	#24/03/2021
+Lámpara de pie	#3	#180	#0000037	#c/Calle Huelva, 42	#Huelva	#01/04/2021
+Estantería metálica	#3	#180	#0000045	#c/Calle Huelva, 50	#Huelva	#09/04/2021
+Lámpara escritorio	#3	#150	#0000053	#c/Calle Huelva, 58	#Huelva	#17/04/2021

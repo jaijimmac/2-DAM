@@ -1,0 +1,24 @@
+[
+  {
+    "nombre": "Banshee",
+    "tipo": "ESPIRITU",
+    "inmortal": true,
+    "peligrosidad": 70,
+    "magia": 65,
+    "habitat": {
+      "region": "Irlanda",
+      "clima": "lluvioso"
+    }
+  },
+  {
+    "nombre": "Fantasma",
+    "tipo": "ESPIRITU",
+    "inmortal": true,
+    "peligrosidad": 25,
+    "magia": 55,
+    "habitat": {
+      "region": "Inglaterra",
+      "clima": "lluvioso"
+    }
+  }
+]

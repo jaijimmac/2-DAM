@@ -1,0 +1,11 @@
+package Repository;
+
+import java.util.List;
+
+import Entity.Criatura;
+
+public interface ICriaturaRepository {
+	
+	public List<Criatura> findAll();
+
+}
