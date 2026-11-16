@@ -33,7 +33,7 @@ class VentanaAlternativa(QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-
+    
     #Se crea la ventana y se muestra.
     ventana = Ventana()
     ventana2 = VentanaAlternativa()
