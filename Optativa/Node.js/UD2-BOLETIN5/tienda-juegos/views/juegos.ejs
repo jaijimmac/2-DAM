@@ -3,38 +3,38 @@
         <%= titulo %>
     </h1>
     <div class="p-4">
-        <% if (arrayJuegos.length> 0) { %>
-        <table class="table">
-            <thead class="table-dark">
-                <tr>
-                    <th>ID</th>
-                    <th>Titulo</th>
-                    <th>Plataforma</th>
-                    <th>Precio</th>
-                </tr>
-            </thead>
-            <tbody>
-                <% arrayJuegos.forEach(juego=> { %>
+        <% if (juegos.length> 0) { %>
+            <table class="table">
+                <thead class="table-dark">
                     <tr>
-                        <td>
-                            <%= juego.id %>
-                        </td>
-                        <td>
-                            <%= juego.titulo %>
-                        </td>
-                        <td>
-                            <%= juego.plataforma %>
-                        </td>
-                        <td>
-                            <%= juego.precio %>
-                        </td>
+                        <th>ID</th>
+                        <th>Titulo</th>
+                        <th>Plataforma</th>
+                        <th>Precio</th>
                     </tr>
-                    <% }) %>
-            </tbody>
-        </table>
-        <% } else { %>
-            <div class="alert alert-info">No hay juegos todavía.</div>
-            <% } %>
-               
+                </thead>
+                <tbody>
+                    <% juegos.forEach(juego=> { %>
+                        <tr>
+                            <td>
+                                <%= juego.id %>
+                            </td>
+                            <td>
+                                <%= juego.titulo %>
+                            </td>
+                            <td>
+                                <%= juego.plataforma %>
+                            </td>
+                            <td>
+                                <%= juego.precio %>
+                            </td>
+                        </tr>
+                        <% }) %>
+                </tbody>
+            </table>
+            <% } else { %>
+                <div class="alert alert-info">No hay juegos todavía.</div>
+                <% } %>
+
     </div>
     <%- include('partials/pie') %>
