@@ -5,12 +5,14 @@ import java.util.List;
 
 public class Bandeja {
 	private int capacidad;
-	List<String> bandejaPlatos;
+	private List<String> bandejaPlatos;
+	private int numPlatos;
 	
 	
 	public Bandeja() {
 		this.capacidad = 3;
 		this.bandejaPlatos = new ArrayList<String>();
+		this.numPlatos = 1;
 	}
 	
 	public synchronized void pongoPlato(String plato) throws InterruptedException{
@@ -20,8 +22,9 @@ public class Bandeja {
 			wait();
 		} 
 		
-			System.out.println("Añade plato a bandeja: " + plato);
+			System.out.println("Añade " + plato + " " + this.numPlatos  + " a bandeja" );
 			this.bandejaPlatos.add(plato);
+			this.numPlatos++;
 			notifyAll();
 	}
 	
@@ -32,7 +35,7 @@ public class Bandeja {
 			wait();
 		}
 		
-		System.out.println("Quita plato a bandeja: ");
+		System.out.println("Quita plato a bandeja: " + this.bandejaPlatos.get(0));
 		this.bandejaPlatos.remove(0);
 		notifyAll();
 	}

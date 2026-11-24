@@ -11,12 +11,13 @@ public class Comensal implements Runnable{
 
 	@Override
 	public void run() {
-		System.out.println(this.nombre + " ha empezado a comer.");
+		
 		try {
 			
-			for(int i = 0; i <= 4; i++) {
+			for(int i = 0; i < 3; i++) {
 				bandeja.quitoPlato();
 				System.out.println(this.nombre + " coge un plato");
+				System.out.println(this.nombre + " ha empezado a comer.");
 				Thread.currentThread().sleep(20000);
 			}
 			

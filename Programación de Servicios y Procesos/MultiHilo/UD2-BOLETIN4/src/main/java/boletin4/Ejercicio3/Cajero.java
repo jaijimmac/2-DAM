@@ -40,5 +40,21 @@ public class Cajero {
 		t1.start();
 		t9.start();
 		
+		try {
+			t10.join();
+			t8.join();
+			t5.join();
+			t7.join();
+			t3.join();
+			t6.join();
+			t4.join();
+			t2.join();
+			t1.join();
+			t9.join();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+		
 	}
 }
