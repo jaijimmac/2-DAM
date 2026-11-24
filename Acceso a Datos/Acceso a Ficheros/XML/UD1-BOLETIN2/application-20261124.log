@@ -1,0 +1,12 @@
+2026-11-24 23:45:50.477 [main] INFO  Service.EmpleadoService - Empleado añadido con id 1
+2026-11-24 23:45:50.480 [main] INFO  Service.EmpleadoService - Empleado añadido con id 2
+2026-11-24 23:45:50.482 [main] INFO  Service.EmpleadoService - Empleado añadido con id 3
+2026-11-24 23:45:50.483 [main] INFO  Service.EmpleadoService - Empleado añadido con id 4
+2026-11-24 23:45:50.485 [main] INFO  Service.EmpleadoService - Empleado añadido con id 5
+2026-11-24 23:45:50.485 [main] WARN  Service.EmpleadoService - Error al añadir: El empleado no puede ser null.
+2026-11-24 23:45:50.485 [main] WARN  Service.EmpleadoService - Error al añadir: El nombre y apellidos no pueden estar vacíos.
+2026-11-24 23:45:50.485 [main] WARN  Service.EmpleadoService - Error al añadir: El nombre y apellidos no pueden estar vacíos.
+2026-11-24 23:45:50.485 [main] WARN  Service.EmpleadoService - Error al añadir: La empresa no puede estar vacía.
+2026-11-24 23:45:50.485 [main] WARN  Service.EmpleadoService - Error al añadir: El salario debe ser mayor que 0.
+2026-11-24 23:49:44.749 [main] ERROR Repository.EmpleadoRepository - No se pudo leer el fichero: Hay un número inválido en el XML: For input string: "p100"
+2026-11-24 23:50:11.480 [main] ERROR Repository.EmpleadoRepository - No se pudo leer el fichero: Hay un número inválido en el XML: For input string: "p100"

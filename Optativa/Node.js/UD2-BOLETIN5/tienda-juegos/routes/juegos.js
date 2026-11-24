@@ -19,7 +19,7 @@ const arrayJuegos = [
   },
 ];
 
-const juegosBaratos = arrayJuegos.filter((j) => j.precio <= 30);
+const juegosBaratos = arrayJuegos.filter((j) => j.precio < 30);
 
 router.get("/", (req, res) => {
   res.render("juegos", { titulo: "Juegos", juegos: arrayJuegos });

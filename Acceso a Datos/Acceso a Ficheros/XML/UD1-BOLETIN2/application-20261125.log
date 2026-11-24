@@ -1,0 +1,54 @@
+2026-11-25 00:05:10.798 [main] INFO  Utilles.UtillesXMLDom - Lectura de empleados.xml: 5 empleados cargados, 0 errores.
+2026-11-25 00:05:10.799 [main] INFO  Controller.GestionController - Empleados leídos de empleados.xml:
+2026-11-25 00:05:10.801 [main] INFO  Utilles.UtillesXMLDom - Lectura de empleados.xml: 5 empleados cargados, 0 errores.
+2026-11-25 00:05:10.804 [main] INFO  Controller.GestionController -   Empleado [id=1, nombreApellidos=Jaime Jiménez, edad=23, empresa=SOL-X, puestos=[Puesto [id=1, nombrePuesto=Desarrollador, departamento=Desarrollo, salario=20505]]]
+2026-11-25 00:05:10.805 [main] INFO  Controller.GestionController -   Empleado [id=2, nombreApellidos=Lucía Fernández, edad=27, empresa=SOL-X, puestos=[Puesto [id=2, nombrePuesto=Diseñadora UX/UI, departamento=Diseño, salario=24000]]]
+2026-11-25 00:05:10.805 [main] INFO  Controller.GestionController -   Empleado [id=3, nombreApellidos=Carlos Ruiz Martín, edad=35, empresa=TechNova, puestos=[Puesto [id=3, nombrePuesto=Administrador de Sistemas, departamento=Sistemas, salario=28500]]]
+2026-11-25 00:05:10.805 [main] INFO  Controller.GestionController -   Empleado [id=4, nombreApellidos=Marta Gómez Sánchez, edad=30, empresa=DataCorp, puestos=[Puesto [id=4, nombrePuesto=Analista de Datos, departamento=Business Intelligence, salario=31000]]]
+2026-11-25 00:05:10.805 [main] INFO  Controller.GestionController -   Empleado [id=5, nombreApellidos=Antonio López Vega, edad=44, empresa=SOL-X, puestos=[Puesto [id=5, nombrePuesto=Jefe de Proyecto, departamento=Gestión, salario=42000]]]
+2026-11-25 00:05:10.805 [main] INFO  Controller.GestionController - Total cargados de empleados_100.xml: 0
+2026-11-25 00:07:29.425 [main] INFO  Utilles.UtillesXMLDom - Lectura de empleados.xml: 5 empleados cargados, 0 errores.
+2026-11-25 00:07:29.429 [main] INFO  Utilles.UtillesXMLDom - Lectura de empleados.xml: 5 empleados cargados, 0 errores.
+2026-11-25 00:07:29.429 [main] INFO  Controller.GestionController - Empleados leídos de empleados.xml:
+2026-11-25 00:07:29.431 [main] INFO  Controller.GestionController -   Empleado [id=1, nombreApellidos=Jaime Jiménez, edad=23, empresa=SOL-X, puestos=[Puesto [id=1, nombrePuesto=Desarrollador, departamento=Desarrollo, salario=20505]]]
+2026-11-25 00:07:29.431 [main] INFO  Controller.GestionController -   Empleado [id=2, nombreApellidos=Lucía Fernández, edad=27, empresa=SOL-X, puestos=[Puesto [id=2, nombrePuesto=Diseñadora UX/UI, departamento=Diseño, salario=24000]]]
+2026-11-25 00:07:29.431 [main] INFO  Controller.GestionController -   Empleado [id=3, nombreApellidos=Carlos Ruiz Martín, edad=35, empresa=TechNova, puestos=[Puesto [id=3, nombrePuesto=Administrador de Sistemas, departamento=Sistemas, salario=28500]]]
+2026-11-25 00:07:29.431 [main] INFO  Controller.GestionController -   Empleado [id=4, nombreApellidos=Marta Gómez Sánchez, edad=30, empresa=DataCorp, puestos=[Puesto [id=4, nombrePuesto=Analista de Datos, departamento=Business Intelligence, salario=31000]]]
+2026-11-25 00:07:29.431 [main] INFO  Controller.GestionController -   Empleado [id=5, nombreApellidos=Antonio López Vega, edad=44, empresa=SOL-X, puestos=[Puesto [id=5, nombrePuesto=Jefe de Proyecto, departamento=Gestión, salario=42000]]]
+2026-11-25 00:07:29.431 [main] INFO  Controller.GestionController - Total cargados de empleados_100.xml: 0
+2026-11-25 00:09:46.355 [main] INFO  Utilles.UtillesXMLDom - Lectura de empleados.xml: 5 empleados cargados, 0 errores.
+2026-11-25 00:09:46.357 [main] INFO  Utilles.UtillesXMLDom - Lectura de empleados.xml: 5 empleados cargados, 0 errores.
+2026-11-25 00:09:46.358 [main] INFO  Controller.GestionController - Empleados leídos de empleados.xml:
+2026-11-25 00:09:46.360 [main] INFO  Controller.GestionController -   Empleado [id=1, nombreApellidos=Jaime Jiménez, edad=23, empresa=SOL-X, puestos=[Puesto [id=1, nombrePuesto=Desarrollador, departamento=Desarrollo, salario=20505]]]
+2026-11-25 00:09:46.360 [main] INFO  Controller.GestionController -   Empleado [id=2, nombreApellidos=Lucía Fernández, edad=27, empresa=SOL-X, puestos=[Puesto [id=2, nombrePuesto=Diseñadora UX/UI, departamento=Diseño, salario=24000]]]
+2026-11-25 00:09:46.360 [main] INFO  Controller.GestionController -   Empleado [id=3, nombreApellidos=Carlos Ruiz Martín, edad=35, empresa=TechNova, puestos=[Puesto [id=3, nombrePuesto=Administrador de Sistemas, departamento=Sistemas, salario=28500]]]
+2026-11-25 00:09:46.361 [main] INFO  Controller.GestionController -   Empleado [id=4, nombreApellidos=Marta Gómez Sánchez, edad=30, empresa=DataCorp, puestos=[Puesto [id=4, nombrePuesto=Analista de Datos, departamento=Business Intelligence, salario=31000]]]
+2026-11-25 00:09:46.361 [main] INFO  Controller.GestionController -   Empleado [id=5, nombreApellidos=Antonio López Vega, edad=44, empresa=SOL-X, puestos=[Puesto [id=5, nombrePuesto=Jefe de Proyecto, departamento=Gestión, salario=42000]]]
+2026-11-25 00:09:46.361 [main] WARN  Utilles.UtillesXMLDom - No existe el fichero: C:\Users\jaime\Desktop\2-DAM\Acceso a Datos\Acceso a Ficheros\XML\UD1-BOLETIN2\src\main\resources\empleados_100.xml
+2026-11-25 00:09:46.361 [main] INFO  Controller.GestionController - Total cargados de empleados_100.xml: 0
+2026-11-25 00:10:09.803 [main] INFO  Utilles.UtillesXMLDom - Lectura de empleados.xml: 5 empleados cargados, 0 errores.
+2026-11-25 00:10:09.806 [main] INFO  Utilles.UtillesXMLDom - Lectura de empleados.xml: 5 empleados cargados, 0 errores.
+2026-11-25 00:10:09.806 [main] INFO  Controller.GestionController - Empleados leídos de empleados.xml:
+2026-11-25 00:10:09.808 [main] INFO  Controller.GestionController -   Empleado [id=1, nombreApellidos=Jaime Jiménez, edad=23, empresa=SOL-X, puestos=[Puesto [id=1, nombrePuesto=Desarrollador, departamento=Desarrollo, salario=20505]]]
+2026-11-25 00:10:09.809 [main] INFO  Controller.GestionController -   Empleado [id=2, nombreApellidos=Lucía Fernández, edad=27, empresa=SOL-X, puestos=[Puesto [id=2, nombrePuesto=Diseñadora UX/UI, departamento=Diseño, salario=24000]]]
+2026-11-25 00:10:09.809 [main] INFO  Controller.GestionController -   Empleado [id=3, nombreApellidos=Carlos Ruiz Martín, edad=35, empresa=TechNova, puestos=[Puesto [id=3, nombrePuesto=Administrador de Sistemas, departamento=Sistemas, salario=28500]]]
+2026-11-25 00:10:09.809 [main] INFO  Controller.GestionController -   Empleado [id=4, nombreApellidos=Marta Gómez Sánchez, edad=30, empresa=DataCorp, puestos=[Puesto [id=4, nombrePuesto=Analista de Datos, departamento=Business Intelligence, salario=31000]]]
+2026-11-25 00:10:09.809 [main] INFO  Controller.GestionController -   Empleado [id=5, nombreApellidos=Antonio López Vega, edad=44, empresa=SOL-X, puestos=[Puesto [id=5, nombrePuesto=Jefe de Proyecto, departamento=Gestión, salario=42000]]]
+2026-11-25 00:10:09.817 [main] WARN  Utilles.UtillesXMLDom - Empleado nº 9 (id=9) descartado: no tiene nombre y apellidos.
+2026-11-25 00:10:09.817 [main] WARN  Utilles.UtillesXMLDom - Empleado nº 11 (id=) descartado: no tiene id.
+2026-11-25 00:10:09.817 [main] WARN  Utilles.UtillesXMLDom - Empleado nº 18 (id=18) descartado: no tiene empresa.
+2026-11-25 00:10:09.817 [main] WARN  Utilles.UtillesXMLDom - Empleado nº 27 (id=27) descartado: no tiene ningún puesto.
+2026-11-25 00:10:09.817 [main] WARN  Utilles.UtillesXMLDom - Empleado nº 36 (id=36) descartado: tiene un puesto sin nombre.
+2026-11-25 00:10:09.818 [main] WARN  Utilles.UtillesXMLDom - Empleado nº 39 (id=) descartado: no tiene id.
+2026-11-25 00:10:09.818 [main] WARN  Utilles.UtillesXMLDom - Empleado nº 45 (id=45) descartado: el puesto 'Diseñador UX' tiene un salario no válido (0).
+2026-11-25 00:10:09.818 [main] WARN  Utilles.UtillesXMLDom - Empleado nº 54 (id=54) descartado: no tiene nombre y apellidos.
+2026-11-25 00:10:09.819 [main] WARN  Utilles.UtillesXMLDom - Empleado nº 61 (id=) descartado: no tiene id.
+2026-11-25 00:10:09.819 [main] WARN  Utilles.UtillesXMLDom - Empleado nº 63 (id=63) descartado: no tiene empresa.
+2026-11-25 00:10:09.819 [main] WARN  Utilles.UtillesXMLDom - Empleado nº 72 (id=72) descartado: no tiene ningún puesto.
+2026-11-25 00:10:09.820 [main] WARN  Utilles.UtillesXMLDom - Empleado nº 81 (id=81) descartado: tiene un puesto sin nombre.
+2026-11-25 00:10:09.820 [main] WARN  Utilles.UtillesXMLDom - Empleado nº 88 (id=) descartado: no tiene id.
+2026-11-25 00:10:09.820 [main] WARN  Utilles.UtillesXMLDom - Empleado nº 90 (id=90) descartado: el puesto 'Jefe de Proyecto' tiene un salario no válido (0).
+2026-11-25 00:10:09.820 [main] WARN  Utilles.UtillesXMLDom - Empleado nº 96 (id=96) descartado: no tiene empresa.
+2026-11-25 00:10:09.820 [main] WARN  Utilles.UtillesXMLDom - Empleado nº 99 (id=99) descartado: el puesto 'Contable' tiene un salario no válido (0).
+2026-11-25 00:10:09.820 [main] INFO  Utilles.UtillesXMLDom - Lectura de empleados_100.xml: 84 empleados cargados, 16 errores.
+2026-11-25 00:10:09.820 [main] INFO  Controller.GestionController - Total cargados de empleados_100.xml: 84

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<empleados>
+    <empleado id="1">
+        <nombreApellidos>Jaime Jiménez</nombreApellidos>
+        <edad>23</edad>
+        <empresa>SOL-X</empresa>
+        <puesto id="1">
+            <nombrePuesto>Desarrollador</nombrePuesto>
+            <departamento>Desarrollo</departamento>
+            <salario>20505</salario>
+        </puesto>
+    </empleado>
+    <empleado id="2">
+        <nombreApellidos>Lucía Fernández</nombreApellidos>
+        <edad>27</edad>
+        <empresa>SOL-X</empresa>
+        <puesto id="2">
+            <nombrePuesto>Diseñadora UX/UI</nombrePuesto>
+            <departamento>Diseño</departamento>
+            <salario>24000</salario>
+        </puesto>
+    </empleado>
+    <empleado id="3">
+        <nombreApellidos>Carlos Ruiz Martín</nombreApellidos>
+        <edad>35</edad>
+        <empresa>TechNova</empresa>
+        <puesto id="3">
+            <nombrePuesto>Administrador de Sistemas</nombrePuesto>
+            <departamento>Sistemas</departamento>
+            <salario>28500</salario>
+        </puesto>
+    </empleado>
+    <empleado id="4">
+        <nombreApellidos>Marta Gómez Sánchez</nombreApellidos>
+        <edad>30</edad>
+        <empresa>DataCorp</empresa>
+        <puesto id="4">
+            <nombrePuesto>Analista de Datos</nombrePuesto>
+            <departamento>Business Intelligence</departamento>
+            <salario>31000</salario>
+        </puesto>
+    </empleado>
+    <empleado id="5">
+        <nombreApellidos>Antonio López Vega</nombreApellidos>
+        <edad>44</edad>
+        <empresa>SOL-X</empresa>
+        <puesto id="5">
+            <nombrePuesto>Jefe de Proyecto</nombrePuesto>
+            <departamento>Gestión</departamento>
+            <salario>42000</salario>
+        </puesto>
+    </empleado>
+</empleados>
