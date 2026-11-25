@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><hotel>
+    <cliente id="1">
+        <nombreApellidos>Ana López García</nombreApellidos>
+        <edad>30</edad>
+        <email>ana@correo.com</email>
+        <reservas>
+            <reserva id="R001">
+                <fechaEntrada>2025-05-01</fechaEntrada>
+                <noches>90.00</noches>
+                <precioNoche>90.0</precioNoche>
+            </reserva>
+            <reserva id="R002">
+                <fechaEntrada>2025-06-01</fechaEntrada>
+                <noches>90.00</noches>
+                <precioNoche>90.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="2">
+        <nombreApellidos>Luis Martín Pérez</nombreApellidos>
+        <edad>45</edad>
+        <email>luis@correo.com</email>
+        <reservas>
+            <reserva id="R003">
+                <fechaEntrada>2025-05-30</fechaEntrada>
+                <noches>90.00</noches>
+                <precioNoche>90.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="3">
+        <nombreApellidos>Marta Ruiz Gómez</nombreApellidos>
+        <edad>28</edad>
+        <email>marta@correo.com</email>
+        <reservas/>
+    </cliente>
+</hotel>

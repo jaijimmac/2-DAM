@@ -107,6 +107,7 @@ public class UtillesXMLDom {
 
             empleado.addPuesto(puesto);
         }
+        
         return empleado;
     }
 

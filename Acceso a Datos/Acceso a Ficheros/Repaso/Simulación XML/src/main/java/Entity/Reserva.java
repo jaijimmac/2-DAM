@@ -5,25 +5,27 @@ import java.util.Objects;
 
 public class Reserva {
 	
-	private Long id;
+	private static int contador = 1;
+	
+	private String id;
 	private TipoHabitacion tipoHabitacion;
 	private LocalDate fechaEntrada;
 	private int noches;
 	private double precioNoche;
 	
 	public Reserva(TipoHabitacion tipoHabitacion, LocalDate fechaEntrada, int noches, double precioNoche) {
-		super();
+		this.id = String.format("R%03d", contador++);
 		this.tipoHabitacion = tipoHabitacion;
 		this.fechaEntrada = fechaEntrada;
 		this.noches = noches;
 		this.precioNoche = precioNoche;
 	}
 
-	public Long getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
