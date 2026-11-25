@@ -58,6 +58,7 @@ public class EmpleadoRepository implements IEmpleadoRepository {
         escribirFichero();
         return nuevo;
     }
+   
 
     @Override
     public Empleado modiEmpleado(Empleado empleado) {

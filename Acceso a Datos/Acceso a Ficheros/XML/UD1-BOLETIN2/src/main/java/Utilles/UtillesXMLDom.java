@@ -32,7 +32,6 @@ public class UtillesXMLDom {
 
     private static final Logger LOGGER = LogManager.getLogger(UtillesXMLDom.class);
 
-
     public List<Empleado> leerEmpleados(File fichero) {
         if (fichero == null) {
             throw new EmpleadoException("El fichero no puede ser null.");
@@ -115,7 +114,7 @@ public class UtillesXMLDom {
         if (e.getId() == null) {
             throw new EmpleadoException("no tiene id.");
         }
-        if (e.getNombreApellidos() == null) {
+        if (e.getNombreApellidos() == null || e.getNombreApellidos().isBlank) {
             throw new EmpleadoException("no tiene nombre y apellidos.");
         }
         if (e.getEdad() < 0) {
