@@ -19,6 +19,9 @@ class VentanaPrincipal(QMainWindow):
 
         self.resize(500, 150)
 
+        # Título correcto desde el inicio (campo vacío)
+        self.actualizar_titulo(self.campo.text())
+
     @Slot(str)
     def actualizar_titulo(self, texto):
 
