@@ -1,0 +1,24 @@
+2026-11-26 08:22:45.095 [main] ERROR Utiles.UtilesXML - El cliente nº 4 (id=4) descartado: El nombre no puede ser null o estar vacío.
+2026-11-26 08:22:45.099 [main] ERROR Utiles.UtilesXML - El cliente nº 9 (id=9) descartado: For input string: "veinte"
+2026-11-26 08:22:45.100 [main] ERROR Utiles.UtilesXML - El cliente nº 13 (id=13) descartado: La edad tiene que estar entre 18 y 99 años.
+2026-11-26 08:22:45.101 [main] ERROR Utiles.UtilesXML - El cliente nº 17 (id=17) descartado: El email debe de contener un @
+2026-11-26 08:22:45.102 [main] ERROR Utiles.UtilesXML - El cliente nº 22 (id=22) descartado: For input string: "tres"
+2026-11-26 08:22:45.103 [main] ERROR Utiles.UtilesXML - El cliente nº 26 (id=26) descartado: El tipo de habitación 'PENTHOUSE' no es válido
+2026-11-26 08:22:45.103 [main] ERROR Utiles.UtilesXML - El cliente nº 30 (id=30) descartado: Text '13/01/2025' could not be parsed at index 0
+2026-11-26 08:22:45.105 [main] ERROR Utiles.UtilesXML - El cliente nº 35 (id=35) descartado: La reserva R060 se solapa con la reserva R059
+2026-11-26 08:22:45.105 [main] INFO  Utiles.UtilesXML - Clientes cargados: 28. Clientes descartados: 8
+2026-11-26 08:22:45.144 [main] INFO  Utiles.UtilesXML - Cliente Ana López García añadido con exito
+2026-11-26 08:22:45.151 [main] INFO  Utiles.UtilesXML - Cliente Luis Martín Pérez añadido con exito
+2026-11-26 08:22:45.157 [main] INFO  Utiles.UtilesXML - Cliente Marta Ruiz Gómez añadido con exito
+2026-11-26 08:24:28.016 [main] ERROR Utiles.UtilesXML - El cliente nº 4 (id=4) descartado: El nombre no puede ser null o estar vacío.
+2026-11-26 08:24:28.021 [main] ERROR Utiles.UtilesXML - El cliente nº 9 (id=9) descartado: For input string: "veinte"
+2026-11-26 08:24:28.022 [main] ERROR Utiles.UtilesXML - El cliente nº 13 (id=13) descartado: La edad tiene que estar entre 18 y 99 años.
+2026-11-26 08:24:28.023 [main] ERROR Utiles.UtilesXML - El cliente nº 17 (id=17) descartado: El email debe de contener un @
+2026-11-26 08:24:28.024 [main] ERROR Utiles.UtilesXML - El cliente nº 22 (id=22) descartado: For input string: "tres"
+2026-11-26 08:24:28.025 [main] ERROR Utiles.UtilesXML - El cliente nº 26 (id=26) descartado: El tipo de habitación 'PENTHOUSE' no es válido
+2026-11-26 08:24:28.026 [main] ERROR Utiles.UtilesXML - El cliente nº 30 (id=30) descartado: Text '13/01/2025' could not be parsed at index 0
+2026-11-26 08:24:28.027 [main] ERROR Utiles.UtilesXML - El cliente nº 35 (id=35) descartado: La reserva R060 se solapa con la reserva R059
+2026-11-26 08:24:28.029 [main] INFO  Utiles.UtilesXML - Clientes cargados: 28. Clientes descartados: 8
+2026-11-26 08:24:28.096 [main] INFO  Utiles.UtilesXML - Cliente Ana López García añadido con exito
+2026-11-26 08:24:28.105 [main] INFO  Utiles.UtilesXML - Cliente Luis Martín Pérez añadido con exito
+2026-11-26 08:24:28.111 [main] INFO  Utiles.UtilesXML - Cliente Marta Ruiz Gómez añadido con exito

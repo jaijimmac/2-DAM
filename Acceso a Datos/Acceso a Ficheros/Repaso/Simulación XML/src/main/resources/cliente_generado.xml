@@ -1,37 +1,465 @@
 <?xml version="1.0" encoding="UTF-8"?><hotel>
-    <cliente id="1">
+    <cliente id="18">
+        <nombreApellidos>Adrián Cabrera Mora</nombreApellidos>
+        <edad>63</edad>
+        <email>adrian18@correo.com</email>
+        <reservas>
+            <reserva id="R028">
+                <fechaEntrada>2025-02-09</fechaEntrada>
+                <noches>50.00</noches>
+                <precioNoche>50.0</precioNoche>
+            </reserva>
+            <reserva id="R029">
+                <fechaEntrada>2025-03-17</fechaEntrada>
+                <noches>120.00</noches>
+                <precioNoche>120.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="37">
         <nombreApellidos>Ana López García</nombreApellidos>
         <edad>30</edad>
         <email>ana@correo.com</email>
         <reservas>
-            <reserva id="R001">
+            <reserva id="R058">
                 <fechaEntrada>2025-05-01</fechaEntrada>
                 <noches>90.00</noches>
                 <precioNoche>90.0</precioNoche>
             </reserva>
-            <reserva id="R002">
+            <reserva id="R059">
                 <fechaEntrada>2025-06-01</fechaEntrada>
                 <noches>90.00</noches>
                 <precioNoche>90.0</precioNoche>
             </reserva>
         </reservas>
     </cliente>
+    <cliente id="6">
+        <nombreApellidos>Andrés Molina Prieto</nombreApellidos>
+        <edad>38</edad>
+        <email>andres6@correo.com</email>
+        <reservas>
+            <reserva id="R007">
+                <fechaEntrada>2025-01-12</fechaEntrada>
+                <noches>60.00</noches>
+                <precioNoche>60.0</precioNoche>
+            </reserva>
+            <reserva id="R008">
+                <fechaEntrada>2025-02-17</fechaEntrada>
+                <noches>55.00</noches>
+                <precioNoche>55.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="23">
+        <nombreApellidos>Beatriz Lara Calvo</nombreApellidos>
+        <edad>49</edad>
+        <email>beatriz23@correo.com</email>
+        <reservas>
+            <reserva id="R036">
+                <fechaEntrada>2025-01-20</fechaEntrada>
+                <noches>55.00</noches>
+                <precioNoche>55.0</precioNoche>
+            </reserva>
+            <reserva id="R037">
+                <fechaEntrada>2025-02-16</fechaEntrada>
+                <noches>165.00</noches>
+                <precioNoche>165.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
     <cliente id="2">
+        <nombreApellidos>Carlos Medina Soto</nombreApellidos>
+        <edad>56</edad>
+        <email>carlos2@correo.com</email>
+        <reservas/>
+    </cliente>
+    <cliente id="27">
+        <nombreApellidos>Carmen Iglesias Parra</nombreApellidos>
+        <edad>69</edad>
+        <email>carmen27@correo.com</email>
+        <reservas>
+            <reserva id="R044">
+                <fechaEntrada>2025-01-31</fechaEntrada>
+                <noches>170.00</noches>
+                <precioNoche>170.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="34">
+        <nombreApellidos>Daniel Pizarro Ávila</nombreApellidos>
+        <edad>53</edad>
+        <email>daniel34@correo.com</email>
+        <reservas>
+            <reserva id="R057">
+                <fechaEntrada>2025-01-09</fechaEntrada>
+                <noches>65.00</noches>
+                <precioNoche>65.0</precioNoche>
+            </reserva>
+            <reserva id="R058">
+                <fechaEntrada>2025-02-22</fechaEntrada>
+                <noches>125.00</noches>
+                <precioNoche>125.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="10">
+        <nombreApellidos>Diego Santana Pons</nombreApellidos>
+        <edad>78</edad>
+        <email>diego10@correo.com</email>
+        <reservas>
+            <reserva id="R014">
+                <fechaEntrada>2025-01-27</fechaEntrada>
+                <noches>55.00</noches>
+                <precioNoche>55.0</precioNoche>
+            </reserva>
+            <reserva id="R015">
+                <fechaEntrada>2025-03-17</fechaEntrada>
+                <noches>170.00</noches>
+                <precioNoche>170.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="3">
+        <nombreApellidos>Elena Navarro Gil</nombreApellidos>
+        <edad>32</edad>
+        <email>elena3@correo.com</email>
+        <reservas/>
+    </cliente>
+    <cliente id="28">
+        <nombreApellidos>Fernando Salas Vera</nombreApellidos>
+        <edad>70</edad>
+        <email>fernando28@correo.com</email>
+        <reservas>
+            <reserva id="R045">
+                <fechaEntrada>2025-01-23</fechaEntrada>
+                <noches>165.00</noches>
+                <precioNoche>165.0</precioNoche>
+            </reserva>
+            <reserva id="R046">
+                <fechaEntrada>2025-02-03</fechaEntrada>
+                <noches>90.00</noches>
+                <precioNoche>90.0</precioNoche>
+            </reserva>
+            <reserva id="R047">
+                <fechaEntrada>2025-03-07</fechaEntrada>
+                <noches>85.00</noches>
+                <precioNoche>85.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="16">
+        <nombreApellidos>Hugo Ramos Beltrán</nombreApellidos>
+        <edad>30</edad>
+        <email>hugo16@correo.com</email>
+        <reservas>
+            <reserva id="R025">
+                <fechaEntrada>2025-01-15</fechaEntrada>
+                <noches>80.00</noches>
+                <precioNoche>80.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="20">
+        <nombreApellidos>Iván Crespo Duran</nombreApellidos>
+        <edad>25</edad>
+        <email>ivan20@correo.com</email>
+        <reservas/>
+    </cliente>
+    <cliente id="8">
+        <nombreApellidos>Javier Herrera Luna</nombreApellidos>
+        <edad>38</edad>
+        <email>javier8@correo.com</email>
+        <reservas>
+            <reserva id="R011">
+                <fechaEntrada>2025-01-12</fechaEntrada>
+                <noches>95.00</noches>
+                <precioNoche>95.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="29">
+        <nombreApellidos>Julia Benítez Roca</nombreApellidos>
+        <edad>77</edad>
+        <email>julia29@correo.com</email>
+        <reservas>
+            <reserva id="R048">
+                <fechaEntrada>2025-01-23</fechaEntrada>
+                <noches>55.00</noches>
+                <precioNoche>55.0</precioNoche>
+            </reserva>
+            <reserva id="R049">
+                <fechaEntrada>2025-03-05</fechaEntrada>
+                <noches>90.00</noches>
+                <precioNoche>90.0</precioNoche>
+            </reserva>
+            <reserva id="R050">
+                <fechaEntrada>2025-04-12</fechaEntrada>
+                <noches>155.00</noches>
+                <precioNoche>155.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="19">
+        <nombreApellidos>Laura Pascual Nieto</nombreApellidos>
+        <edad>59</edad>
+        <email>laura19@correo.com</email>
+        <reservas>
+            <reserva id="R030">
+                <fechaEntrada>2025-01-04</fechaEntrada>
+                <noches>90.00</noches>
+                <precioNoche>90.0</precioNoche>
+            </reserva>
+            <reserva id="R031">
+                <fechaEntrada>2025-02-06</fechaEntrada>
+                <noches>95.00</noches>
+                <precioNoche>95.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="1">
+        <nombreApellidos>Lucía Fernández Ruiz</nombreApellidos>
+        <edad>39</edad>
+        <email>lucia1@correo.com</email>
+        <reservas>
+            <reserva id="R001">
+                <fechaEntrada>2025-01-26</fechaEntrada>
+                <noches>55.00</noches>
+                <precioNoche>55.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="38">
         <nombreApellidos>Luis Martín Pérez</nombreApellidos>
         <edad>45</edad>
         <email>luis@correo.com</email>
         <reservas>
-            <reserva id="R003">
+            <reserva id="R060">
                 <fechaEntrada>2025-05-30</fechaEntrada>
                 <noches>90.00</noches>
                 <precioNoche>90.0</precioNoche>
             </reserva>
         </reservas>
     </cliente>
-    <cliente id="3">
+    <cliente id="36">
+        <nombreApellidos>Marcos Tapia León</nombreApellidos>
+        <edad>58</edad>
+        <email>marcos36@correo.com</email>
+        <reservas>
+            <reserva id="R061">
+                <fechaEntrada>2025-01-08</fechaEntrada>
+                <noches>50.00</noches>
+                <precioNoche>50.0</precioNoche>
+            </reserva>
+            <reserva id="R062">
+                <fechaEntrada>2025-01-23</fechaEntrada>
+                <noches>60.00</noches>
+                <precioNoche>60.0</precioNoche>
+            </reserva>
+            <reserva id="R063">
+                <fechaEntrada>2025-02-16</fechaEntrada>
+                <noches>55.00</noches>
+                <precioNoche>55.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="5">
+        <nombreApellidos>Marta Jiménez Cano</nombreApellidos>
+        <edad>59</edad>
+        <email>marta5@correo.com</email>
+        <reservas>
+            <reserva id="R004">
+                <fechaEntrada>2025-02-07</fechaEntrada>
+                <noches>50.00</noches>
+                <precioNoche>50.0</precioNoche>
+            </reserva>
+            <reserva id="R005">
+                <fechaEntrada>2025-02-23</fechaEntrada>
+                <noches>90.00</noches>
+                <precioNoche>90.0</precioNoche>
+            </reserva>
+            <reserva id="R006">
+                <fechaEntrada>2025-03-17</fechaEntrada>
+                <noches>120.00</noches>
+                <precioNoche>120.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="39">
         <nombreApellidos>Marta Ruiz Gómez</nombreApellidos>
         <edad>28</edad>
         <email>marta@correo.com</email>
         <reservas/>
+    </cliente>
+    <cliente id="11">
+        <nombreApellidos>Natalia Vega Moreno</nombreApellidos>
+        <edad>56</edad>
+        <email>natalia11@correo.com</email>
+        <reservas>
+            <reserva id="R016">
+                <fechaEntrada>2025-01-05</fechaEntrada>
+                <noches>50.00</noches>
+                <precioNoche>50.0</precioNoche>
+            </reserva>
+            <reserva id="R017">
+                <fechaEntrada>2025-01-17</fechaEntrada>
+                <noches>65.00</noches>
+                <precioNoche>65.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="33">
+        <nombreApellidos>Nuria Bermúdez Lago</nombreApellidos>
+        <edad>35</edad>
+        <email>nuria33@correo.com</email>
+        <reservas>
+            <reserva id="R056">
+                <fechaEntrada>2025-01-19</fechaEntrada>
+                <noches>95.00</noches>
+                <precioNoche>95.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="15">
+        <nombreApellidos>Paula Gallego Arias</nombreApellidos>
+        <edad>71</edad>
+        <email>paula15@correo.com</email>
+        <reservas>
+            <reserva id="R023">
+                <fechaEntrada>2025-02-05</fechaEntrada>
+                <noches>155.00</noches>
+                <precioNoche>155.0</precioNoche>
+            </reserva>
+            <reserva id="R024">
+                <fechaEntrada>2025-03-14</fechaEntrada>
+                <noches>125.00</noches>
+                <precioNoche>125.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="12">
+        <nombreApellidos>Raúl Domínguez Cruz</nombreApellidos>
+        <edad>62</edad>
+        <email>raol12@correo.com</email>
+        <reservas>
+            <reserva id="R018">
+                <fechaEntrada>2025-01-19</fechaEntrada>
+                <noches>130.00</noches>
+                <precioNoche>130.0</precioNoche>
+            </reserva>
+            <reserva id="R019">
+                <fechaEntrada>2025-02-03</fechaEntrada>
+                <noches>125.00</noches>
+                <precioNoche>125.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="21">
+        <nombreApellidos>Rocío Aguilar Serra</nombreApellidos>
+        <edad>28</edad>
+        <email>rocio21@correo.com</email>
+        <reservas>
+            <reserva id="R032">
+                <fechaEntrada>2025-01-07</fechaEntrada>
+                <noches>160.00</noches>
+                <precioNoche>160.0</precioNoche>
+            </reserva>
+            <reserva id="R033">
+                <fechaEntrada>2025-01-24</fechaEntrada>
+                <noches>80.00</noches>
+                <precioNoche>80.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="7">
+        <nombreApellidos>Sara Castillo Rey</nombreApellidos>
+        <edad>22</edad>
+        <email>sara7@correo.com</email>
+        <reservas>
+            <reserva id="R009">
+                <fechaEntrada>2025-01-14</fechaEntrada>
+                <noches>115.00</noches>
+                <precioNoche>115.0</precioNoche>
+            </reserva>
+            <reserva id="R010">
+                <fechaEntrada>2025-02-17</fechaEntrada>
+                <noches>115.00</noches>
+                <precioNoche>115.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="14">
+        <nombreApellidos>Sergio Peña Lozano</nombreApellidos>
+        <edad>24</edad>
+        <email>sergio14@correo.com</email>
+        <reservas>
+            <reserva id="R022">
+                <fechaEntrada>2025-01-29</fechaEntrada>
+                <noches>130.00</noches>
+                <precioNoche>130.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="31">
+        <nombreApellidos>Silvia Ponce Ortiz</nombreApellidos>
+        <edad>58</edad>
+        <email>silvia31@correo.com</email>
+        <reservas>
+            <reserva id="R053">
+                <fechaEntrada>2025-01-31</fechaEntrada>
+                <noches>165.00</noches>
+                <precioNoche>165.0</precioNoche>
+            </reserva>
+            <reserva id="R054">
+                <fechaEntrada>2025-02-07</fechaEntrada>
+                <noches>55.00</noches>
+                <precioNoche>55.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="25">
+        <nombreApellidos>Teresa Bravo Muñoz</nombreApellidos>
+        <edad>38</edad>
+        <email>teresa25@correo.com</email>
+        <reservas>
+            <reserva id="R039">
+                <fechaEntrada>2025-01-06</fechaEntrada>
+                <noches>170.00</noches>
+                <precioNoche>170.0</precioNoche>
+            </reserva>
+            <reserva id="R040">
+                <fechaEntrada>2025-01-28</fechaEntrada>
+                <noches>165.00</noches>
+                <precioNoche>165.0</precioNoche>
+            </reserva>
+            <reserva id="R041">
+                <fechaEntrada>2025-03-19</fechaEntrada>
+                <noches>165.00</noches>
+                <precioNoche>165.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="32">
+        <nombreApellidos>Víctor Cano Heredia</nombreApellidos>
+        <edad>66</edad>
+        <email>victor32@correo.com</email>
+        <reservas>
+            <reserva id="R055">
+                <fechaEntrada>2025-01-28</fechaEntrada>
+                <noches>90.00</noches>
+                <precioNoche>90.0</precioNoche>
+            </reserva>
+        </reservas>
+    </cliente>
+    <cliente id="24">
+        <nombreApellidos>Óscar Montero Gil</nombreApellidos>
+        <edad>20</edad>
+        <email>oscar24@correo.com</email>
+        <reservas>
+            <reserva id="R038">
+                <fechaEntrada>2025-02-03</fechaEntrada>
+                <noches>160.00</noches>
+                <precioNoche>160.0</precioNoche>
+            </reserva>
+        </reservas>
     </cliente>
 </hotel>

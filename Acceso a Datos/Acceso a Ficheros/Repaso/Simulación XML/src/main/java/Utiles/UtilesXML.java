@@ -43,7 +43,7 @@ public class UtilesXML {
 		Set<Cliente> listadoClientes = new TreeSet<Cliente>();
 		int errores = 0;
 		
-		if (fichero == null) {
+		if (fichero == null) { 
             throw new DatosInvalidosException("El fichero no puede ser null.");
         }
 		if (!fichero.exists() || fichero.length() == 0) {
@@ -55,6 +55,16 @@ public class UtilesXML {
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document doc = builder.parse(fichero);
             doc.getDocumentElement().normalize();
+            
+            /* ejemplo para no sobreescribir e pegar
+             *   // 2. Obtener el elemento raíz (<usuarios>)
+            Element raiz = doc.getDocumentElement();
+
+            // 3. Crear el nuevo nodo (<usuario>) y sus hijos
+            Element nuevoUsuario = doc.createElement("usuario");
+            
+            Element nombre = doc.createElement("nombre");
+            nombre.appendChild(doc.createTextNode("Carlos"));*/
             
             NodeList clientes = doc.getElementsByTagName("cliente");
             Set<Long> idsLeidos = new HashSet<>();

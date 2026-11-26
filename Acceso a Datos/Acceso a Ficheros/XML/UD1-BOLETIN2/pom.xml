@@ -5,12 +5,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>UD1-BOLETIN2</name>
 
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>

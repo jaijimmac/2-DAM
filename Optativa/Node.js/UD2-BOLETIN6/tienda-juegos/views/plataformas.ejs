@@ -1,0 +1,42 @@
+<%- include('partials/cabecera') %>
+
+    <h1 class="m-5">
+        <%= titulo %>
+    </h1>
+
+    <div class="p-4">
+        <% if (plataformas.length> 0) { %>
+            <table class="table">
+                <thead class="table-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Titulo</th>
+                        <th>Plataforma</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% plataformas.forEach(plat=> { %>
+                        <tr>
+                            <td>
+                                <%= plat.id %>
+                            </td>
+                            <td>
+                                <%= plat.nombre %>
+                            </td>
+                            <td>
+                                <%= plat.fabricante %>
+                            </td>
+                            <td>
+                                <%= plat.anio %>
+                            </td>
+                        </tr>
+                        <% }) %>
+                </tbody>
+            </table>
+            <% } else { %>
+                <div class="alert alert-info">No hay plataformas todavía.</div>
+                <% } %>
+    </div>
+
+    <%- include('partials/pie') %>
